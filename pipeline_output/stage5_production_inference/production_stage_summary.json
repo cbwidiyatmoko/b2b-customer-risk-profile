@@ -1,0 +1,405 @@
+{
+    "model": "StackedEnsemble",
+    "n_full_rows": 954,
+    "n_features": 164,
+    "prediction_distribution": [
+        {
+            "predicted_riskLevel": "High Risk",
+            "count": 405,
+            "proportion": 0.42452830188679247
+        },
+        {
+            "predicted_riskLevel": "Low Risk",
+            "count": 320,
+            "proportion": 0.33542976939203356
+        },
+        {
+            "predicted_riskLevel": "Medium Risk",
+            "count": 229,
+            "proportion": 0.240041928721174
+        }
+    ],
+    "uncertainty_summary": {
+        "n_rows": 954,
+        "n_uncertain": 21,
+        "n_certain": 933,
+        "uncertain_ratio": 0.0220125786163522,
+        "avg_max_proba": 0.859029233455658,
+        "avg_margin": 0.7715998291969299,
+        "avg_entropy_norm": 0.43693997654714456,
+        "median_max_proba": 0.8797608017921448,
+        "median_margin": 0.8148267269134521,
+        "median_entropy_norm": 0.4059634758314022,
+        "thresholds": {
+            "max_proba_threshold": 0.6,
+            "margin_threshold": 0.15,
+            "entropy_norm_threshold": 0.8
+        },
+        "note": "This is a full-dataset production prediction summary. It is not an out-of-sample performance evaluation."
+    },
+    "n_uncertain_cases": 21,
+    "n_high_risk_review_candidates": 405,
+    "rw_ucfi_metadata": {
+        "rw_ucfi_available": true,
+        "n_rw_ucfi_features": 164,
+        "top20_rw_ucfi_global": [
+            {
+                "feature": "sectorKey",
+                "original_column": "sectorKey",
+                "rw_ucfi_score_global": 0.05815269808649699,
+                "rw_ucfi_global_rank": 1
+            },
+            {
+                "feature": "CF_Classesof_Cash_Payments",
+                "original_column": "CF_Classesof Cash Payments",
+                "rw_ucfi_score_global": 0.04965721972666612,
+                "rw_ucfi_global_rank": 2
+            },
+            {
+                "feature": "profitMargins",
+                "original_column": "profitMargins",
+                "rw_ucfi_score_global": 0.03604501371516367,
+                "rw_ucfi_global_rank": 3
+            },
+            {
+                "feature": "IS_Net_Income",
+                "original_column": "IS_Net Income",
+                "rw_ucfi_score_global": 0.03274329080609094,
+                "rw_ucfi_global_rank": 4
+            },
+            {
+                "feature": "IS_EBIT",
+                "original_column": "IS_EBIT",
+                "rw_ucfi_score_global": 0.024371717330219898,
+                "rw_ucfi_global_rank": 5
+            },
+            {
+                "feature": "totalRevenue",
+                "original_column": "totalRevenue",
+                "rw_ucfi_score_global": 0.014600797970342094,
+                "rw_ucfi_global_rank": 6
+            },
+            {
+                "feature": "enterpriseToRevenue",
+                "original_column": "enterpriseToRevenue",
+                "rw_ucfi_score_global": 0.011805507343861713,
+                "rw_ucfi_global_rank": 7
+            },
+            {
+                "feature": "CF_Receiptsfrom_Customers",
+                "original_column": "CF_Receiptsfrom Customers",
+                "rw_ucfi_score_global": 0.008644089824622515,
+                "rw_ucfi_global_rank": 8
+            },
+            {
+                "feature": "ebitdaMargins",
+                "original_column": "ebitdaMargins",
+                "rw_ucfi_score_global": 0.006639088670284364,
+                "rw_ucfi_global_rank": 9
+            },
+            {
+                "feature": "returnOnEquity",
+                "original_column": "returnOnEquity",
+                "rw_ucfi_score_global": 0.0055213877253000275,
+                "rw_ucfi_global_rank": 10
+            },
+            {
+                "feature": "BS_Net_Debt",
+                "original_column": "BS_Net Debt",
+                "rw_ucfi_score_global": 0.005284145266025923,
+                "rw_ucfi_global_rank": 11
+            },
+            {
+                "feature": "IS_Net_Interest_Income",
+                "original_column": "IS_Net Interest Income",
+                "rw_ucfi_score_global": 0.005137093281285878,
+                "rw_ucfi_global_rank": 12
+            },
+            {
+                "feature": "currentRatio",
+                "original_column": "currentRatio",
+                "rw_ucfi_score_global": 0.00426603768019697,
+                "rw_ucfi_global_rank": 13
+            },
+            {
+                "feature": "revenuePerShare",
+                "original_column": "revenuePerShare",
+                "rw_ucfi_score_global": 0.004062476605356304,
+                "rw_ucfi_global_rank": 14
+            },
+            {
+                "feature": "totalCashPerShare",
+                "original_column": "totalCashPerShare",
+                "rw_ucfi_score_global": 0.0037681727893602124,
+                "rw_ucfi_global_rank": 15
+            },
+            {
+                "feature": "enterpriseToEbitda",
+                "original_column": "enterpriseToEbitda",
+                "rw_ucfi_score_global": 0.003766682470319354,
+                "rw_ucfi_global_rank": 16
+            },
+            {
+                "feature": "BS_Total_Tax_Payable",
+                "original_column": "BS_Total Tax Payable",
+                "rw_ucfi_score_global": 0.0031586662200403567,
+                "rw_ucfi_global_rank": 17
+            },
+            {
+                "feature": "fullTimeEmployees",
+                "original_column": "fullTimeEmployees",
+                "rw_ucfi_score_global": 0.003122342884764907,
+                "rw_ucfi_global_rank": 18
+            },
+            {
+                "feature": "BS_Common_Stock",
+                "original_column": "BS_Common Stock",
+                "rw_ucfi_score_global": 0.002868266551055479,
+                "rw_ucfi_global_rank": 19
+            },
+            {
+                "feature": "CF_Interest_Received_Cfi",
+                "original_column": "CF_Interest Received Cfi",
+                "rw_ucfi_score_global": 0.002821632512134844,
+                "rw_ucfi_global_rank": 20
+            }
+        ],
+        "top20_rank_shift": [
+            {
+                "feature": "industryKey",
+                "original_column": "industryKey",
+                "mean_abs_shap_global": 0.000915145768571447,
+                "shap_global_rank": 63,
+                "rw_ucfi_score_global": 0.0009780058188798462,
+                "rw_ucfi_global_rank": 103,
+                "rank_shift": -40,
+                "abs_rank_shift": 40,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "lastFiscalYearEnd",
+                "original_column": "lastFiscalYearEnd",
+                "mean_abs_shap_global": 0.0008717260922680081,
+                "shap_global_rank": 68,
+                "rw_ucfi_score_global": 0.0009997456780114103,
+                "rw_ucfi_global_rank": 102,
+                "rank_shift": -34,
+                "abs_rank_shift": 34,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "Customer_Acquisition_Age_in_Year",
+                "original_column": "Customer Acquisition Age (in Year)",
+                "mean_abs_shap_global": 0.00048716203594295756,
+                "shap_global_rank": 137,
+                "rw_ucfi_score_global": 0.0009630196997476017,
+                "rw_ucfi_global_rank": 105,
+                "rank_shift": 32,
+                "abs_rank_shift": 32,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "CF_Net_Common_Stock_Issuance",
+                "original_column": "CF_Net Common Stock Issuance",
+                "mean_abs_shap_global": 0.0007155553051701618,
+                "shap_global_rank": 95,
+                "rw_ucfi_score_global": 0.0007929852277797133,
+                "rw_ucfi_global_rank": 125,
+                "rank_shift": -30,
+                "abs_rank_shift": 30,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Allowance_For_Doubtful_Accounts_Receivable",
+                "original_column": "BS_Allowance For Doubtful Accounts Receivable",
+                "mean_abs_shap_global": 0.0007313615504033941,
+                "shap_global_rank": 89,
+                "rw_ucfi_score_global": 0.0013401257124661006,
+                "rw_ucfi_global_rank": 60,
+                "rank_shift": 29,
+                "abs_rank_shift": 29,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Total_Assets",
+                "original_column": "BS_Total Assets",
+                "mean_abs_shap_global": 0.0005831109008922686,
+                "shap_global_rank": 118,
+                "rw_ucfi_score_global": 0.0006348912639189348,
+                "rw_ucfi_global_rank": 147,
+                "rank_shift": -29,
+                "abs_rank_shift": 29,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Cash_Equivalents",
+                "original_column": "BS_Cash Equivalents",
+                "mean_abs_shap_global": 0.0007118780412298031,
+                "shap_global_rank": 97,
+                "rw_ucfi_score_global": 0.0012287838942334312,
+                "rw_ucfi_global_rank": 70,
+                "rank_shift": 27,
+                "abs_rank_shift": 27,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Other_Receivables",
+                "original_column": "BS_Other Receivables",
+                "mean_abs_shap_global": 0.0006255138280730978,
+                "shap_global_rank": 110,
+                "rw_ucfi_score_global": 0.0007215404583581325,
+                "rw_ucfi_global_rank": 137,
+                "rank_shift": -27,
+                "abs_rank_shift": 27,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Current_Debt_And_Capital_Lease_Obligation",
+                "original_column": "BS_Current Debt And Capital Lease Obligation",
+                "mean_abs_shap_global": 0.0005773561041302229,
+                "shap_global_rank": 121,
+                "rw_ucfi_score_global": 0.000624219470915212,
+                "rw_ucfi_global_rank": 148,
+                "rank_shift": -27,
+                "abs_rank_shift": 27,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "earningsGrowth",
+                "original_column": "earningsGrowth",
+                "mean_abs_shap_global": 0.0008944282492112541,
+                "shap_global_rank": 67,
+                "rw_ucfi_score_global": 0.0016395607050313041,
+                "rw_ucfi_global_rank": 41,
+                "rank_shift": 26,
+                "abs_rank_shift": 26,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Prepaid_Assets",
+                "original_column": "BS_Prepaid Assets",
+                "mean_abs_shap_global": 0.0006661701093368354,
+                "shap_global_rank": 106,
+                "rw_ucfi_score_global": 0.0011456949342975883,
+                "rw_ucfi_global_rank": 83,
+                "rank_shift": 23,
+                "abs_rank_shift": 23,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "CF_Net_Short_Term_Debt_Issuance",
+                "original_column": "CF_Net Short Term Debt Issuance",
+                "mean_abs_shap_global": 0.0005495592158121307,
+                "shap_global_rank": 127,
+                "rw_ucfi_score_global": 0.0009743683436129178,
+                "rw_ucfi_global_rank": 104,
+                "rank_shift": 23,
+                "abs_rank_shift": 23,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Other_Non_Current_Assets",
+                "original_column": "BS_Other Non Current Assets",
+                "mean_abs_shap_global": 0.0003494777355175396,
+                "shap_global_rank": 156,
+                "rw_ucfi_score_global": 0.000750326573015303,
+                "rw_ucfi_global_rank": 133,
+                "rank_shift": 23,
+                "abs_rank_shift": 23,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "revenueGrowth",
+                "original_column": "revenueGrowth",
+                "mean_abs_shap_global": 0.0008289901239946004,
+                "shap_global_rank": 73,
+                "rw_ucfi_score_global": 0.001478365777008832,
+                "rw_ucfi_global_rank": 51,
+                "rank_shift": 22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "Revenue_2024",
+                "original_column": "Revenue 2024",
+                "mean_abs_shap_global": 0.0008182118193232569,
+                "shap_global_rank": 77,
+                "rw_ucfi_score_global": 0.001393112275750179,
+                "rw_ucfi_global_rank": 55,
+                "rank_shift": 22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "CR_2023",
+                "original_column": "CR 2023",
+                "mean_abs_shap_global": 0.0011752068320364632,
+                "shap_global_rank": 40,
+                "rw_ucfi_score_global": 0.0013304715006281292,
+                "rw_ucfi_global_rank": 62,
+                "rank_shift": -22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Retained_Earnings",
+                "original_column": "BS_Retained Earnings",
+                "mean_abs_shap_global": 0.0009737157347232358,
+                "shap_global_rank": 54,
+                "rw_ucfi_score_global": 0.001195799594846547,
+                "rw_ucfi_global_rank": 76,
+                "rank_shift": -22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Accounts_Receivable",
+                "original_column": "BS_Accounts Receivable",
+                "mean_abs_shap_global": 0.0005877570453521613,
+                "shap_global_rank": 116,
+                "rw_ucfi_score_global": 0.001057953326999922,
+                "rw_ucfi_global_rank": 94,
+                "rank_shift": 22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            },
+            {
+                "feature": "BS_Gross_PPE",
+                "original_column": "BS_Gross PPE",
+                "mean_abs_shap_global": 0.0005871579095945303,
+                "shap_global_rank": 117,
+                "rw_ucfi_score_global": 0.0007144044430593408,
+                "rw_ucfi_global_rank": 139,
+                "rank_shift": -22,
+                "abs_rank_shift": 22,
+                "rank_shift_direction": "moves_down_in_rw_ucfi"
+            },
+            {
+                "feature": "CF_Short_Term_Debt_Payments",
+                "original_column": "CF_Short Term Debt Payments",
+                "mean_abs_shap_global": 0.0006817030753810001,
+                "shap_global_rank": 102,
+                "rw_ucfi_score_global": 0.001156658971343735,
+                "rw_ucfi_global_rank": 82,
+                "rank_shift": 20,
+                "abs_rank_shift": 20,
+                "rank_shift_direction": "moves_up_in_rw_ucfi"
+            }
+        ],
+        "note": "RW-UCFI outputs were produced on the final-test SHAP sample. They are included as research metadata, not as full-dataset production SHAP."
+    },
+    "outputs": {
+        "production_prediction_csv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_output.csv",
+        "production_prediction_xlsx": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_output.xlsx",
+        "production_prediction_distribution": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_distribution.csv",
+        "production_uncertainty_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_uncertainty_summary.json",
+        "production_uncertain_cases_csv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_uncertain_cases.csv",
+        "production_uncertain_cases_xlsx": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_uncertain_cases.xlsx",
+        "production_high_risk_candidates_csv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_high_risk_review_candidates.csv",
+        "production_high_risk_candidates_xlsx": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_high_risk_review_candidates.xlsx",
+        "production_selected_features": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_selected_features.csv",
+        "production_bundle": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_model_bundle.joblib",
+        "production_metadata": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_metadata.json"
+    },
+    "important_note": "No production performance score is reported here because the model is trained on the full dataset."
+}

@@ -1,0 +1,33 @@
+{
+    "pipeline": "single_final_feature_set_pipeline",
+    "best_model_name": "StackedEnsemble",
+    "model_selection_basis": "completed_validation_study_champion_lock",
+    "final_evaluation_dataset": "test",
+    "test_set_used_once": true,
+    "final_refit_data": "train_plus_validation",
+    "n_train_rows": 667,
+    "n_validation_rows": 143,
+    "n_train_validation_rows": 810,
+    "n_test_rows": 144,
+    "n_selected_features": 164,
+    "final_metrics_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_metrics.json",
+    "final_predictions_csv_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_predictions.csv",
+    "final_predictions_xlsx_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_predictions.xlsx",
+    "classification_report_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_classification_report.csv",
+    "confusion_matrix_png_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_confusion_matrix.png",
+    "confusion_matrix_csv_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_final_test_confusion_matrix.csv",
+    "final_model_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_refit_train_validation.joblib",
+    "selected_features_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\best_model_selected_features.csv",
+    "core_final_test_metrics": {
+        "accuracy": 0.7916666666666666,
+        "balanced_accuracy": 0.780761926907724,
+        "macro_precision": 0.8087646383964326,
+        "macro_recall": 0.780761926907724,
+        "macro_f1": 0.7865079365079365,
+        "weighted_f1": 0.7913194444444445,
+        "macro_ovr_auc": 0.9137896273355174,
+        "high_risk_recall": 0.8032786885245902,
+        "high_risk_precision": 0.8305084745762712,
+        "high_risk_f1": 0.8166666666666667
+    }
+}

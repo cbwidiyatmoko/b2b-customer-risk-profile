@@ -1,0 +1,4 @@
+Copy C:\S3\Semhas_New_Pipeline\output here, or set Pipeline root / output in the sidebar.
+For faster/safer live SHAP deployment, also generate:
+  stage5_production_inference\production_shap_background.joblib
+with build_xai_background.py.

@@ -1,0 +1,5 @@
+scenario,high_risk_weight,spearman_vs_weight_1_50,kendall_vs_weight_1_50,avg_abs_rank_delta,median_abs_rank_delta,max_abs_rank_delta,topk_overlap_vs_weight_1_50,n_topk_overlap,top_k
+high_weight_1.25,1.25,0.9984574135967973,0.9733632622521511,1.829268292682927,1.0,9.0,1.0,20,20
+high_weight_1.50,1.5,1.0,0.9999999999999999,0.0,0.0,0.0,1.0,20,20
+high_weight_1.75,1.75,0.9986478563626248,0.9745604190048633,1.7195121951219512,1.0,10.0,0.95,19,20
+high_weight_2.00,2.0,0.9961775416287482,0.9554059109614664,2.841463414634146,2.0,21.0,0.95,19,20

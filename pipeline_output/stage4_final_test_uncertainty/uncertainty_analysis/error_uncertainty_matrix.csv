@@ -1,0 +1,5 @@
+correctness,uncertainty_status,count,proportion
+correct,certain,92,0.6388888888888888
+correct,uncertain,22,0.1527777777777778
+wrong,certain,14,0.09722222222222222
+wrong,uncertain,16,0.1111111111111111

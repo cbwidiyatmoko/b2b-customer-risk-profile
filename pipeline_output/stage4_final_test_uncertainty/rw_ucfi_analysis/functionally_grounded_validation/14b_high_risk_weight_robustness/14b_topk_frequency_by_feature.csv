@@ -1,0 +1,22 @@
+feature,original_column,topk_frequency,min_rank,max_rank,mean_rank
+sectorKey,sectorKey,4,1,1,1.0
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,4,2,2,2.0
+profitMargins,profitMargins,4,3,3,3.0
+IS_Net_Income,IS_Net Income,4,4,4,4.0
+IS_EBIT,IS_EBIT,4,5,5,5.0
+totalRevenue,totalRevenue,4,6,6,6.0
+enterpriseToRevenue,enterpriseToRevenue,4,7,7,7.0
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,4,8,8,8.0
+ebitdaMargins,ebitdaMargins,4,9,9,9.0
+returnOnEquity,returnOnEquity,4,10,10,10.0
+IS_Net_Interest_Income,IS_Net Interest Income,4,11,12,11.25
+BS_Net_Debt,BS_Net Debt,4,11,12,11.75
+currentRatio,currentRatio,4,13,13,13.0
+revenuePerShare,revenuePerShare,4,14,14,14.0
+enterpriseToEbitda,enterpriseToEbitda,4,15,16,15.5
+totalCashPerShare,totalCashPerShare,4,15,16,15.5
+BS_Total_Tax_Payable,BS_Total Tax Payable,4,17,17,17.0
+fullTimeEmployees,fullTimeEmployees,4,18,19,18.25
+BS_Common_Stock,BS_Common Stock,4,18,20,19.0
+grossProfits,grossProfits,2,19,20,19.5
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,2,20,20,20.0

@@ -1,0 +1,19 @@
+{
+    "design": "RepeatedStratifiedKFold(5x3) paired RF vs SE",
+    "n_splits_total": 15,
+    "post_tuning_fixed_hyperparameters": true,
+    "validation_set_used": false,
+    "test_set_used": false,
+    "rf_mean_macro_f1": 0.7394474848110182,
+    "se_mean_macro_f1": 0.7431896362512926,
+    "mean_delta_macro_f1": 0.003742151440274721,
+    "se_macro_f1_wins": 10,
+    "rf_macro_f1_wins": 5,
+    "macro_f1_ties": 0,
+    "rf_mean_accuracy": 0.7555605431489171,
+    "se_mean_accuracy": 0.7610331799648373,
+    "mean_delta_accuracy": 0.0054726368159203915,
+    "rf_mean_high_risk_recall": 0.8551796157059314,
+    "se_mean_high_risk_recall": 0.837406015037594,
+    "mean_delta_high_risk_recall": -0.0177736006683375
+}

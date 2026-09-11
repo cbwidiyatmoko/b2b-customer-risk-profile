@@ -1,0 +1,28 @@
+{
+    "random_state": 42,
+    "train_size_config": 0.7,
+    "valid_size_config": 0.15,
+    "test_size_config": 0.15,
+    "actual_split_size": {
+        "train": 667,
+        "validation": 143,
+        "test": 144,
+        "total": 954
+    },
+    "actual_split_ratio": {
+        "train": 0.69916142557652,
+        "validation": 0.149895178197065,
+        "test": 0.1509433962264151
+    },
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "label_mapping": {
+        "High Risk": 0,
+        "Low Risk": 1,
+        "Medium Risk": 2
+    },
+    "leakage_guard_passed": true
+}

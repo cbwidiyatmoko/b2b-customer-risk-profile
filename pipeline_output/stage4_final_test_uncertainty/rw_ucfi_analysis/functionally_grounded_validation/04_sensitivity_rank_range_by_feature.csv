@@ -1,0 +1,165 @@
+feature,baseline_full_rw_ucfi,higher_high_risk_weight_2_00,higher_uncertain_flag_bonus_0_50,higher_uncertainty_alpha_1_50,lower_high_risk_weight_1_25,lower_uncertainty_alpha_0_50,uncertainty_off,rank_min,rank_max,rank_range,original_column
+BS_Accounts_Receivable,94,90,87,93,98,100,114,87,114,27,BS_Accounts Receivable
+CR_2023,62,78,63,62,53,59,55,53,78,25,CR 2023
+BS_Other_Non_Current_Assets,133,131,124,130,136,135,147,124,147,23,BS_Other Non Current Assets
+CF_Dividends_Received_Direct,79,76,82,80,77,73,60,60,82,22,CF_Dividends Received Direct
+IS_Rent_And_Landing_Fees,56,61,55,55,56,62,76,55,76,21,IS_Rent And Landing Fees
+BS_Other_Inventories,80,73,81,83,87,78,66,66,87,21,BS_Other Inventories
+BS_Additional_Paid_In_Capital,84,86,79,81,83,88,99,79,99,20,BS_Additional Paid In Capital
+CF_Investing_Cash_Flow,75,81,77,78,70,71,62,62,81,19,CF_Investing Cash Flow
+BS_Prepaid_Assets,83,74,83,82,93,81,82,74,93,19,BS_Prepaid Assets
+BS_Minority_Interest,81,84,85,84,78,80,67,67,85,18,BS_Minority Interest
+BS_Long_Term_Equity_Investment,78,80,74,74,76,83,92,74,92,18,BS_Long Term Equity Investment
+IS_Minority_Interests,93,102,95,94,84,91,89,84,102,18,IS_Minority Interests
+CF_Taxes_Refund_Paid_Direct,121,120,123,123,120,118,105,105,123,18,CF_Taxes Refund Paid Direct
+IS_Interest_Income_Non_Operating,117,122,115,115,116,123,133,115,133,18,IS_Interest Income Non Operating
+CF_Purchase_Of_PPE,74,70,78,76,75,70,61,61,78,17,CF_Purchase Of PPE
+IS_Selling_And_Marketing_Expense,72,63,73,73,80,72,73,63,80,17,IS_Selling And Marketing Expense
+CYC_2023,90,94,86,88,89,95,103,86,103,17,CYC 2023
+CF_Purchase_Of_Business,64,64,61,64,64,66,77,61,77,16,CF_Purchase Of Business
+CF_Interest_Paid_Cff,89,87,94,92,94,87,78,78,94,16,CF_Interest Paid Cff
+BS_Accounts_Payable,91,99,88,87,86,96,102,86,102,16,BS_Accounts Payable
+BS_Total_Assets,147,147,148,148,147,143,132,132,148,16,BS_Total Assets
+BS_Share_Issued,138,140,133,137,137,141,149,133,149,16,BS_Share Issued
+CF_Purchase_Of_Intangibles,65,58,65,66,67,61,52,52,67,15,CF_Purchase Of Intangibles
+CF_Net_Issuance_Payments_Of_Debt,86,96,90,89,81,85,84,81,96,15,CF_Net Issuance Payments Of Debt
+CF_Capital_Expenditure,99,95,99,100,95,92,85,85,100,15,CF_Capital Expenditure
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,114,107,113,113,115,115,122,107,122,15,BS_Cash Cash Equivalents And Short Term Investments
+BS_Other_Properties,113,113,108,112,111,114,123,108,123,15,BS_Other Properties
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,126,128,131,131,128,124,116,116,131,15,BS_Pensionand Other Post Retirement Benefit Plans Current
+earningsGrowth,41,37,38,39,43,43,51,37,51,14,earningsGrowth
+lastDividendDate,69,66,72,71,71,67,58,58,72,14,lastDividendDate
+mostRecentQuarter,71,69,67,70,72,74,81,67,81,14,mostRecentQuarter
+marketCap,73,79,71,72,69,77,83,69,83,14,marketCap
+CF_Other_Cash_Receiptsfrom_Operating_Activities,87,85,93,90,92,86,79,79,93,14,CF_Other Cash Receiptsfrom Operating Activities
+BS_Non_Current_Prepaid_Assets,95,92,92,95,97,101,106,92,106,14,BS_Non Current Prepaid Assets
+industryKey,103,108,105,105,103,103,94,94,108,14,industryKey
+BS_Current_Liabilities,115,110,116,116,118,112,104,104,118,14,BS_Current Liabilities
+CF_Common_Stock_Dividend_Paid,119,114,122,120,123,117,109,109,123,14,CF_Common Stock Dividend Paid
+CF_Net_Common_Stock_Issuance,125,134,129,129,122,125,120,120,134,14,CF_Net Common Stock Issuance
+BS_Total_Non_Current_Assets,53,60,59,57,52,53,47,47,60,13,BS_Total Non Current Assets
+BS_Allowance_For_Doubtful_Accounts_Receivable,60,56,58,59,61,63,69,56,69,13,BS_Allowance For Doubtful Accounts Receivable
+BS_Cash_Equivalents,70,67,70,69,74,76,80,67,80,13,BS_Cash Equivalents
+CF_Net_Business_Purchase_And_Sale,98,88,97,96,101,98,100,88,101,13,CF_Net Business Purchase And Sale
+regularMarketChangePercent,100,89,101,99,102,97,90,89,102,13,regularMarketChangePercent
+CF_Net_Short_Term_Debt_Issuance,104,100,102,103,108,106,113,100,113,13,CF_Net Short Term Debt Issuance
+IS_Gross_Profit,142,135,142,142,148,142,139,135,148,13,IS_Gross Profit
+IS_Interest_Expense,61,65,64,63,59,56,53,53,65,12,IS_Interest Expense
+BS_Other_Equity_Interest,57,57,56,56,60,57,68,56,68,12,BS_Other Equity Interest
+regularMarketTime,96,103,96,97,91,94,91,91,103,12,regularMarketTime
+Customer_Acquisition_Age_in_Year,105,98,103,104,110,107,110,98,110,12,Customer Acquisition Age (in Year)
+BS_Working_Capital,134,126,137,135,138,133,129,126,138,12,BS_Working Capital
+BS_Gross_PPE,139,142,138,139,131,138,143,131,143,12,BS_Gross PPE
+IS_Total_Other_Finance_Cost,149,145,149,149,149,148,137,137,149,12,IS_Total Other Finance Cost
+operatingMargins,37,36,35,35,38,39,46,35,46,11,operatingMargins
+hasRiskOfficer,48,46,50,49,47,44,39,39,50,11,hasRiskOfficer
+Revenue_2024,55,53,52,54,57,54,63,52,63,11,Revenue 2024
+enterpriseValue,59,54,60,60,65,60,64,54,65,11,enterpriseValue
+IS_Basic_EPS,97,91,98,98,99,93,88,88,99,11,IS_Basic EPS
+CF_Purchase_Of_Investment,109,116,111,111,105,109,111,105,116,11,CF_Purchase Of Investment
+regularMarketPreviousClose,116,118,117,117,114,116,107,107,118,11,regularMarketPreviousClose
+IS_General_And_Administrative_Expense,36,43,39,38,35,36,33,33,43,10,IS_General And Administrative Expense
+BS_Buildings_And_Improvements,47,40,48,48,50,45,42,40,50,10,BS_Buildings And Improvements
+CF_Net_Investment_Properties_Purchase_And_Sale,49,50,45,44,45,49,54,44,54,10,CF_Net Investment Properties Purchase And Sale
+CF_Interest_Paid_Direct,63,62,62,61,62,64,71,61,71,10,CF_Interest Paid Direct
+lastFiscalYearEnd,102,105,104,102,100,102,95,95,105,10,lastFiscalYearEnd
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,112,109,112,114,113,113,119,109,119,10,CF_Other Cash Adjustment Outside Changein Cash
+BS_Finished_Goods,123,127,121,121,121,126,131,121,131,10,BS_Finished Goods
+IS_Rent_Expense_Supplemental,129,124,126,125,129,131,134,124,134,10,IS_Rent Expense Supplemental
+CF_Net_Other_Investing_Changes,131,129,135,133,135,129,125,125,135,10,CF_Net Other Investing Changes
+IS_Tax_Rate_For_Calcs,143,143,146,144,146,144,136,136,146,10,IS_Tax Rate For Calcs
+revenueGrowth,51,48,49,50,51,51,57,48,57,9,revenueGrowth
+CF_Repurchase_Of_Capital_Stock,66,68,66,65,63,65,59,59,68,9,CF_Repurchase Of Capital Stock
+CF_Changes_In_Cash,67,75,68,67,66,68,74,66,75,9,CF_Changes In Cash
+CF_Sale_Of_Investment_Properties,92,97,91,91,88,90,97,88,97,9,CF_Sale Of Investment Properties
+CF_Operating_Cash_Flow,107,106,107,107,104,105,98,98,107,9,CF_Operating Cash Flow
+BS_Tangible_Book_Value,108,115,109,108,106,108,112,106,115,9,BS_Tangible Book Value
+IS_Other_Operating_Expenses,124,121,127,124,127,122,118,118,127,9,IS_Other Operating Expenses
+BS_Other_Receivables,137,141,136,138,132,137,141,132,141,9,BS_Other Receivables
+BS_Current_Debt_And_Capital_Lease_Obligation,148,150,147,147,141,149,150,141,150,9,BS_Current Debt And Capital Lease Obligation
+CYC_2024,40,47,41,41,39,40,40,39,47,8,CYC 2024
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,45,49,44,46,41,46,45,41,49,8,BS_Non Current Pension And Other Postretirement Benefit Plans
+BS_Current_Assets,58,59,57,58,58,58,65,57,65,8,BS_Current Assets
+maxAge,77,71,76,75,79,79,75,71,79,8,maxAge
+BS_Payables,85,82,84,85,90,84,87,82,90,8,BS_Payables
+CF_Interest_Received_Direct,88,93,89,86,85,89,93,85,93,8,CF_Interest Received Direct
+CF_Long_Term_Debt_Issuance,127,133,128,128,125,127,126,125,133,8,CF_Long Term Debt Issuance
+CF_Short_Term_Debt_Issuance,135,136,130,132,134,134,138,130,138,8,CF_Short Term Debt Issuance
+IS_Reconciled_Depreciation,46,41,46,47,48,47,44,41,48,7,IS_Reconciled Depreciation
+BS_Retained_Earnings,76,77,75,77,73,75,70,70,77,7,BS_Retained Earnings
+CF_Short_Term_Debt_Payments,82,83,80,79,82,82,86,79,86,7,CF_Short Term Debt Payments
+BS_Land_And_Improvements,111,111,110,110,112,110,117,110,117,7,BS_Land And Improvements
+BS_Cash_Financial,122,117,118,122,124,120,121,117,124,7,BS_Cash Financial
+BS_Total_Equity_Gross_Minority_Interest,118,123,120,118,117,121,124,117,124,7,BS_Total Equity Gross Minority Interest
+BS_Inventory,128,132,125,126,126,128,130,125,132,7,BS_Inventory
+totalDebt,130,125,132,127,130,130,127,125,132,7,totalDebt
+CF_Issuance_Of_Debt,146,149,143,146,142,147,148,142,149,7,CF_Issuance Of Debt
+IS_Interest_Expense_Non_Operating,22,20,21,21,22,22,26,20,26,6,IS_Interest Expense Non Operating
+IS_Total_Operating_Income_As_Reported,30,34,30,31,28,30,31,28,34,6,IS_Total Operating Income As Reported
+CF_Sale_Of_PPE,106,104,106,106,107,104,101,101,107,6,CF_Sale Of PPE
+IS_Other_Non_Operating_Income_Expenses,110,112,114,109,109,111,108,108,114,6,IS_Other Non Operating Income Expenses
+BS_Raw_Materials,132,130,134,134,133,132,128,128,134,6,BS_Raw Materials
+BS_Other_Intangible_Assets,157,158,158,158,154,154,152,152,158,6,BS_Other Intangible Assets
+CF_Other_Cash_Paymentsfrom_Operating_Activities,28,31,27,27,26,28,29,26,31,5,CF_Other Cash Paymentsfrom Operating Activities
+operatingCashflow,43,45,47,45,44,42,43,42,47,5,operatingCashflow
+BS_Capital_Lease_Obligations,44,44,43,43,46,48,48,43,48,5,BS_Capital Lease Obligations
+BS_Other_Payable,52,51,53,52,55,52,50,50,55,5,BS_Other Payable
+IS_Tax_Effect_Of_Unusual_Items,101,101,100,101,96,99,96,96,101,5,IS_Tax Effect Of Unusual Items
+CF_Repayment_Of_Debt,120,119,119,119,119,119,115,115,120,5,CF_Repayment Of Debt
+BS_Non_Current_Deferred_Taxes_Assets,141,138,141,141,143,139,140,138,143,5,BS_Non Current Deferred Taxes Assets
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,152,152,151,151,152,152,156,151,156,5,BS_Total Non Current Liabilities Net Minority Interest
+IS_Total_Unusual_Items_Excluding_Goodwill,155,153,153,155,157,157,158,153,158,5,IS_Total Unusual Items Excluding Goodwill
+BS_Common_Stock,19,22,20,20,19,19,18,18,22,4,BS_Common Stock
+CF_Dividends_Received_Cfi,33,32,34,34,33,32,30,30,34,4,CF_Dividends Received Cfi
+Revenue_2023,32,30,32,32,32,33,34,30,34,4,Revenue 2023
+BS_Construction_In_Progress,34,33,33,33,34,34,37,33,37,4,BS_Construction In Progress
+CF_Sale_Of_Business,39,39,40,40,40,37,36,36,40,4,CF_Sale Of Business
+SandP52WeekChange,68,72,69,68,68,69,72,68,72,4,SandP52WeekChange
+IS_Selling_General_And_Administration,136,137,139,136,139,136,135,135,139,4,IS_Selling General And Administration
+grossMargins,150,148,150,150,150,150,146,146,150,4,grossMargins
+BS_Properties,151,154,155,152,151,151,151,151,155,4,BS_Properties
+CF_Net_Other_Financing_Charges,154,151,152,153,155,155,155,151,155,4,CF_Net Other Financing Charges
+quickRatio,26,25,26,26,27,25,24,24,27,3,quickRatio
+IS_Net_Non_Operating_Interest_Income_Expense,31,29,31,30,31,31,32,29,32,3,IS_Net Non Operating Interest Income Expense
+BS_Non_Current_Deferred_Taxes_Liabilities,50,52,51,51,49,50,49,49,52,3,BS_Non Current Deferred Taxes Liabilities
+BS_Machinery_Furniture_Equipment,54,55,54,53,54,55,56,53,56,3,BS_Machinery Furniture Equipment
+CF_Issuance_Of_Capital_Stock,140,139,140,140,140,140,142,139,142,3,CF_Issuance Of Capital Stock
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,144,144,145,143,145,146,144,143,146,3,CF_Cash Flowsfromusedin Operating Activities Direct
+IS_Otherunder_Preferred_Stock_Dividend,156,156,156,156,156,156,153,153,156,3,IS_Otherunder Preferred Stock Dividend
+IS_Net_Interest_Income,12,12,12,12,12,11,10,10,12,2,IS_Net Interest Income
+fullTimeEmployees,18,18,17,17,18,18,19,17,19,2,fullTimeEmployees
+CF_Interest_Received_Cfi,20,19,19,19,20,20,21,19,21,2,CF_Interest Received Cfi
+grossProfits,21,21,22,22,21,21,20,20,22,2,grossProfits
+totalCash,24,24,24,24,24,23,22,22,24,2,totalCash
+ebitda,27,27,28,28,29,27,27,27,29,2,ebitda
+debtToEquity,29,28,29,29,30,29,28,28,30,2,debtToEquity
+IS_Other_Special_Charges,145,146,144,145,144,145,145,144,146,2,IS_Other Special Charges
+CF_Paymentson_Behalfof_Employees,153,155,154,154,153,153,154,153,155,2,CF_Paymentson Behalfof Employees
+CF_Financing_Cash_Flow,160,161,161,160,160,160,159,159,161,2,CF_Financing Cash Flow
+returnOnEquity,10,10,10,10,10,10,11,10,11,1,returnOnEquity
+BS_Net_Debt,11,11,11,11,11,12,12,11,12,1,BS_Net Debt
+enterpriseToEbitda,16,15,15,15,16,16,16,15,16,1,enterpriseToEbitda
+totalCashPerShare,15,16,16,16,15,15,15,15,16,1,totalCashPerShare
+BS_Total_Tax_Payable,17,17,18,18,17,17,17,17,18,1,BS_Total Tax Payable
+CF_Effect_Of_Exchange_Rate_Changes,23,23,23,23,23,24,23,23,24,1,CF_Effect Of Exchange Rate Changes
+CR_2024,25,26,25,25,25,26,25,25,26,1,CR 2024
+returnOnAssets,35,35,36,36,36,35,35,35,36,1,returnOnAssets
+freeCashflow,38,38,37,37,37,38,38,37,38,1,freeCashflow
+BS_Goodwill_And_Other_Intangible_Assets,42,42,42,42,42,41,41,41,42,1,BS_Goodwill And Other Intangible Assets
+BS_Other_Short_Term_Investments,158,157,157,157,158,158,157,157,158,1,BS_Other Short Term Investments
+IS_Write_Off,159,159,159,159,159,159,160,159,160,1,IS_Write Off
+CF_Net_Investment_Purchase_And_Sale,161,160,160,161,161,161,161,160,161,1,CF_Net Investment Purchase And Sale
+sectorKey,1,1,1,1,1,1,1,1,1,0,sectorKey
+CF_Classesof_Cash_Payments,2,2,2,2,2,2,2,2,2,0,CF_Classesof Cash Payments
+profitMargins,3,3,3,3,3,3,3,3,3,0,profitMargins
+IS_Net_Income,4,4,4,4,4,4,4,4,4,0,IS_Net Income
+IS_EBIT,5,5,5,5,5,5,5,5,5,0,IS_EBIT
+totalRevenue,6,6,6,6,6,6,6,6,6,0,totalRevenue
+enterpriseToRevenue,7,7,7,7,7,7,7,7,7,0,enterpriseToRevenue
+CF_Receiptsfrom_Customers,8,8,8,8,8,8,8,8,8,0,CF_Receiptsfrom Customers
+ebitdaMargins,9,9,9,9,9,9,9,9,9,0,ebitdaMargins
+currentRatio,13,13,13,13,13,13,13,13,13,0,currentRatio
+revenuePerShare,14,14,14,14,14,14,14,14,14,0,revenuePerShare
+priceHint,162,162,162,162,162,162,162,162,162,0,priceHint
+CF_Sale_Of_Intangibles,163,163,163,163,163,163,163,163,163,0,CF_Sale Of Intangibles
+CF_Capital_Expenditure_Reported,164,164,164,164,164,164,164,164,164,0,CF_Capital Expenditure Reported

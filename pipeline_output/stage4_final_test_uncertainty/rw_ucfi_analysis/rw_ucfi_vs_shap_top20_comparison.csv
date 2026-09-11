@@ -1,0 +1,23 @@
+feature,original_column,in_shap_top20,in_rw_ucfi_top20,shap_global_rank,rw_ucfi_global_rank,rank_shift,mean_abs_shap_global,rw_ucfi_score_global
+sectorKey,sectorKey,True,True,1,1,0,0.04146607310568801,0.05815269808649699
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,True,True,2,2,0,0.03484392004708347,0.04965721972666612
+profitMargins,profitMargins,True,True,3,3,0,0.020213918687387714,0.03604501371516367
+IS_Net_Income,IS_Net Income,True,True,4,4,0,0.020145238975631734,0.03274329080609094
+IS_EBIT,IS_EBIT,True,True,5,5,0,0.01654979354620552,0.024371717330219898
+totalRevenue,totalRevenue,True,True,6,6,0,0.010391204842670986,0.014600797970342094
+enterpriseToRevenue,enterpriseToRevenue,True,True,7,7,0,0.010338024899439191,0.011805507343861713
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,True,True,8,8,0,0.006419856429424004,0.008644089824622515
+ebitdaMargins,ebitdaMargins,True,True,9,9,0,0.004090680333490906,0.006639088670284364
+returnOnEquity,returnOnEquity,True,True,13,10,3,0.003006684487488294,0.0055213877253000275
+BS_Net_Debt,BS_Net Debt,True,True,10,11,-1,0.003436209346833048,0.005284145266025923
+IS_Net_Interest_Income,IS_Net Interest Income,True,True,12,12,0,0.0032436190734467887,0.005137093281285878
+currentRatio,currentRatio,True,True,15,13,2,0.0028237309654803523,0.00426603768019697
+revenuePerShare,revenuePerShare,True,True,16,14,2,0.0026530406400926535,0.004062476605356304
+totalCashPerShare,totalCashPerShare,True,True,11,15,-4,0.003343001013610635,0.0037681727893602124
+enterpriseToEbitda,enterpriseToEbitda,True,True,17,16,1,0.002471787806066041,0.003766682470319354
+BS_Total_Tax_Payable,BS_Total Tax Payable,True,True,18,17,1,0.002356420226537238,0.0031586662200403567
+fullTimeEmployees,fullTimeEmployees,False,True,26,18,8,0.0017102144673798337,0.003122342884764907
+BS_Common_Stock,BS_Common Stock,True,True,14,19,-5,0.002949510922357823,0.002868266551055479
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,False,True,22,20,2,0.0018229185694942274,0.002821632512134844
+grossProfits,grossProfits,True,False,19,21,-2,0.0019488897720041749,0.0027226489145634213
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,True,False,20,28,-8,0.0019158247677038347,0.002134680284995241

@@ -1,0 +1,3 @@
+feature_type,n_features,n_features_with_missing,avg_missing_ratio,max_missing_ratio
+categorical,2,2,0.06446776611694154,0.06446776611694154
+numeric,162,112,0.2592870231550891,0.7991004497751124

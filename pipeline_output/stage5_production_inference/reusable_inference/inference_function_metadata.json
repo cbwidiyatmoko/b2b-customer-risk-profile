@@ -1,0 +1,26 @@
+{
+    "function_name_file_based": "predict_new_data",
+    "function_name_dataframe_based": "predict_from_dataframe",
+    "function_name_export": "export_inference_result",
+    "default_bundle_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_model_bundle.joblib",
+    "inference_output_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\reusable_inference",
+    "supported_input_formats": [
+        ".xlsx",
+        ".xls",
+        ".csv"
+    ],
+    "output_columns_added": [
+        "predicted_riskLevel",
+        "predicted_riskLevel_encoded",
+        "proba_<class>",
+        "max_proba",
+        "margin",
+        "entropy_norm",
+        "is_uncertain_max_proba",
+        "is_uncertain_margin",
+        "is_uncertain_entropy",
+        "is_uncertain"
+    ],
+    "schema_behavior": "If selected features are missing in new data, they are created and filled with NaN. The trained preprocessing pipeline performs imputation.",
+    "rw_ucfi_note": "This inference function generates model prediction and uncertainty outputs. RW-UCFI for new data requires a separate SHAP/RW-UCFI inference extension."
+}

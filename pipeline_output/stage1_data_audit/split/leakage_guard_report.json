@@ -1,0 +1,12 @@
+{
+    "n_train": 667,
+    "n_validation": 143,
+    "n_test": 144,
+    "train_validation_overlap": 0,
+    "train_test_overlap": 0,
+    "validation_test_overlap": 0,
+    "target_in_X_train": false,
+    "target_in_X_val": false,
+    "target_in_X_test": false,
+    "is_passed": true
+}

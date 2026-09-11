@@ -1,0 +1,475 @@
+column,original_column,missing_count_train,missing_ratio_train,is_high_missing,is_mandatory_protected,will_be_dropped
+IS_Average_Dilution_Earnings,IS_Average Dilution Earnings,667,1.0,True,False,True
+IS_Preferred_Stock_Dividends,IS_Preferred Stock Dividends,667,1.0,True,False,True
+BS_Liabilities_Heldfor_Sale_Non_Current,BS_Liabilities Heldfor Sale Non Current,667,1.0,True,False,True
+BS_Gains_Losses_Not_Affecting_Retained_Earnings,BS_Gains Losses Not Affecting Retained Earnings,667,1.0,True,False,True
+BS_Other_Equity_Adjustments,BS_Other Equity Adjustments,667,1.0,True,False,True
+BS_Employee_Benefits,BS_Employee Benefits,667,1.0,True,False,True
+BS_Non_Current_Deferred_Liabilities,BS_Non Current Deferred Liabilities,667,1.0,True,False,True
+BS_Current_Deferred_Liabilities,BS_Current Deferred Liabilities,667,1.0,True,False,True
+BS_Current_Deferred_Revenue,BS_Current Deferred Revenue,667,1.0,True,False,True
+BS_Other_Current_Borrowings,BS_Other Current Borrowings,667,1.0,True,False,True
+BS_Line_Of_Credit,BS_Line Of Credit,667,1.0,True,False,True
+BS_Payables_And_Accrued_Expenses,BS_Payables And Accrued Expenses,667,1.0,True,False,True
+BS_Current_Accrued_Expenses,BS_Current Accrued Expenses,667,1.0,True,False,True
+BS_Interest_Payable,BS_Interest Payable,667,1.0,True,False,True
+BS_Income_Tax_Payable,BS_Income Tax Payable,667,1.0,True,False,True
+BS_Non_Current_Accounts_Receivable,BS_Non Current Accounts Receivable,667,1.0,True,False,True
+BS_Leases,BS_Leases,667,1.0,True,False,True
+IS_Earnings_From_Equity_Interest,IS_Earnings From Equity Interest,667,1.0,True,False,True
+IS_Provision_For_Doubtful_Accounts,IS_Provision For Doubtful Accounts,667,1.0,True,False,True
+IS_Depreciation_Amortization_Depletion_Income_Statement,IS_Depreciation Amortization Depletion Income Statement,667,1.0,True,False,True
+IS_Other_Gand_A,IS_Other Gand A,667,1.0,True,False,True
+IS_Salaries_And_Wages,IS_Salaries And Wages,667,1.0,True,False,True
+openInterest,openInterest,666,0.9985007496251874,True,False,True
+BS_Receivables_Adjustments_Allowances,BS_Receivables Adjustments Allowances,665,0.9970014992503748,True,False,True
+BS_Current_Deferred_Taxes_Liabilities,BS_Current Deferred Taxes Liabilities,663,0.9940029985007496,True,False,True
+BS_Trading_Securities,BS_Trading Securities,662,0.992503748125937,True,False,True
+BS_Defined_Pension_Benefit,BS_Defined Pension Benefit,662,0.992503748125937,True,False,True
+BS_Investmentsin_Subsidiariesat_Cost,BS_Investmentsin Subsidiariesat Cost,661,0.9910044977511244,True,False,True
+BS_Current_Deferred_Assets,BS_Current Deferred Assets,660,0.9895052473763118,True,False,True
+IS_Net_Income_Extraordinary,IS_Net Income Extraordinary,660,0.9895052473763118,True,False,True
+earningsCallTimestampStart,earningsCallTimestampStart,660,0.9895052473763118,True,False,True
+earningsCallTimestampEnd,earningsCallTimestampEnd,660,0.9895052473763118,True,False,True
+IS_Net_Income_Discontinuous_Operations,IS_Net Income Discontinuous Operations,659,0.9880059970014993,True,False,True
+ipoExpectedDate,ipoExpectedDate,658,0.9865067466266867,True,False,True
+IS_Other_Income_Expense,IS_Other Income Expense,657,0.9850074962518741,True,False,True
+IS_Net_Policyholder_Benefits_And_Claims,IS_Net Policyholder Benefits And Claims,657,0.9850074962518741,True,False,True
+BS_Other_Investments,BS_Other Investments,657,0.9850074962518741,True,False,True
+irWebsite,irWebsite,655,0.9820089955022488,True,False,True
+BS_Non_Current_Accrued_Expenses,BS_Non Current Accrued Expenses,652,0.9775112443778111,True,False,True
+compensationAsOfEpochDate,compensationAsOfEpochDate,652,0.9775112443778111,True,False,True
+trailingPegRatio,trailingPegRatio,651,0.9760119940029985,True,False,True
+BS_Investments_In_Other_Ventures_Under_Equity_Method,BS_Investments In Other Ventures Under Equity Method,651,0.9760119940029985,True,False,True
+BS_Financial_Assets,BS_Financial Assets,650,0.974512743628186,True,False,True
+BS_Assets_Held_For_Sale_Current,BS_Assets Held For Sale Current,647,0.9700149925037481,True,False,True
+BS_Derivative_Product_Liabilities,BS_Derivative Product Liabilities,646,0.9685157421289355,True,False,True
+BS_Held_To_Maturity_Securities,BS_Held To Maturity Securities,644,0.9655172413793104,True,False,True
+IS_Restructuring_And_Mergern_Acquisition,IS_Restructuring And Mergern Acquisition,639,0.9580209895052474,True,False,True
+IS_Gain_On_Sale_Of_Security,IS_Gain On Sale Of Security,639,0.9580209895052474,True,False,True
+BS_Hedging_Assets_Current,BS_Hedging Assets Current,639,0.9580209895052474,True,False,True
+BS_Non_Current_Deferred_Assets,BS_Non Current Deferred Assets,634,0.9505247376311844,True,False,True
+IS_Research_And_Development,IS_Research And Development,633,0.9490254872563718,True,False,True
+IS_Insurance_And_Claims,IS_Insurance And Claims,629,0.9430284857571214,True,False,True
+BS_Receivables,BS_Receivables,628,0.9415292353823088,True,False,True
+BS_Cash_Cash_Equivalents_And_Federal_Funds_Sold,BS_Cash Cash Equivalents And Federal Funds Sold,628,0.9415292353823088,True,False,True
+BS_Investmentsin_Joint_Venturesat_Cost,BS_Investmentsin Joint Venturesat Cost,623,0.9340329835082459,True,False,True
+BS_Current_Provisions,BS_Current Provisions,623,0.9340329835082459,True,False,True
+BS_Dividends_Payable,BS_Dividends Payable,621,0.9310344827586207,True,False,True
+BS_Financial_Assets_Designatedas_Fair_Value_Through_Profitor_Loss_Total,BS_Financial Assets Designatedas Fair Value Through Profitor Loss Total,621,0.9310344827586207,True,False,True
+BS_Investments_And_Advances,BS_Investments And Advances,620,0.9295352323838081,True,False,True
+BS_Taxes_Receivable,BS_Taxes Receivable,620,0.9295352323838081,True,False,True
+recommendationMean,recommendationMean,617,0.9250374812593704,True,False,True
+averageAnalystRating,averageAnalystRating,617,0.9250374812593704,True,False,True
+officer_10_age,officer_10_age,607,0.9100449775112444,True,False,True
+officer_10_yearBorn,officer_10_yearBorn,607,0.9100449775112444,True,False,True
+BS_Long_Term_Provisions,BS_Long Term Provisions,606,0.9085457271364318,True,False,True
+BS_Fixed_Assets_Revaluation_Reserve,BS_Fixed Assets Revaluation Reserve,602,0.9025487256371814,True,False,True
+IS_Impairment_Of_Capital_Assets,IS_Impairment Of Capital Assets,600,0.8995502248875562,True,False,True
+BS_Non_Current_Deferred_Revenue,BS_Non Current Deferred Revenue,597,0.8950524737631185,True,False,True
+BS_Treasury_Shares_Number,BS_Treasury Shares Number,594,0.8905547226386806,True,False,True
+BS_Other_Non_Current_Liabilities,BS_Other Non Current Liabilities,591,0.8860569715142429,True,False,True
+officer_9_age,officer_9_age,588,0.881559220389805,True,False,True
+officer_9_yearBorn,officer_9_yearBorn,588,0.881559220389805,True,False,True
+BS_Tradeand_Other_Payables_Non_Current,BS_Tradeand Other Payables Non Current,583,0.8740629685157422,True,False,True
+BS_Other_Current_Liabilities,BS_Other Current Liabilities,582,0.8725637181409296,True,False,True
+epsCurrentYear,epsCurrentYear,579,0.8680659670164917,True,False,True
+priceEpsCurrentYear,priceEpsCurrentYear,579,0.8680659670164917,True,False,True
+BS_Treasury_Stock,BS_Treasury Stock,579,0.8680659670164917,True,False,True
+officer_8_age,officer_8_age,574,0.8605697151424287,True,False,True
+officer_8_yearBorn,officer_8_yearBorn,574,0.8605697151424287,True,False,True
+forwardEps,forwardEps,570,0.8545727136431784,True,False,True
+targetHighPrice,targetHighPrice,570,0.8545727136431784,True,False,True
+targetLowPrice,targetLowPrice,570,0.8545727136431784,True,False,True
+targetMeanPrice,targetMeanPrice,570,0.8545727136431784,True,False,True
+targetMedianPrice,targetMedianPrice,570,0.8545727136431784,True,False,True
+numberOfAnalystOpinions,numberOfAnalystOpinions,570,0.8545727136431784,True,False,True
+epsForward,epsForward,570,0.8545727136431784,True,False,True
+BS_Other_Current_Assets,BS_Other Current Assets,566,0.848575712143928,True,False,True
+BS_Restricted_Cash,BS_Restricted Cash,563,0.8440779610194903,True,False,True
+IS_Amortization,IS_Amortization,553,0.8290854572713643,True,False,True
+forwardPE,forwardPE,551,0.8260869565217391,True,False,True
+BS_Work_In_Process,BS_Work In Process,549,0.823088455772114,True,False,True
+officer_7_age,officer_7_age,544,0.815592203898051,True,False,True
+officer_7_yearBorn,officer_7_yearBorn,544,0.815592203898051,True,False,True
+BS_Goodwill,BS_Goodwill,542,0.8125937031484258,True,False,True
+BS_Inventories_Adjustments_Allowances,BS_Inventories Adjustments Allowances,542,0.8125937031484258,True,False,True
+BS_Investment_Properties,BS_Investment Properties,539,0.808095952023988,True,False,True
+BS_Investmentsin_Associatesat_Cost,BS_Investmentsin Associatesat Cost,537,0.8050974512743628,True,False,True
+officer_10_name,officer_10_name,534,0.800599700149925,True,False,True
+officer_10_title,officer_10_title,534,0.800599700149925,True,False,True
+BS_Other_Short_Term_Investments,BS_Other Short Term Investments,533,0.7991004497751124,False,False,False
+BS_Available_For_Sale_Securities,BS_Available For Sale Securities,526,0.7886056971514243,False,False,False
+BS_Other_Inventories,BS_Other Inventories,524,0.7856071964017991,False,False,False
+fiveYearAvgDividendYield,fiveYearAvgDividendYield,516,0.7736131934032984,False,False,False
+earningsTimestamp,earningsTimestamp,516,0.7736131934032984,False,False,False
+officer_9_name,officer_9_name,513,0.7691154422788605,False,False,False
+officer_9_title,officer_9_title,513,0.7691154422788605,False,False,False
+IS_Write_Off,IS_Write Off,504,0.7556221889055472,False,False,False
+isEarningsDateEstimate,isEarningsDateEstimate,500,0.7496251874062968,False,False,False
+officer_6_age,officer_6_age,500,0.7496251874062968,False,False,False
+officer_6_yearBorn,officer_6_yearBorn,500,0.7496251874062968,False,False,False
+BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,499,0.7481259370314842,False,False,False
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,499,0.7481259370314842,False,False,False
+earningsTimestampStart,earningsTimestampStart,498,0.7466266866566716,False,False,False
+earningsTimestampEnd,earningsTimestampEnd,498,0.7466266866566716,False,False,False
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,497,0.7451274362818591,False,False,False
+BS_Investmentin_Financial_Assets,BS_Investmentin Financial Assets,492,0.7376311844077961,False,False,False
+officer_8_name,officer_8_name,488,0.7316341829085458,False,False,False
+officer_8_title,officer_8_title,488,0.7316341829085458,False,False,False
+lastSplitFactor,lastSplitFactor,488,0.7316341829085458,False,False,False
+lastSplitDate,lastSplitDate,488,0.7316341829085458,False,False,False
+officer_5_age,officer_5_age,463,0.6941529235382309,False,False,False
+officer_5_yearBorn,officer_5_yearBorn,463,0.6941529235382309,False,False,False
+BS_Other_Equity_Interest,BS_Other Equity Interest,462,0.6926536731634183,False,False,False
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,462,0.6926536731634183,False,False,False
+BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,461,0.6911544227886057,False,False,False
+officer_7_name,officer_7_name,445,0.6671664167916042,False,False,False
+officer_7_title,officer_7_title,445,0.6671664167916042,False,False,False
+IS_Basic_Average_Shares,IS_Basic Average Shares,440,0.6596701649175413,False,False,False
+IS_Diluted_EPS,IS_Diluted EPS,440,0.6596701649175413,False,False,False
+IS_Basic_EPS,IS_Basic EPS,440,0.6596701649175413,False,False,False
+IS_Diluted_Average_Shares,IS_Diluted Average Shares,438,0.656671664167916,False,False,False
+IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,438,0.656671664167916,False,False,False
+IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,435,0.6521739130434783,False,False,False
+BS_Net_Debt,BS_Net Debt,430,0.6446776611694153,False,False,False
+BS_Raw_Materials,BS_Raw Materials,430,0.6446776611694153,False,False,False
+BS_Other_Non_Current_Assets,BS_Other Non Current Assets,425,0.6371814092953523,False,False,False
+officer_4_age,officer_4_age,416,0.623688155922039,False,False,False
+officer_4_yearBorn,officer_4_yearBorn,416,0.623688155922039,False,False,False
+IS_Other_Special_Charges,IS_Other Special Charges,415,0.6221889055472264,False,False,False
+BS_Finished_Goods,BS_Finished Goods,413,0.6191904047976012,False,False,False
+IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,406,0.6086956521739131,False,False,False
+BS_Long_Term_Capital_Lease_Obligation,BS_Long Term Capital Lease Obligation,403,0.6041979010494752,False,False,False
+IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,402,0.6026986506746627,False,False,False
+BS_Long_Term_Debt,BS_Long Term Debt,401,0.6011994002998501,False,False,False
+BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,401,0.6011994002998501,False,False,False
+BS_Cash_Equivalents,BS_Cash Equivalents,393,0.5892053973013494,False,False,False
+dividendRate,dividendRate,391,0.5862068965517241,False,False,False
+dividendYield,dividendYield,391,0.5862068965517241,False,False,False
+BS_Current_Capital_Lease_Obligation,BS_Current Capital Lease Obligation,391,0.5862068965517241,False,False,False
+BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,388,0.5817091454272864,False,False,False
+officer_6_name,officer_6_name,386,0.5787106446776612,False,False,False
+officer_6_title,officer_6_title,386,0.5787106446776612,False,False,False
+BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,383,0.5742128935532234,False,False,False
+BS_Gross_Accounts_Receivable,BS_Gross Accounts Receivable,377,0.5652173913043478,False,False,False
+BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,370,0.5547226386806596,False,False,False
+BS_Current_Debt,BS_Current Debt,364,0.545727136431784,False,False,False
+BS_Other_Properties,BS_Other Properties,362,0.5427286356821589,False,False,False
+IS_Special_Income_Charges,IS_Special Income Charges,349,0.5232383808095952,False,False,False
+BS_Minority_Interest,BS_Minority Interest,345,0.5172413793103449,False,False,False
+IS_Minority_Interests,IS_Minority Interests,345,0.5172413793103449,False,False,False
+BS_Land_And_Improvements,BS_Land And Improvements,344,0.5157421289355323,False,False,False
+BS_Inventory,BS_Inventory,342,0.512743628185907,False,False,False
+BS_Other_Receivables,BS_Other Receivables,342,0.512743628185907,False,False,False
+BS_Construction_In_Progress,BS_Construction In Progress,341,0.5112443778110944,False,False,False
+IS_Total_Unusual_Items,IS_Total Unusual Items,336,0.5037481259370314,False,False,False
+IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,336,0.5037481259370314,False,False,False
+IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,327,0.49025487256371814,False,False,False
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,323,0.48425787106446777,False,False,False
+IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,322,0.4827586206896552,False,False,False
+officer_5_name,officer_5_name,322,0.4827586206896552,False,False,False
+officer_5_title,officer_5_title,322,0.4827586206896552,False,False,False
+BS_Properties,BS_Properties,318,0.4767616191904048,False,False,False
+IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,312,0.46776611694152925,False,False,False
+IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,310,0.46476761619190404,False,False,False
+BS_Accounts_Receivable,BS_Accounts Receivable,309,0.46326836581709147,False,True,False
+BS_Working_Capital,BS_Working Capital,308,0.4617691154422789,False,False,False
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,308,0.4617691154422789,False,False,False
+BS_Current_Liabilities,BS_Current Liabilities,308,0.4617691154422789,False,True,False
+BS_Total_Non_Current_Assets,BS_Total Non Current Assets,308,0.4617691154422789,False,False,False
+BS_Current_Assets,BS_Current Assets,308,0.4617691154422789,False,True,False
+IS_Normalized_EBITDA,IS_Normalized EBITDA,308,0.4617691154422789,False,False,False
+IS_Reconciled_Cost_Of_Revenue,IS_Reconciled Cost Of Revenue,308,0.4617691154422789,False,False,False
+IS_EBITDA,IS_EBITDA,308,0.4617691154422789,False,False,False
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,308,0.4617691154422789,False,False,False
+IS_Operating_Income,IS_Operating Income,308,0.4617691154422789,False,False,False
+IS_Gross_Profit,IS_Gross Profit,308,0.4617691154422789,False,False,False
+IS_Cost_Of_Revenue,IS_Cost Of Revenue,308,0.4617691154422789,False,False,False
+IS_EBIT,IS_EBIT,303,0.4542728635682159,False,False,False
+BS_Other_Payable,BS_Other Payable,302,0.4527736131934033,False,False,False
+officer_3_age,officer_3_age,302,0.4527736131934033,False,False,False
+officer_3_yearBorn,officer_3_yearBorn,302,0.4527736131934033,False,False,False
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,300,0.4497751124437781,False,False,False
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,298,0.44677661169415295,False,False,False
+IS_Total_Expenses,IS_Total Expenses,298,0.44677661169415295,False,False,False
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,298,0.44677661169415295,False,False,False
+bidSize,bidSize,297,0.4452773613193403,False,False,False
+askSize,askSize,297,0.4452773613193403,False,False,False
+BS_Long_Term_Debt_And_Capital_Lease_Obligation,BS_Long Term Debt And Capital Lease Obligation,296,0.44377811094452774,False,False,False
+IS_Interest_Income,IS_Interest Income,285,0.4272863568215892,False,False,False
+IS_Depreciation_Income_Statement,IS_Depreciation Income Statement,283,0.424287856071964,False,False,False
+IS_Reconciled_Depreciation,IS_Reconciled Depreciation,282,0.42278860569715143,False,False,False
+IS_Depreciation_And_Amortization_In_Income_Statement,IS_Depreciation And Amortization In Income Statement,282,0.42278860569715143,False,False,False
+IS_Other_Operating_Expenses,IS_Other Operating Expenses,281,0.42128935532233885,False,False,False
+earningsQuarterlyGrowth,earningsQuarterlyGrowth,279,0.41829085457271364,False,False,False
+earningsGrowth,earningsGrowth,279,0.41829085457271364,False,False,False
+BS_Total_Debt,BS_Total Debt,277,0.41529235382308843,False,False,False
+IS_Interest_Expense,IS_Interest Expense,277,0.41529235382308843,False,False,False
+BS_Invested_Capital,BS_Invested Capital,273,0.40929535232383807,False,False,False
+BS_Total_Capitalization,BS_Total Capitalization,273,0.40929535232383807,False,False,False
+BS_Buildings_And_Improvements,BS_Buildings And Improvements,272,0.4077961019490255,False,False,False
+BS_Cash_Financial,BS_Cash Financial,269,0.4032983508245877,False,False,False
+IS_Operating_Expense,IS_Operating Expense,269,0.4032983508245877,False,False,False
+BS_Accounts_Payable,BS_Accounts Payable,268,0.4017991004497751,False,True,False
+BS_Prepaid_Assets,BS_Prepaid Assets,267,0.4002998500749625,False,False,False
+BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,263,0.39430284857571213,False,False,False
+BS_Accumulated_Depreciation,BS_Accumulated Depreciation,262,0.39280359820089955,False,False,False
+IS_Net_Interest_Income,IS_Net Interest Income,262,0.39280359820089955,False,False,False
+BS_Ordinary_Shares_Number,BS_Ordinary Shares Number,260,0.38980509745127434,False,False,False
+BS_Share_Issued,BS_Share Issued,260,0.38980509745127434,False,False,False
+BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,260,0.38980509745127434,False,False,False
+BS_Net_PPE,BS_Net PPE,260,0.38980509745127434,False,False,False
+BS_Gross_PPE,BS_Gross PPE,260,0.38980509745127434,False,False,False
+IS_Selling_General_And_Administration,IS_Selling General And Administration,260,0.38980509745127434,False,False,False
+IS_General_And_Administrative_Expense,IS_General And Administrative Expense,260,0.38980509745127434,False,False,False
+BS_Tangible_Book_Value,BS_Tangible Book Value,259,0.38830584707646176,False,False,False
+BS_Net_Tangible_Assets,BS_Net Tangible Assets,259,0.38830584707646176,False,False,False
+BS_Common_Stock_Equity,BS_Common Stock Equity,259,0.38830584707646176,False,False,False
+BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,259,0.38830584707646176,False,False,False
+BS_Stockholders_Equity,BS_Stockholders Equity,259,0.38830584707646176,False,False,False
+BS_Retained_Earnings,BS_Retained Earnings,259,0.38830584707646176,False,False,False
+BS_Capital_Stock,BS_Capital Stock,259,0.38830584707646176,False,False,False
+BS_Common_Stock,BS_Common Stock,259,0.38830584707646176,False,False,False
+BS_Total_Liabilities_Net_Minority_Interest,BS_Total Liabilities Net Minority Interest,259,0.38830584707646176,False,False,False
+BS_Payables,BS_Payables,259,0.38830584707646176,False,False,False
+BS_Total_Tax_Payable,BS_Total Tax Payable,259,0.38830584707646176,False,False,False
+BS_Total_Assets,BS_Total Assets,259,0.38830584707646176,False,True,False
+BS_Cash_And_Cash_Equivalents,BS_Cash And Cash Equivalents,259,0.38830584707646176,False,False,False
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,259,0.38830584707646176,False,False,False
+IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,259,0.38830584707646176,False,False,False
+IS_Net_Income_From_Continuing_Operation_Net_Minority_Interest,IS_Net Income From Continuing Operation Net Minority Interest,259,0.38830584707646176,False,False,False
+IS_Normalized_Income,IS_Normalized Income,259,0.38830584707646176,False,False,False
+IS_Net_Income_From_Continuing_And_Discontinued_Operation,IS_Net Income From Continuing And Discontinued Operation,259,0.38830584707646176,False,False,False
+IS_Diluted_NI_Availto_Com_Stockholders,IS_Diluted NI Availto Com Stockholders,259,0.38830584707646176,False,False,False
+IS_Net_Income_Common_Stockholders,IS_Net Income Common Stockholders,259,0.38830584707646176,False,False,False
+IS_Net_Income,IS_Net Income,259,0.38830584707646176,False,True,False
+IS_Net_Income_Including_Noncontrolling_Interests,IS_Net Income Including Noncontrolling Interests,259,0.38830584707646176,False,False,False
+IS_Net_Income_Continuous_Operations,IS_Net Income Continuous Operations,259,0.38830584707646176,False,False,False
+IS_Tax_Provision,IS_Tax Provision,259,0.38830584707646176,False,False,False
+IS_Pretax_Income,IS_Pretax Income,259,0.38830584707646176,False,False,False
+IS_Total_Revenue,IS_Total Revenue,259,0.38830584707646176,False,False,False
+IS_Operating_Revenue,IS_Operating Revenue,259,0.38830584707646176,False,False,False
+trailingPE,trailingPE,254,0.3808095952023988,False,False,False
+payoutRatio,payoutRatio,250,0.3748125937031484,False,False,False
+exDividendDate,exDividendDate,242,0.36281859070464767,False,False,False
+lastDividendValue,lastDividendValue,240,0.3598200899550225,False,False,False
+lastDividendDate,lastDividendDate,240,0.3598200899550225,False,False,False
+officer_4_name,officer_4_name,235,0.3523238380809595,False,False,False
+officer_4_title,officer_4_title,235,0.3523238380809595,False,False,False
+officer_2_age,officer_2_age,214,0.32083958020989506,False,False,False
+officer_2_yearBorn,officer_2_yearBorn,214,0.32083958020989506,False,False,False
+fax,fax,171,0.2563718140929535,False,False,False
+debtToEquity,debtToEquity,144,0.2158920539730135,False,True,False
+freeCashflow,freeCashflow,124,0.18590704647676162,False,True,False
+trailingEps,trailingEps,120,0.17991004497751126,False,False,False
+beta,beta,114,0.17091454272863568,False,False,False
+enterpriseToEbitda,enterpriseToEbitda,106,0.15892053973013492,False,False,False
+ebitda,ebitda,106,0.15892053973013492,False,True,False
+officer_3_name,officer_3_name,106,0.15892053973013492,False,False,False
+officer_3_title,officer_3_title,106,0.15892053973013492,False,False,False
+officer_1_age,officer_1_age,105,0.15742128935532235,False,False,False
+officer_1_yearBorn,officer_1_yearBorn,105,0.15742128935532235,False,False,False
+epsTrailingTwelveMonths,epsTrailingTwelveMonths,82,0.12293853073463268,False,False,False
+quickRatio,quickRatio,81,0.12143928035982009,False,True,False
+currentRatio,currentRatio,81,0.12143928035982009,False,True,False
+returnOnEquity,returnOnEquity,74,0.11094452773613193,False,True,False
+zip,zip,72,0.10794602698650675,False,False,False
+returnOnAssets,returnOnAssets,64,0.095952023988006,False,True,False
+revenueGrowth,revenueGrowth,57,0.08545727136431784,False,True,False
+floatShares,floatShares,53,0.07946026986506746,False,False,False
+officer_2_name,officer_2_name,53,0.07946026986506746,False,False,False
+officer_2_title,officer_2_title,53,0.07946026986506746,False,False,False
+phone,phone,50,0.07496251874062969,False,False,False
+fullTimeEmployees,fullTimeEmployees,50,0.07496251874062969,False,False,False
+Revenue_2024,Revenue 2024,47,0.0704647676161919,False,False,False
+operatingCashflow,operatingCashflow,46,0.06896551724137931,False,True,False
+website,website,44,0.06596701649175413,False,False,False
+priceToSalesTrailing12Months,priceToSalesTrailing12Months,44,0.06596701649175413,False,False,False
+heldPercentInsiders,heldPercentInsiders,44,0.06596701649175413,False,False,False
+heldPercentInstitutions,heldPercentInstitutions,44,0.06596701649175413,False,False,False
+enterpriseToRevenue,enterpriseToRevenue,44,0.06596701649175413,False,False,False
+totalRevenue,totalRevenue,44,0.06596701649175413,False,True,False
+revenuePerShare,revenuePerShare,44,0.06596701649175413,False,False,False
+city,city,43,0.06446776611694154,False,False,False
+country,country,43,0.06446776611694154,False,False,False
+industry,industry,43,0.06446776611694154,False,False,False
+industryKey,industryKey,43,0.06446776611694154,False,True,False
+industryDisp,industryDisp,43,0.06446776611694154,False,False,False
+sector,sector,43,0.06446776611694154,False,False,False
+sectorKey,sectorKey,43,0.06446776611694154,False,True,False
+sectorDisp,sectorDisp,43,0.06446776611694154,False,False,False
+executiveTeam,executiveTeam,43,0.06446776611694154,False,False,False
+enterpriseValue,enterpriseValue,43,0.06446776611694154,False,True,False
+profitMargins,profitMargins,43,0.06446776611694154,False,True,False
+impliedSharesOutstanding,impliedSharesOutstanding,43,0.06446776611694154,False,False,False
+lastFiscalYearEnd,lastFiscalYearEnd,43,0.06446776611694154,False,False,False
+nextFiscalYearEnd,nextFiscalYearEnd,43,0.06446776611694154,False,False,False
+mostRecentQuarter,mostRecentQuarter,43,0.06446776611694154,False,False,False
+netIncomeToCommon,netIncomeToCommon,43,0.06446776611694154,False,False,False
+col_52WeekChange,52WeekChange,43,0.06446776611694154,False,False,False
+SandP52WeekChange,SandP52WeekChange,43,0.06446776611694154,False,False,False
+totalCash,totalCash,43,0.06446776611694154,False,True,False
+totalCashPerShare,totalCashPerShare,43,0.06446776611694154,False,False,False
+totalDebt,totalDebt,43,0.06446776611694154,False,True,False
+grossProfits,grossProfits,43,0.06446776611694154,False,True,False
+grossMargins,grossMargins,43,0.06446776611694154,False,True,False
+ebitdaMargins,ebitdaMargins,43,0.06446776611694154,False,False,False
+operatingMargins,operatingMargins,43,0.06446776611694154,False,True,False
+longName,longName,43,0.06446776611694154,False,False,False
+officer_1_name,officer_1_name,43,0.06446776611694154,False,False,False
+officer_1_title,officer_1_title,43,0.06446776611694154,False,False,False
+maxAge,maxAge,42,0.06296851574212893,False,False,False
+previousClose,previousClose,42,0.06296851574212893,False,False,False
+open,open,42,0.06296851574212893,False,False,False
+dayLow,dayLow,42,0.06296851574212893,False,False,False
+dayHigh,dayHigh,42,0.06296851574212893,False,False,False
+volume,volume,42,0.06296851574212893,False,False,False
+averageVolume,averageVolume,42,0.06296851574212893,False,False,False
+averageVolume10days,averageVolume10days,42,0.06296851574212893,False,False,False
+currentPrice,currentPrice,42,0.06296851574212893,False,False,False
+recommendationKey,recommendationKey,42,0.06296851574212893,False,False,False
+Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),41,0.06146926536731634,False,False,False
+Revenue_2023,Revenue 2023,41,0.06146926536731634,False,False,False
+CYC_2023,CYC 2023,41,0.06146926536731634,False,False,False
+CR_2023,CR 2023,41,0.06146926536731634,False,False,False
+CYC_2024,CYC 2024,41,0.06146926536731634,False,False,False
+CR_2024,CR 2024,41,0.06146926536731634,False,False,False
+regularMarketOpen,regularMarketOpen,9,0.013493253373313344,False,False,False
+regularMarketDayLow,regularMarketDayLow,9,0.013493253373313344,False,False,False
+regularMarketDayHigh,regularMarketDayHigh,9,0.013493253373313344,False,False,False
+regularMarketVolume,regularMarketVolume,9,0.013493253373313344,False,False,False
+bid,bid,9,0.013493253373313344,False,False,False
+ask,ask,9,0.013493253373313344,False,False,False
+trailingAnnualDividendYield,trailingAnnualDividendYield,9,0.013493253373313344,False,False,False
+regularMarketDayRange,regularMarketDayRange,9,0.013493253373313344,False,False,False
+trailingAnnualDividendRate,trailingAnnualDividendRate,8,0.01199400299850075,False,False,False
+marketCap,marketCap,6,0.008995502248875561,False,True,False
+sharesOutstanding,sharesOutstanding,6,0.008995502248875561,False,False,False
+bookValue,bookValue,5,0.0074962518740629685,False,False,False
+priceToBook,priceToBook,5,0.0074962518740629685,False,False,False
+financialCurrency,financialCurrency,2,0.0029985007496251873,False,False,False
+messageBoardId,messageBoardId,2,0.0029985007496251873,False,False,False
+IDXCode,IDXCode,0,0.0,False,False,False
+Company_Name,Company Name,0,0.0,False,False,False
+address1,address1,0,0.0,False,False,False
+address2,address2,0,0.0,False,False,False
+longBusinessSummary,longBusinessSummary,0,0.0,False,False,False
+priceHint,priceHint,0,0.0,False,False,False
+regularMarketPreviousClose,regularMarketPreviousClose,0,0.0,False,False,False
+averageDailyVolume10Day,averageDailyVolume10Day,0,0.0,False,False,False
+fiftyTwoWeekLow,fiftyTwoWeekLow,0,0.0,False,False,False
+fiftyTwoWeekHigh,fiftyTwoWeekHigh,0,0.0,False,False,False
+fiftyDayAverage,fiftyDayAverage,0,0.0,False,False,False
+twoHundredDayAverage,twoHundredDayAverage,0,0.0,False,False,False
+currency,currency,0,0.0,False,False,False
+tradeable,tradeable,0,0.0,False,False,False
+quoteType,quoteType,0,0.0,False,False,False
+symbol,symbol,0,0.0,False,False,False
+language,language,0,0.0,False,False,False
+region,region,0,0.0,False,False,False
+typeDisp,typeDisp,0,0.0,False,False,False
+quoteSourceName,quoteSourceName,0,0.0,False,False,False
+triggerable,triggerable,0,0.0,False,False,False
+customPriceAlertConfidence,customPriceAlertConfidence,0,0.0,False,False,False
+exchange,exchange,0,0.0,False,False,False
+exchangeTimezoneName,exchangeTimezoneName,0,0.0,False,False,False
+exchangeTimezoneShortName,exchangeTimezoneShortName,0,0.0,False,False,False
+gmtOffSetMilliseconds,gmtOffSetMilliseconds,0,0.0,False,False,False
+market,market,0,0.0,False,False,False
+esgPopulated,esgPopulated,0,0.0,False,False,False
+regularMarketChangePercent,regularMarketChangePercent,0,0.0,False,False,False
+regularMarketPrice,regularMarketPrice,0,0.0,False,False,False
+shortName,shortName,0,0.0,False,False,False
+hasPrePostMarketData,hasPrePostMarketData,0,0.0,False,False,False
+firstTradeDateMilliseconds,firstTradeDateMilliseconds,0,0.0,False,False,False
+regularMarketChange,regularMarketChange,0,0.0,False,False,False
+fullExchangeName,fullExchangeName,0,0.0,False,False,False
+averageDailyVolume3Month,averageDailyVolume3Month,0,0.0,False,False,False
+fiftyTwoWeekLowChange,fiftyTwoWeekLowChange,0,0.0,False,False,False
+fiftyTwoWeekLowChangePercent,fiftyTwoWeekLowChangePercent,0,0.0,False,False,False
+fiftyTwoWeekRange,fiftyTwoWeekRange,0,0.0,False,False,False
+fiftyTwoWeekHighChange,fiftyTwoWeekHighChange,0,0.0,False,False,False
+fiftyTwoWeekHighChangePercent,fiftyTwoWeekHighChangePercent,0,0.0,False,False,False
+fiftyTwoWeekChangePercent,fiftyTwoWeekChangePercent,0,0.0,False,False,False
+fiftyDayAverageChange,fiftyDayAverageChange,0,0.0,False,False,False
+fiftyDayAverageChangePercent,fiftyDayAverageChangePercent,0,0.0,False,False,False
+twoHundredDayAverageChange,twoHundredDayAverageChange,0,0.0,False,False,False
+twoHundredDayAverageChangePercent,twoHundredDayAverageChangePercent,0,0.0,False,False,False
+sourceInterval,sourceInterval,0,0.0,False,False,False
+exchangeDataDelayedBy,exchangeDataDelayedBy,0,0.0,False,False,False
+cryptoTradeable,cryptoTradeable,0,0.0,False,False,False
+regularMarketTime,regularMarketTime,0,0.0,False,False,False
+CF_Free_Cash_Flow,CF_Free Cash Flow,0,0.0,False,False,False
+CF_Repayment_Of_Debt,CF_Repayment Of Debt,0,0.0,False,False,False
+CF_Issuance_Of_Debt,CF_Issuance Of Debt,0,0.0,False,False,False
+CF_Capital_Expenditure,CF_Capital Expenditure,0,0.0,False,False,False
+CF_End_Cash_Position,CF_End Cash Position,0,0.0,False,False,False
+CF_Beginning_Cash_Position,CF_Beginning Cash Position,0,0.0,False,False,False
+CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0,0.0,False,False,False
+CF_Changes_In_Cash,CF_Changes In Cash,0,0.0,False,False,False
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,0,0.0,False,False,False
+CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0,0.0,False,False,False
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,0,0.0,False,False,False
+CF_Cash_Dividends_Paid,CF_Cash Dividends Paid,0,0.0,False,False,False
+CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0,0.0,False,False,False
+CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0,0.0,False,False,False
+CF_Net_Long_Term_Debt_Issuance,CF_Net Long Term Debt Issuance,0,0.0,False,False,False
+CF_Long_Term_Debt_Payments,CF_Long Term Debt Payments,0,0.0,False,False,False
+CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0,0.0,False,False,False
+CF_Investing_Cash_Flow,CF_Investing Cash Flow,0,0.0,False,False,False
+CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0,0.0,False,False,False
+CF_Net_PPE_Purchase_And_Sale,CF_Net PPE Purchase And Sale,0,0.0,False,False,False
+CF_Purchase_Of_PPE,CF_Purchase Of PPE,0,0.0,False,False,False
+CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0,0.0,False,False,False
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0,0.0,False,False,False
+CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0,0.0,False,False,False
+CF_Interest_Received_Direct,CF_Interest Received Direct,0,0.0,False,False,False
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0,0.0,False,False,False
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0,0.0,False,False,False
+CF_Paymentsto_Suppliersfor_Goodsand_Services,CF_Paymentsto Suppliersfor Goodsand Services,0,0.0,False,False,False
+CF_Classesof_Cash_Receiptsfrom_Operating_Activities,CF_Classesof Cash Receiptsfrom Operating Activities,0,0.0,False,False,False
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0,0.0,False,False,False
+hasRiskOfficer,hasRiskOfficer,0,0.0,False,False,False
+CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0,0.0,False,False,False
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0,0.0,False,False,False
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0,0.0,False,False,False
+CF_Common_Stock_Issuance,CF_Common Stock Issuance,0,0.0,False,False,False
+CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0,0.0,False,False,False
+CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0,0.0,False,False,False
+CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0,0.0,False,False,False
+CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0,0.0,False,False,False
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0,0.0,False,False,False
+CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0,0.0,False,False,False
+CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0,0.0,False,False,False
+CF_Sale_Of_Business,CF_Sale Of Business,0,0.0,False,False,False
+CF_Purchase_Of_Business,CF_Purchase Of Business,0,0.0,False,False,False
+CF_Net_Intangibles_Purchase_And_Sale,CF_Net Intangibles Purchase And Sale,0,0.0,False,False,False
+CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0,0.0,False,False,False
+CF_Sale_Of_PPE,CF_Sale Of PPE,0,0.0,False,False,False
+CF_Interest_Paid_Direct,CF_Interest Paid Direct,0,0.0,False,False,False
+CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0,0.0,False,False,False
+CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0,0.0,False,False,False
+CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0,0.0,False,False,False
+CF_Sale_Of_Investment,CF_Sale Of Investment,0,0.0,False,False,False
+CF_Purchase_Of_Investment,CF_Purchase Of Investment,0,0.0,False,False,False
+CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0,0.0,False,False,False
+CF_Common_Stock_Payments,CF_Common Stock Payments,0,0.0,False,False,False
+CF_Purchase_Of_Investment_Properties,CF_Purchase Of Investment Properties,0,0.0,False,False,False
+CF_Other_Cash_Adjustment_Inside_Changein_Cash,CF_Other Cash Adjustment Inside Changein Cash,0,0.0,False,False,False
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,0,0.0,False,False,False
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0,0.0,False,False,False
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,0,0.0,False,False,False
+CF_Taxes_Refund_Paid,CF_Taxes Refund Paid,0,0.0,False,False,False
+CF_Interest_Received_Cfo,CF_Interest Received Cfo,0,0.0,False,False,False
+CF_Interest_Paid_Cfo,CF_Interest Paid Cfo,0,0.0,False,False,False
+CF_Change_In_Working_Capital,CF_Change In Working Capital,0,0.0,False,False,False
+CF_Change_In_Other_Current_Liabilities,CF_Change In Other Current Liabilities,0,0.0,False,False,False
+CF_Change_In_Other_Current_Assets,CF_Change In Other Current Assets,0,0.0,False,False,False
+CF_Change_In_Payable,CF_Change In Payable,0,0.0,False,False,False
+CF_Change_In_Receivables,CF_Change In Receivables,0,0.0,False,False,False
+CF_Dividends_Received_Direct,CF_Dividends Received Direct,0,0.0,False,False,False
+CF_Change_In_Accrued_Expense,CF_Change In Accrued Expense,0,0.0,False,False,False
+CF_Net_Foreign_Currency_Exchange_Gain_Loss,CF_Net Foreign Currency Exchange Gain Loss,0,0.0,False,False,False
+CF_Cash_Flow_From_Continuing_Financing_Activities,CF_Cash Flow From Continuing Financing Activities,0,0.0,False,False,False
+CF_Cash_Flow_From_Continuing_Investing_Activities,CF_Cash Flow From Continuing Investing Activities,0,0.0,False,False,False

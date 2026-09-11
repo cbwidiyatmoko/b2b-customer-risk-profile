@@ -1,0 +1,18 @@
+{
+    "best_model_name": "StackedEnsemble",
+    "n_test_rows": 144,
+    "n_correct": 114,
+    "n_wrong": 30,
+    "n_uncertain": 38,
+    "n_certain": 106,
+    "uncertain_ratio": 0.2638888888888889,
+    "wrong_ratio": 0.20833333333333334,
+    "accuracy_in_uncertain_cases": 0.5789473684210527,
+    "accuracy_in_certain_cases": 0.8679245283018868,
+    "avg_max_proba": 0.7478966116905212,
+    "avg_margin": 0.5888392329216003,
+    "avg_entropy_norm": 0.5952683275898782,
+    "median_max_proba": 0.8134271502494812,
+    "median_margin": 0.7173986434936523,
+    "median_entropy_norm": 0.5530809160090462
+}

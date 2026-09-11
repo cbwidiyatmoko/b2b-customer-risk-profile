@@ -1,0 +1,4 @@
+class_label,encoded_value
+High Risk,0
+Low Risk,1
+Medium Risk,2

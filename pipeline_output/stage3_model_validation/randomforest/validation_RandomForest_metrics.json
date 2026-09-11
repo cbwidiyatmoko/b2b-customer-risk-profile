@@ -1,0 +1,22 @@
+{
+    "model": "RandomForest",
+    "dataset": "validation",
+    "accuracy": 0.7412587412587412,
+    "balanced_accuracy": 0.721450994070457,
+    "macro_precision": 0.7346877448297326,
+    "macro_recall": 0.721450994070457,
+    "macro_f1": 0.7256624423963133,
+    "weighted_precision": 0.7413456500677597,
+    "weighted_recall": 0.7412587412587412,
+    "weighted_f1": 0.7393966920176597,
+    "macro_ovr_auc": 0.8962614745838691,
+    "recall_High Risk": 0.819672131147541,
+    "precision_High Risk": 0.7936507936507936,
+    "f1_High Risk": 0.8064516129032258,
+    "recall_Low Risk": 0.7446808510638298,
+    "precision_Low Risk": 0.6862745098039216,
+    "f1_Low Risk": 0.7142857142857143,
+    "recall_Medium Risk": 0.6,
+    "precision_Medium Risk": 0.7241379310344828,
+    "f1_Medium Risk": 0.65625
+}

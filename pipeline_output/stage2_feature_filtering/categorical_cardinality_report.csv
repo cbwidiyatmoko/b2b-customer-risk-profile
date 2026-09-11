@@ -1,0 +1,7 @@
+column,original_column,n_unique,unique_ratio,is_high_cardinality,is_mandatory_protected,will_be_dropped
+address2,address2,667,1.0,True,False,True
+messageBoardId,messageBoardId,663,0.9940029985007496,True,False,True
+industry,industry,100,0.14992503748125938,True,False,True
+industryKey,industryKey,100,0.14992503748125938,True,True,False
+industryDisp,industryDisp,100,0.14992503748125938,True,False,True
+sectorKey,sectorKey,11,0.01649175412293853,False,True,False

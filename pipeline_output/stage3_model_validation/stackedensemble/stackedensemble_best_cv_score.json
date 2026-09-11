@@ -1,0 +1,9 @@
+{
+    "model": "StackedEnsemble",
+    "best_cv_score": 0.7378970505372082,
+    "end_to_end_cv_std": 0.03488413076921871,
+    "meta_best_cv_score": 0.7403538920371521,
+    "final_meta_high_risk_weight": 1.0,
+    "scoring": "f1_macro",
+    "note": "best_cv_score is fixed-configuration end-to-end SE CV. meta_best_cv_score is RandomizedSearchCV on OOF meta-features. Final meta class weight is locked at 1.00."
+}

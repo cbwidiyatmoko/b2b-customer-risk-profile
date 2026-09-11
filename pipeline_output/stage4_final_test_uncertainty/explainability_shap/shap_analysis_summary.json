@@ -1,0 +1,161 @@
+{
+    "model_name": "StackedEnsemble",
+    "explainer_type": "KernelExplainer_model_agnostic",
+    "n_total_test_rows": 144,
+    "n_background_rows": 50,
+    "n_explained_rows": 144,
+    "n_features": 164,
+    "n_classes": 3,
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "shap_values_shape": [
+        144,
+        164,
+        3
+    ],
+    "top_global_features": [
+        {
+            "feature": "sectorKey",
+            "original_column": "sectorKey",
+            "mean_abs_shap_global": 0.04146607310568801,
+            "shap_global_rank": 1
+        },
+        {
+            "feature": "CF_Classesof_Cash_Payments",
+            "original_column": "CF_Classesof Cash Payments",
+            "mean_abs_shap_global": 0.03484392004708347,
+            "shap_global_rank": 2
+        },
+        {
+            "feature": "profitMargins",
+            "original_column": "profitMargins",
+            "mean_abs_shap_global": 0.020213918687387714,
+            "shap_global_rank": 3
+        },
+        {
+            "feature": "IS_Net_Income",
+            "original_column": "IS_Net Income",
+            "mean_abs_shap_global": 0.020145238975631734,
+            "shap_global_rank": 4
+        },
+        {
+            "feature": "IS_EBIT",
+            "original_column": "IS_EBIT",
+            "mean_abs_shap_global": 0.01654979354620552,
+            "shap_global_rank": 5
+        },
+        {
+            "feature": "totalRevenue",
+            "original_column": "totalRevenue",
+            "mean_abs_shap_global": 0.010391204842670986,
+            "shap_global_rank": 6
+        },
+        {
+            "feature": "enterpriseToRevenue",
+            "original_column": "enterpriseToRevenue",
+            "mean_abs_shap_global": 0.010338024899439191,
+            "shap_global_rank": 7
+        },
+        {
+            "feature": "CF_Receiptsfrom_Customers",
+            "original_column": "CF_Receiptsfrom Customers",
+            "mean_abs_shap_global": 0.006419856429424004,
+            "shap_global_rank": 8
+        },
+        {
+            "feature": "ebitdaMargins",
+            "original_column": "ebitdaMargins",
+            "mean_abs_shap_global": 0.004090680333490906,
+            "shap_global_rank": 9
+        },
+        {
+            "feature": "BS_Net_Debt",
+            "original_column": "BS_Net Debt",
+            "mean_abs_shap_global": 0.003436209346833048,
+            "shap_global_rank": 10
+        },
+        {
+            "feature": "totalCashPerShare",
+            "original_column": "totalCashPerShare",
+            "mean_abs_shap_global": 0.003343001013610635,
+            "shap_global_rank": 11
+        },
+        {
+            "feature": "IS_Net_Interest_Income",
+            "original_column": "IS_Net Interest Income",
+            "mean_abs_shap_global": 0.0032436190734467887,
+            "shap_global_rank": 12
+        },
+        {
+            "feature": "returnOnEquity",
+            "original_column": "returnOnEquity",
+            "mean_abs_shap_global": 0.003006684487488294,
+            "shap_global_rank": 13
+        },
+        {
+            "feature": "BS_Common_Stock",
+            "original_column": "BS_Common Stock",
+            "mean_abs_shap_global": 0.002949510922357823,
+            "shap_global_rank": 14
+        },
+        {
+            "feature": "currentRatio",
+            "original_column": "currentRatio",
+            "mean_abs_shap_global": 0.0028237309654803523,
+            "shap_global_rank": 15
+        },
+        {
+            "feature": "revenuePerShare",
+            "original_column": "revenuePerShare",
+            "mean_abs_shap_global": 0.0026530406400926535,
+            "shap_global_rank": 16
+        },
+        {
+            "feature": "enterpriseToEbitda",
+            "original_column": "enterpriseToEbitda",
+            "mean_abs_shap_global": 0.002471787806066041,
+            "shap_global_rank": 17
+        },
+        {
+            "feature": "BS_Total_Tax_Payable",
+            "original_column": "BS_Total Tax Payable",
+            "mean_abs_shap_global": 0.002356420226537238,
+            "shap_global_rank": 18
+        },
+        {
+            "feature": "grossProfits",
+            "original_column": "grossProfits",
+            "mean_abs_shap_global": 0.0019488897720041749,
+            "shap_global_rank": 19
+        },
+        {
+            "feature": "CF_Other_Cash_Paymentsfrom_Operating_Activities",
+            "original_column": "CF_Other Cash Paymentsfrom Operating Activities",
+            "mean_abs_shap_global": 0.0019158247677038347,
+            "shap_global_rank": 20
+        }
+    ],
+    "outputs": {
+        "shap_config": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_config.json",
+        "explained_sample_index": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_explained_sample_index.csv",
+        "shap_values_npz": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_values_array.npz",
+        "shap_global_importance": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_global_importance.csv",
+        "shap_class_specific_importance": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_class_specific_importance.csv",
+        "shap_local_explanation": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_local_explanation_predicted_class_top_features.csv",
+        "shap_entity_level_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_entity_level_summary.csv",
+        "shap_entity_level_summary_enriched": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_entity_level_summary_enriched.xlsx",
+        "shap_global_plot": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_global_importance_top_features.png",
+        "shap_class_plots": {
+            "High Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_class_specific_importance_High_Risk.png",
+            "Low Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_class_specific_importance_Low_Risk.png",
+            "Medium Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_class_specific_importance_Medium_Risk.png"
+        },
+        "local_plot_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\local_explanation_plots",
+        "top20_global": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_global_top20.csv",
+        "top20_class_specific": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\explainability_shap\\shap_class_specific_top20_each_class.csv"
+    },
+    "note": "SHAP values are computed for all final test rows. The background data is sampled only as the Kernel SHAP reference distribution."
+}

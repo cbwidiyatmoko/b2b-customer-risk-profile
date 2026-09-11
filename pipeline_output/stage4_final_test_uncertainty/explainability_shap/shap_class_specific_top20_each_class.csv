@@ -1,0 +1,61 @@
+class_label,class_index,feature,original_column,mean_abs_shap_class,shap_class_rank
+High Risk,0,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.047994106802622734,1
+High Risk,0,sectorKey,sectorKey,0.033289229759402156,2
+High Risk,0,profitMargins,profitMargins,0.029784955539828135,3
+High Risk,0,IS_Net_Income,IS_Net Income,0.02670381289446162,4
+High Risk,0,totalRevenue,totalRevenue,0.015381306154946558,5
+High Risk,0,enterpriseToRevenue,enterpriseToRevenue,0.009803220580625925,6
+High Risk,0,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.008564784198023053,7
+High Risk,0,IS_EBIT,IS_EBIT,0.006869541151967691,8
+High Risk,0,ebitdaMargins,ebitdaMargins,0.00548661393444328,9
+High Risk,0,IS_Net_Interest_Income,IS_Net Interest Income,0.005042775071419716,10
+High Risk,0,returnOnEquity,returnOnEquity,0.004686782351353765,11
+High Risk,0,currentRatio,currentRatio,0.00428624037362915,12
+High Risk,0,BS_Net_Debt,BS_Net Debt,0.00418272531895875,13
+High Risk,0,revenuePerShare,revenuePerShare,0.0038030986542013042,14
+High Risk,0,enterpriseToEbitda,enterpriseToEbitda,0.0033123130460436263,15
+High Risk,0,BS_Total_Tax_Payable,BS_Total Tax Payable,0.0031734241182964753,16
+High Risk,0,fullTimeEmployees,fullTimeEmployees,0.002381694886729552,17
+High Risk,0,grossProfits,grossProfits,0.0023367043071666795,18
+High Risk,0,ebitda,ebitda,0.0022824764302805016,19
+High Risk,0,quickRatio,quickRatio,0.002258081609159118,20
+Low Risk,1,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.046621765001182654,1
+Low Risk,1,sectorKey,sectorKey,0.03395124022539211,2
+Low Risk,1,enterpriseToRevenue,enterpriseToRevenue,0.01582135407114932,3
+Low Risk,1,IS_EBIT,IS_EBIT,0.013619878502414615,4
+Low Risk,1,totalRevenue,totalRevenue,0.012890042772965835,5
+Low Risk,1,IS_Net_Income,IS_Net Income,0.011434095451039553,6
+Low Risk,1,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.009290867059917482,7
+Low Risk,1,profitMargins,profitMargins,0.006672143756139055,8
+Low Risk,1,ebitdaMargins,ebitdaMargins,0.006425115801054677,9
+Low Risk,1,totalCashPerShare,totalCashPerShare,0.0055784551672716535,10
+Low Risk,1,BS_Net_Debt,BS_Net Debt,0.0055388496097663106,11
+Low Risk,1,BS_Common_Stock,BS_Common Stock,0.00548825210963534,12
+Low Risk,1,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.0034284637285679482,13
+Low Risk,1,debtToEquity,debtToEquity,0.0028378289730986712,14
+Low Risk,1,IS_Net_Interest_Income,IS_Net Interest Income,0.0027918110980025583,15
+Low Risk,1,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.002598551660615183,16
+Low Risk,1,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.002560003181769671,17
+Low Risk,1,revenuePerShare,revenuePerShare,0.0023873827842152903,18
+Low Risk,1,CR_2024,CR 2024,0.0023597806330156275,19
+Low Risk,1,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.002343627366794318,20
+Medium Risk,2,sectorKey,sectorKey,0.057157749332269775,1
+Medium Risk,2,IS_EBIT,IS_EBIT,0.029159960984234252,2
+Medium Risk,2,profitMargins,profitMargins,0.024184656766195953,3
+Medium Risk,2,IS_Net_Income,IS_Net Income,0.02229780858139403,4
+Medium Risk,2,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.009915888337445007,5
+Medium Risk,2,enterpriseToRevenue,enterpriseToRevenue,0.005389500046542332,6
+Medium Risk,2,returnOnEquity,returnOnEquity,0.003183056074822001,7
+Medium Risk,2,totalRevenue,totalRevenue,0.002902265600100565,8
+Medium Risk,2,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.002593104772597065,9
+Medium Risk,2,fullTimeEmployees,fullTimeEmployees,0.0024176161459185394,10
+Medium Risk,2,totalCashPerShare,totalCashPerShare,0.0023005415466781794,11
+Medium Risk,2,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.002174542858185105,12
+Medium Risk,2,currentRatio,currentRatio,0.0021417407902814146,13
+Medium Risk,2,enterpriseToEbitda,enterpriseToEbitda,0.0020354551982151308,14
+Medium Risk,2,BS_Common_Stock,BS_Common Stock,0.0019862839898469858,15
+Medium Risk,2,IS_Net_Interest_Income,IS_Net Interest Income,0.0018962710509180926,16
+Medium Risk,2,revenuePerShare,revenuePerShare,0.0017686404818613663,17
+Medium Risk,2,BS_Total_Tax_Payable,BS_Total Tax Payable,0.0016228927634406945,18
+Medium Risk,2,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.001615823842519245,19
+Medium Risk,2,totalCash,totalCash,0.0015911401268465996,20

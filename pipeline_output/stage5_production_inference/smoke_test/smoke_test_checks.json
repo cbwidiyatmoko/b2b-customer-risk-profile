@@ -1,0 +1,19 @@
+{
+    "file_based_row_count_match": true,
+    "dataframe_based_row_count_match": true,
+    "file_based_missing_prediction_columns": [],
+    "dataframe_based_missing_prediction_columns": [],
+    "file_based_schema_status": "PASS",
+    "dataframe_based_schema_status": "PASS",
+    "file_based_prediction_completed": true,
+    "dataframe_based_prediction_completed": true,
+    "file_based_labels_valid": true,
+    "dataframe_based_labels_valid": true,
+    "file_based_probability_range_valid": true,
+    "dataframe_based_probability_range_valid": true,
+    "expected_rows_file": 954,
+    "actual_rows_file": 954,
+    "expected_rows_dataframe": 10,
+    "actual_rows_dataframe": 10,
+    "smoke_test_passed": true
+}

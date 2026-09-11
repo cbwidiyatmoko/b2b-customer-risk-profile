@@ -1,0 +1,22 @@
+{
+    "model": "StackedEnsemble",
+    "dataset": "final_test",
+    "accuracy": 0.7916666666666666,
+    "balanced_accuracy": 0.780761926907724,
+    "macro_precision": 0.8087646383964326,
+    "macro_recall": 0.780761926907724,
+    "macro_f1": 0.7865079365079365,
+    "weighted_precision": 0.8047580200012988,
+    "weighted_recall": 0.7916666666666666,
+    "weighted_f1": 0.7913194444444445,
+    "macro_ovr_auc": 0.9137896273355174,
+    "recall_High Risk": 0.8032786885245902,
+    "precision_High Risk": 0.8305084745762712,
+    "f1_High Risk": 0.8166666666666667,
+    "recall_Low Risk": 0.8723404255319149,
+    "precision_Low Risk": 0.7068965517241379,
+    "f1_Low Risk": 0.780952380952381,
+    "recall_Medium Risk": 0.6666666666666666,
+    "precision_Medium Risk": 0.8888888888888888,
+    "f1_Medium Risk": 0.7619047619047619
+}

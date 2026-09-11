@@ -1,0 +1,10 @@
+split,riskLevel,count,proportion
+train,High Risk,283,0.424287856071964
+train,Low Risk,220,0.32983508245877063
+train,Medium Risk,164,0.24587706146926536
+validation,High Risk,61,0.42657342657342656
+validation,Low Risk,47,0.32867132867132864
+validation,Medium Risk,35,0.24475524475524477
+test,High Risk,61,0.4236111111111111
+test,Low Risk,47,0.3263888888888889
+test,Medium Risk,36,0.25

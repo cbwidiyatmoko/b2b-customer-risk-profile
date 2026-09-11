@@ -1,0 +1,5 @@
+{
+    "model": "SVM",
+    "best_cv_score": 0.4315256090530576,
+    "scoring": "f1_macro"
+}

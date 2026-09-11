@@ -1,0 +1,18 @@
+{
+    "note": "This cell only audits imputation targets. Actual imputation is performed inside the sklearn preprocessing pipeline.",
+    "numeric_imputation": {
+        "strategy": "median",
+        "missing_indicator": true
+    },
+    "categorical_imputation": {
+        "strategy": "constant",
+        "fill_value": "missing",
+        "missing_indicator": false
+    },
+    "n_final_features": 164,
+    "n_features_requiring_imputation": 114,
+    "n_numeric_features_with_missing_indicator": 112,
+    "imputation_report_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage2_feature_filtering\\imputation_target_report\\final_feature_set_imputation_target_report.csv",
+    "features_requiring_imputation_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage2_feature_filtering\\imputation_target_report\\features_requiring_imputation.csv",
+    "numeric_missing_indicator_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage2_feature_filtering\\imputation_target_report\\numeric_missing_indicator_features.csv"
+}

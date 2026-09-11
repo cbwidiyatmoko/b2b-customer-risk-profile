@@ -1,0 +1,16 @@
+{
+    "explainer_type": "KernelExplainer_model_agnostic",
+    "background_size": 50,
+    "explain_size": 144,
+    "nsamples": 200,
+    "local_top_n": 15,
+    "global_top_n": 30,
+    "model_name": "StackedEnsemble",
+    "n_features": 164,
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "note": "Model-agnostic Kernel SHAP is used so the same cell works for SVM, Random Forest pipeline, and Stacked Ensemble."
+}

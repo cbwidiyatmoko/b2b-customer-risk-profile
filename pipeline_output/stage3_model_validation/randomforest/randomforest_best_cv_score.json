@@ -1,0 +1,5 @@
+{
+    "model": "RandomForest",
+    "best_cv_score": 0.7398153358917352,
+    "scoring": "f1_macro"
+}

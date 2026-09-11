@@ -1,0 +1,43 @@
+feature,original_column,feature_group,in_rw_ucfi_topk,in_shap_topk,in_random_control,rw_ucfi_global_rank,rw_ucfi_score_global,shap_global_rank,mean_abs_shap_global
+BS_Common_Stock,BS_Common Stock,shared_rw_ucfi_and_shap_topk,True,True,False,19,0.002868266551055479,14,0.002949510922357823
+BS_Current_Assets,BS_Current Assets,random_control,False,False,True,58,0.0013563531578481116,58,0.0009398662024095755
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,random_control,False,False,True,148,0.000624219470915212,121,0.0005773561041302229
+BS_Current_Liabilities,BS_Current Liabilities,random_control,False,False,True,115,0.000883353699096313,113,0.0005970345691553419
+BS_Land_And_Improvements,BS_Land And Improvements,random_control,False,False,True,111,0.000916127750551144,128,0.0005270782922878807
+BS_Net_Debt,BS_Net Debt,shared_rw_ucfi_and_shap_topk,True,True,False,11,0.005284145266025923,10,0.003436209346833048
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,random_control,False,False,True,157,0.0004945383793345249,145,0.00043323914372236076
+BS_Total_Tax_Payable,BS_Total Tax Payable,shared_rw_ucfi_and_shap_topk,True,True,False,17,0.0031586662200403567,18,0.002356420226537238
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,shared_rw_ucfi_and_shap_topk,True,True,False,2,0.04965721972666612,2,0.03484392004708347
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,random_control,False,False,True,160,0.0002756659912163248,159,0.00021807076739927718
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,random_control,False,False,True,89,0.0011018361318233434,87,0.0007396907524302442
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,rw_ucfi_topk_only,True,False,False,20,0.002821632512134844,22,0.0018229185694942274
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,random_control,False,False,True,125,0.0007929852277797133,95,0.0007155553051701618
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,random_control,False,False,True,107,0.0009546621023480893,98,0.000708580310608174
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,random_control,False,False,True,112,0.0009099212306102514,125,0.0005523318152546815
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,shap_topk_only,False,True,False,28,0.002134680284995241,20,0.0019158247677038347
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,shared_rw_ucfi_and_shap_topk,True,True,False,8,0.008644089824622515,8,0.006419856429424004
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,random_control,False,False,True,163,0.0,163,0.0
+CYC_2024,CYC 2024,random_control,False,False,True,40,0.0016413934316838357,37,0.0012113261408136578
+IS_EBIT,IS_EBIT,shared_rw_ucfi_and_shap_topk,True,True,False,5,0.024371717330219898,5,0.01654979354620552
+IS_Interest_Expense,IS_Interest Expense,random_control,False,False,True,61,0.001334026986833138,46,0.001039607793200682
+IS_Minority_Interests,IS_Minority Interests,random_control,False,False,True,93,0.0010779906910854298,81,0.0007996789896641485
+IS_Net_Income,IS_Net Income,shared_rw_ucfi_and_shap_topk,True,True,False,4,0.03274329080609094,4,0.020145238975631734
+IS_Net_Interest_Income,IS_Net Interest Income,shared_rw_ucfi_and_shap_topk,True,True,False,12,0.005137093281285878,12,0.0032436190734467887
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,random_control,False,False,True,31,0.0020114876820975795,34,0.0013618645123561867
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,random_control,False,False,True,156,0.0005019518679321524,150,0.0004057151476374232
+IS_Selling_General_And_Administration,IS_Selling General And Administration,random_control,False,False,True,136,0.0007269910663968552,132,0.0005056596592930573
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,random_control,False,False,True,101,0.0010252751137710121,99,0.0006969305834486546
+currentRatio,currentRatio,shared_rw_ucfi_and_shap_topk,True,True,False,13,0.00426603768019697,15,0.0028237309654803523
+debtToEquity,debtToEquity,random_control,False,False,True,29,0.0021017216301431312,29,0.001622265025665777
+ebitdaMargins,ebitdaMargins,shared_rw_ucfi_and_shap_topk,True,True,False,9,0.006639088670284364,9,0.004090680333490906
+enterpriseToEbitda,enterpriseToEbitda,shared_rw_ucfi_and_shap_topk,True,True,False,16,0.003766682470319354,17,0.002471787806066041
+enterpriseToRevenue,enterpriseToRevenue,shared_rw_ucfi_and_shap_topk,True,True,False,7,0.011805507343861713,7,0.010338024899439191
+fullTimeEmployees,fullTimeEmployees,rw_ucfi_topk_only,True,False,False,18,0.003122342884764907,26,0.0017102144673798337
+grossProfits,grossProfits,shap_topk_only,False,True,False,21,0.0027226489145634213,19,0.0019488897720041749
+mostRecentQuarter,mostRecentQuarter,random_control,False,False,True,71,0.0012236727537827158,82,0.0007844102674263255
+profitMargins,profitMargins,shared_rw_ucfi_and_shap_topk,True,True,False,3,0.03604501371516367,3,0.020213918687387714
+returnOnEquity,returnOnEquity,shared_rw_ucfi_and_shap_topk,True,True,False,10,0.0055213877253000275,13,0.003006684487488294
+revenuePerShare,revenuePerShare,shared_rw_ucfi_and_shap_topk,True,True,False,14,0.004062476605356304,16,0.0026530406400926535
+sectorKey,sectorKey,shared_rw_ucfi_and_shap_topk,True,True,False,1,0.05815269808649699,1,0.04146607310568801
+totalCashPerShare,totalCashPerShare,shared_rw_ucfi_and_shap_topk,True,True,False,15,0.0037681727893602124,11,0.003343001013610635
+totalRevenue,totalRevenue,shared_rw_ucfi_and_shap_topk,True,True,False,6,0.014600797970342094,6,0.010391204842670986

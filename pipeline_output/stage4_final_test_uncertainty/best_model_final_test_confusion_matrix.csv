@@ -1,0 +1,4 @@
+,predicted_High Risk,predicted_Low Risk,predicted_Medium Risk
+actual_High Risk,49,10,2
+actual_Low Risk,5,41,1
+actual_Medium Risk,5,7,24

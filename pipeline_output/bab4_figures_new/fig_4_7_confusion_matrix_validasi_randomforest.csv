@@ -1,0 +1,4 @@
+y_true,Low Risk,Medium Risk,High Risk
+Low Risk,35,4,8
+Medium Risk,9,21,5
+High Risk,7,4,50

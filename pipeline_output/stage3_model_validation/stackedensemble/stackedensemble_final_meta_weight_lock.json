@@ -1,0 +1,8 @@
+{
+    "configuration": "FINAL_LOCKED",
+    "meta_high_risk_weight": 1.0,
+    "interpretation": "unweighted_meta_learner",
+    "decision_basis": "Completed training-OOF sensitivity experiment selected 1.00; the final pipeline does not re-run weight selection.",
+    "validation_used_for_weight_selection": false,
+    "test_used_for_weight_selection": false
+}

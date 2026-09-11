@@ -1,0 +1,239 @@
+column,original_column,dominant_value,dominant_ratio,is_near_constant,is_mandatory_protected,will_be_dropped
+priceHint,priceHint,2.0,0.9880059970014993,False,False,False
+CF_Dividends_Received_Direct,CF_Dividends Received Direct,324228464000.0,0.9835082458770614,False,False,False
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,1000000000,0.9685157421289355,False,False,False
+maxAge,maxAge,86400.0,0.9370314842578711,False,False,False
+SandP52WeekChange,SandP52WeekChange,0.12792087,0.9355322338830585,False,False,False
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,192271500000,0.9190404797601199,False,False,False
+hasRiskOfficer,hasRiskOfficer,0,0.9100449775112444,False,False,False
+CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,-25376372020,0.9085457271364318,False,False,False
+nextFiscalYearEnd,nextFiscalYearEnd,1767139200.0,0.8920539730134932,False,False,False
+lastFiscalYearEnd,lastFiscalYearEnd,1735603200.0,0.8920539730134932,False,False,False
+BS_Other_Short_Term_Investments,BS_Other Short Term Investments,,0.7991004497751124,False,False,False
+BS_Available_For_Sale_Securities,BS_Available For Sale Securities,,0.7886056971514243,False,False,False
+BS_Other_Inventories,BS_Other Inventories,,0.7856071964017991,False,False,False
+mostRecentQuarter,mostRecentQuarter,1743379200.0,0.7691154422788605,False,False,False
+CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,27300000.0,0.7616191904047976,False,False,False
+IS_Write_Off,IS_Write Off,,0.7556221889055472,False,False,False
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,,0.7481259370314842,False,False,False
+BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,,0.7481259370314842,False,False,False
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,,0.7451274362818591,False,False,False
+BS_Investmentin_Financial_Assets,BS_Investmentin Financial Assets,,0.7376311844077961,False,False,False
+BS_Other_Equity_Interest,BS_Other Equity Interest,,0.6926536731634183,False,False,False
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,,0.6926536731634183,False,False,False
+BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,,0.6911544227886057,False,False,False
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,-1.0,0.6746626686656672,False,False,False
+IS_Basic_EPS,IS_Basic EPS,,0.6596701649175413,False,False,False
+IS_Diluted_EPS,IS_Diluted EPS,,0.6596701649175413,False,False,False
+IS_Basic_Average_Shares,IS_Basic Average Shares,,0.6596701649175413,False,False,False
+IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,,0.656671664167916,False,False,False
+IS_Diluted_Average_Shares,IS_Diluted Average Shares,,0.656671664167916,False,False,False
+IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,,0.6521739130434783,False,False,False
+BS_Raw_Materials,BS_Raw Materials,,0.6446776611694153,False,False,False
+BS_Net_Debt,BS_Net Debt,,0.6446776611694153,False,False,False
+BS_Other_Non_Current_Assets,BS_Other Non Current Assets,,0.6371814092953523,False,False,False
+IS_Other_Special_Charges,IS_Other Special Charges,,0.6221889055472264,False,False,False
+BS_Finished_Goods,BS_Finished Goods,,0.6191904047976012,False,False,False
+Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),7.0,0.6086956521739131,False,False,False
+IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,,0.6086956521739131,False,False,False
+BS_Long_Term_Capital_Lease_Obligation,BS_Long Term Capital Lease Obligation,,0.6041979010494752,False,False,False
+IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,,0.6026986506746627,False,False,False
+BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,,0.6011994002998501,False,False,False
+BS_Long_Term_Debt,BS_Long Term Debt,,0.6011994002998501,False,False,False
+BS_Cash_Equivalents,BS_Cash Equivalents,,0.5892053973013494,False,False,False
+BS_Current_Capital_Lease_Obligation,BS_Current Capital Lease Obligation,,0.5862068965517241,False,False,False
+BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,,0.5817091454272864,False,False,False
+BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,,0.5742128935532234,False,False,False
+BS_Gross_Accounts_Receivable,BS_Gross Accounts Receivable,,0.5652173913043478,False,False,False
+CF_Common_Stock_Payments,CF_Common Stock Payments,-8608855906.5,0.56071964017991,False,False,False
+CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,-8608855906.5,0.56071964017991,False,False,False
+BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,,0.5547226386806596,False,False,False
+BS_Current_Debt,BS_Current Debt,,0.545727136431784,False,False,False
+BS_Other_Properties,BS_Other Properties,,0.5427286356821589,False,False,False
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.0,0.5367316341829086,False,False,False
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,-3590500000.0,0.5262368815592204,False,False,False
+CF_Purchase_Of_Investment_Properties,CF_Purchase Of Investment Properties,-5799000000.0,0.5262368815592204,False,False,False
+IS_Special_Income_Charges,IS_Special Income Charges,,0.5232383808095952,False,False,False
+IS_Minority_Interests,IS_Minority Interests,,0.5172413793103449,False,False,False
+BS_Minority_Interest,BS_Minority Interest,,0.5172413793103449,False,False,False
+BS_Land_And_Improvements,BS_Land And Improvements,,0.5157421289355323,False,False,False
+BS_Other_Receivables,BS_Other Receivables,,0.512743628185907,False,False,False
+BS_Inventory,BS_Inventory,,0.512743628185907,False,False,False
+BS_Construction_In_Progress,BS_Construction In Progress,,0.5112443778110944,False,False,False
+IS_Total_Unusual_Items,IS_Total Unusual Items,,0.5037481259370314,False,False,False
+IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,,0.5037481259370314,False,False,False
+IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,,0.49025487256371814,False,False,False
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,,0.48425787106446777,False,False,False
+IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,,0.4827586206896552,False,False,False
+BS_Properties,BS_Properties,,0.4767616191904048,False,False,False
+IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,,0.46776611694152925,False,False,False
+IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,,0.46476761619190404,False,False,False
+BS_Accounts_Receivable,BS_Accounts Receivable,,0.46326836581709147,False,True,False
+IS_Gross_Profit,IS_Gross Profit,,0.4617691154422789,False,False,False
+IS_Operating_Income,IS_Operating Income,,0.4617691154422789,False,False,False
+IS_Cost_Of_Revenue,IS_Cost Of Revenue,,0.4617691154422789,False,False,False
+IS_Normalized_EBITDA,IS_Normalized EBITDA,,0.4617691154422789,False,False,False
+IS_Reconciled_Cost_Of_Revenue,IS_Reconciled Cost Of Revenue,,0.4617691154422789,False,False,False
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,,0.4617691154422789,False,False,False
+BS_Working_Capital,BS_Working Capital,,0.4617691154422789,False,False,False
+IS_EBITDA,IS_EBITDA,,0.4617691154422789,False,False,False
+BS_Total_Non_Current_Assets,BS_Total Non Current Assets,,0.4617691154422789,False,False,False
+BS_Current_Liabilities,BS_Current Liabilities,,0.4617691154422789,False,True,False
+BS_Current_Assets,BS_Current Assets,,0.4617691154422789,False,True,False
+IS_EBIT,IS_EBIT,,0.4542728635682159,False,False,False
+BS_Other_Payable,BS_Other Payable,,0.4527736131934033,False,False,False
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,,0.4497751124437781,False,False,False
+IS_Total_Expenses,IS_Total Expenses,,0.44677661169415295,False,False,False
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,,0.44677661169415295,False,False,False
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,,0.44677661169415295,False,False,False
+BS_Long_Term_Debt_And_Capital_Lease_Obligation,BS_Long Term Debt And Capital Lease Obligation,,0.44377811094452774,False,False,False
+IS_Interest_Income,IS_Interest Income,,0.4272863568215892,False,False,False
+IS_Depreciation_Income_Statement,IS_Depreciation Income Statement,,0.424287856071964,False,False,False
+IS_Reconciled_Depreciation,IS_Reconciled Depreciation,,0.42278860569715143,False,False,False
+IS_Depreciation_And_Amortization_In_Income_Statement,IS_Depreciation And Amortization In Income Statement,,0.42278860569715143,False,False,False
+IS_Other_Operating_Expenses,IS_Other Operating Expenses,,0.42128935532233885,False,False,False
+earningsGrowth,earningsGrowth,,0.41829085457271364,False,False,False
+BS_Total_Debt,BS_Total Debt,,0.41529235382308843,False,False,False
+IS_Interest_Expense,IS_Interest Expense,,0.41529235382308843,False,False,False
+regularMarketChangePercent,regularMarketChangePercent,0.0,0.41529235382308843,False,False,False
+BS_Total_Capitalization,BS_Total Capitalization,,0.40929535232383807,False,False,False
+BS_Invested_Capital,BS_Invested Capital,,0.40929535232383807,False,False,False
+BS_Buildings_And_Improvements,BS_Buildings And Improvements,,0.4077961019490255,False,False,False
+IS_Operating_Expense,IS_Operating Expense,,0.4032983508245877,False,False,False
+BS_Cash_Financial,BS_Cash Financial,,0.4032983508245877,False,False,False
+BS_Accounts_Payable,BS_Accounts Payable,,0.4017991004497751,False,True,False
+BS_Prepaid_Assets,BS_Prepaid Assets,,0.4002998500749625,False,False,False
+BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,,0.39430284857571213,False,False,False
+IS_Net_Interest_Income,IS_Net Interest Income,,0.39280359820089955,False,False,False
+BS_Accumulated_Depreciation,BS_Accumulated Depreciation,,0.39280359820089955,False,False,False
+BS_Net_PPE,BS_Net PPE,,0.38980509745127434,False,False,False
+BS_Gross_PPE,BS_Gross PPE,,0.38980509745127434,False,False,False
+BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,,0.38980509745127434,False,False,False
+BS_Share_Issued,BS_Share Issued,,0.38980509745127434,False,False,False
+BS_Ordinary_Shares_Number,BS_Ordinary Shares Number,,0.38980509745127434,False,False,False
+IS_General_And_Administrative_Expense,IS_General And Administrative Expense,,0.38980509745127434,False,False,False
+IS_Selling_General_And_Administration,IS_Selling General And Administration,,0.38980509745127434,False,False,False
+IS_Net_Income_From_Continuing_Operation_Net_Minority_Interest,IS_Net Income From Continuing Operation Net Minority Interest,,0.38830584707646176,False,False,False
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,,0.38830584707646176,False,False,False
+IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,,0.38830584707646176,False,False,False
+IS_Normalized_Income,IS_Normalized Income,,0.38830584707646176,False,False,False
+IS_Total_Revenue,IS_Total Revenue,,0.38830584707646176,False,False,False
+IS_Net_Income_Including_Noncontrolling_Interests,IS_Net Income Including Noncontrolling Interests,,0.38830584707646176,False,False,False
+IS_Net_Income_Continuous_Operations,IS_Net Income Continuous Operations,,0.38830584707646176,False,False,False
+IS_Tax_Provision,IS_Tax Provision,,0.38830584707646176,False,False,False
+IS_Net_Income_From_Continuing_And_Discontinued_Operation,IS_Net Income From Continuing And Discontinued Operation,,0.38830584707646176,False,False,False
+BS_Cash_And_Cash_Equivalents,BS_Cash And Cash Equivalents,,0.38830584707646176,False,False,False
+IS_Net_Income_Common_Stockholders,IS_Net Income Common Stockholders,,0.38830584707646176,False,False,False
+IS_Operating_Revenue,IS_Operating Revenue,,0.38830584707646176,False,False,False
+BS_Capital_Stock,BS_Capital Stock,,0.38830584707646176,False,False,False
+BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,,0.38830584707646176,False,False,False
+BS_Net_Tangible_Assets,BS_Net Tangible Assets,,0.38830584707646176,False,False,False
+BS_Stockholders_Equity,BS_Stockholders Equity,,0.38830584707646176,False,False,False
+BS_Tangible_Book_Value,BS_Tangible Book Value,,0.38830584707646176,False,False,False
+BS_Retained_Earnings,BS_Retained Earnings,,0.38830584707646176,False,False,False
+BS_Common_Stock,BS_Common Stock,,0.38830584707646176,False,False,False
+BS_Common_Stock_Equity,BS_Common Stock Equity,,0.38830584707646176,False,False,False
+BS_Total_Liabilities_Net_Minority_Interest,BS_Total Liabilities Net Minority Interest,,0.38830584707646176,False,False,False
+BS_Total_Assets,BS_Total Assets,,0.38830584707646176,False,True,False
+BS_Total_Tax_Payable,BS_Total Tax Payable,,0.38830584707646176,False,False,False
+BS_Payables,BS_Payables,,0.38830584707646176,False,False,False
+IS_Pretax_Income,IS_Pretax Income,,0.38830584707646176,False,False,False
+IS_Diluted_NI_Availto_Com_Stockholders,IS_Diluted NI Availto Com Stockholders,,0.38830584707646176,False,False,False
+IS_Net_Income,IS_Net Income,,0.38830584707646176,False,True,False
+CF_Sale_Of_Business,CF_Sale Of Business,638308.0,0.3853073463268366,False,False,False
+CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,7671008151.0,0.36881559220389803,False,False,False
+exDividendDate,exDividendDate,,0.36281859070464767,False,False,False
+lastDividendDate,lastDividendDate,,0.3598200899550225,False,False,False
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,15774227000.0,0.34332833583208394,False,False,False
+CF_Purchase_Of_Business,CF_Purchase Of Business,-5624500000.0,0.34182908545727136,False,False,False
+CF_Sale_Of_Investment,CF_Sale Of Investment,24110000000.0,0.3313343328335832,False,False,False
+CF_Common_Stock_Issuance,CF_Common Stock Issuance,33609250.0,0.3238380809595202,False,False,False
+CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,33609250.0,0.3238380809595202,False,False,False
+CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,-205954159119.5,0.31634182908545727,False,False,False
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,-20220555789.5,0.31334332833583206,False,False,False
+CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0,0.29985007496251875,False,False,False
+CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,-1223416.0,0.2908545727136432,False,False,False
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,47107.0,0.2908545727136432,False,False,False
+CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,233336394357.5,0.2863568215892054,False,False,False
+CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,-72025000000.0,0.2563718140929535,False,False,False
+CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,-5470556.0,0.24737631184407796,False,False,False
+CF_Purchase_Of_Investment,CF_Purchase Of Investment,-33672694000.0,0.239880059970015,False,False,False
+CF_Net_Intangibles_Purchase_And_Sale,CF_Net Intangibles Purchase And Sale,-1904871395.0,0.22938530734632684,False,False,False
+CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,-1838571319.0,0.22788605697151423,False,False,False
+CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,11008458666.5,0.22488755622188905,False,False,False
+CF_Interest_Paid_Direct,CF_Interest Paid Direct,-19333839517.0,0.21739130434782608,False,False,False
+debtToEquity,debtToEquity,,0.2158920539730135,False,True,False
+CF_Interest_Received_Direct,CF_Interest Received Direct,4126723070.5,0.20689655172413793,False,False,False
+CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0,0.1889055472263868,False,False,False
+CYC_2024,CYC 2024,0.0,0.1874062968515742,False,False,False
+CF_Cash_Dividends_Paid,CF_Cash Dividends Paid,-89816483444.0,0.18590704647676162,False,False,False
+freeCashflow,freeCashflow,,0.18590704647676162,False,True,False
+CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,-18037578390.0,0.18440779610194902,False,False,False
+CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,-5239250.5,0.18140929535232383,False,False,False
+CR_2024,CR 2024,0.0,0.17091454272863568,False,False,False
+sectorKey,sectorKey,consumer-cyclical,0.17091454272863568,False,True,False
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,1112853000000.0,0.1679160419790105,False,False,False
+CF_Paymentsto_Suppliersfor_Goodsand_Services,CF_Paymentsto Suppliersfor Goodsand Services,-773578583305.5,0.1679160419790105,False,False,False
+CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,277334000.0,0.16041979010494753,False,False,False
+enterpriseToEbitda,enterpriseToEbitda,,0.15892053973013492,False,False,False
+ebitda,ebitda,,0.15892053973013492,False,True,False
+CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,8477980.0,0.15292353823088456,False,False,False
+CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,105000000000.0,0.1454272863568216,False,False,False
+CF_Long_Term_Debt_Payments,CF_Long Term Debt Payments,-58655249856.5,0.1424287856071964,False,False,False
+CYC_2023,CYC 2023,0.0,0.13343328335832083,False,False,False
+CR_2023,CR 2023,0.0,0.13193403298350825,False,False,False
+CF_Issuance_Of_Debt,CF_Issuance Of Debt,311765721272.0,0.12593703148425786,False,False,False
+regularMarketTime,regularMarketTime,1751619603.0,0.12143928035982009,False,False,False
+quickRatio,quickRatio,,0.12143928035982009,False,True,False
+currentRatio,currentRatio,,0.12143928035982009,False,True,False
+CF_Net_Long_Term_Debt_Issuance,CF_Net Long Term Debt Issuance,-5495047.0,0.12143928035982009,False,False,False
+CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,-137502344126.0,0.1199400299850075,False,False,False
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,-84931203963.5,0.1199400299850075,False,False,False
+CF_Free_Cash_Flow,CF_Free Cash Flow,3752148217.0,0.11094452773613193,False,False,False
+returnOnEquity,returnOnEquity,,0.11094452773613193,False,True,False
+CF_Sale_Of_PPE,CF_Sale Of PPE,1102715159.0,0.11094452773613193,False,False,False
+CF_Capital_Expenditure,CF_Capital Expenditure,-27878152576.0,0.11094452773613193,False,False,False
+CF_Purchase_Of_PPE,CF_Purchase Of PPE,-27878152576.0,0.11094452773613193,False,False,False
+CF_Repayment_Of_Debt,CF_Repayment Of Debt,-148655251000.0,0.10944527736131934,False,False,False
+CF_Investing_Cash_Flow,CF_Investing Cash Flow,-34650308675.0,0.10794602698650675,False,False,False
+ebitdaMargins,ebitdaMargins,0.0,0.10494752623688156,False,False,False
+CF_Beginning_Cash_Position,CF_Beginning Cash Position,163409031781.5,0.10494752623688156,False,False,False
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,48954943510.5,0.10344827586206896,False,False,False
+CF_Classesof_Cash_Receiptsfrom_Operating_Activities,CF_Classesof Cash Receiptsfrom Operating Activities,1437496830353.0,0.09745127436281859,False,False,False
+CF_Net_PPE_Purchase_And_Sale,CF_Net PPE Purchase And Sale,-23218636714.5,0.09745127436281859,False,False,False
+CF_End_Cash_Position,CF_End Cash Position,150885247394.0,0.095952023988006,False,False,False
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,-4881342152.0,0.095952023988006,False,False,False
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,-1241039390000.0,0.095952023988006,False,False,False
+returnOnAssets,returnOnAssets,,0.095952023988006,False,True,False
+CF_Changes_In_Cash,CF_Changes In Cash,2683130.0,0.0944527736131934,False,False,False
+Revenue_2024,Revenue 2024,759148978.741429,0.08845577211394302,False,False,False
+revenueGrowth,revenueGrowth,,0.08545727136431784,False,True,False
+Revenue_2023,Revenue 2023,745777693.6633037,0.07646176911544228,False,False,False
+fullTimeEmployees,fullTimeEmployees,,0.07496251874062969,False,False,False
+regularMarketDayLow,regularMarketDayLow,50.0,0.0704647676161919,False,False,False
+operatingCashflow,operatingCashflow,,0.06896551724137931,False,True,False
+regularMarketPreviousClose,regularMarketPreviousClose,50.0,0.06896551724137931,False,False,False
+revenuePerShare,revenuePerShare,,0.06596701649175413,False,False,False
+regularMarketPrice,regularMarketPrice,50.0,0.06596701649175413,False,False,False
+enterpriseToRevenue,enterpriseToRevenue,,0.06596701649175413,False,False,False
+totalRevenue,totalRevenue,,0.06596701649175413,False,True,False
+totalDebt,totalDebt,,0.06446776611694154,False,True,False
+industryDisp,industryDisp,,0.06446776611694154,False,False,False
+industryKey,industryKey,,0.06446776611694154,False,True,False
+industry,industry,,0.06446776611694154,False,False,False
+grossMargins,grossMargins,,0.06446776611694154,False,True,False
+grossProfits,grossProfits,,0.06446776611694154,False,True,False
+totalCashPerShare,totalCashPerShare,,0.06446776611694154,False,False,False
+totalCash,totalCash,,0.06446776611694154,False,True,False
+profitMargins,profitMargins,,0.06446776611694154,False,True,False
+operatingMargins,operatingMargins,,0.06446776611694154,False,True,False
+enterpriseValue,enterpriseValue,,0.06446776611694154,False,True,False
+previousClose,previousClose,,0.06296851574212893,False,False,False
+dayLow,dayLow,,0.06296851574212893,False,False,False
+open,open,,0.06296851574212893,False,False,False
+dayHigh,dayHigh,,0.06296851574212893,False,False,False
+regularMarketDayHigh,regularMarketDayHigh,50.0,0.06146926536731634,False,False,False
+regularMarketOpen,regularMarketOpen,50.0,0.05847076461769116,False,False,False
+marketCap,marketCap,,0.008995502248875561,False,True,False
+messageBoardId,messageBoardId,finmb_4481210,0.0029985007496251873,False,False,False
+address2,address2,Address2 E294,0.0014992503748125937,False,False,False

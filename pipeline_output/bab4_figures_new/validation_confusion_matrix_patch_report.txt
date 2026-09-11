@@ -1,0 +1,13 @@
+VALIDATION CONFUSION MATRIX PATCH REPORT
+============================================================
+
+BASE_DIR: C:\S3\Semhas_New_Pipeline
+FIG_DIR : C:\S3\Semhas_New_Pipeline\output\bab4_figures_new
+
+CREATED/COPIED:
+- fig_4_6_confusion_matrix_validasi_svm.png: copied from C:\S3\Semhas_New_Pipeline\output\stage3_model_validation\svm\validation_confusion_matrix.png
+- fig_4_7_confusion_matrix_validasi_randomforest.png: copied from C:\S3\Semhas_New_Pipeline\output\stage3_model_validation\randomforest\validation_confusion_matrix.png
+- fig_4_8_confusion_matrix_validasi_stackedensemble.png: copied from C:\S3\Semhas_New_Pipeline\output\stage3_model_validation\randomforest\validation_confusion_matrix.png
+
+FAILED:
+- None

@@ -1,0 +1,493 @@
+class_label,class_index,risk_weight,feature,original_column,rw_ucfi_score_class,rw_ucfi_class_rank
+High Risk,0,1.5,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.10204879033277507,1
+High Risk,0,1.5,sectorKey,sectorKey,0.06910806152740195,2
+High Risk,0,1.5,profitMargins,profitMargins,0.0662483318144478,3
+High Risk,0,1.5,IS_Net_Income,IS_Net Income,0.05680168653374652,4
+High Risk,0,1.5,totalRevenue,totalRevenue,0.031165338259636695,5
+High Risk,0,1.5,enterpriseToRevenue,enterpriseToRevenue,0.01859493417029702,6
+High Risk,0,1.5,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.01764621588728861,7
+High Risk,0,1.5,IS_EBIT,IS_EBIT,0.016496988029501412,8
+High Risk,0,1.5,ebitdaMargins,ebitdaMargins,0.013998903947671433,9
+High Risk,0,1.5,returnOnEquity,returnOnEquity,0.010796870253511478,10
+High Risk,0,1.5,IS_Net_Interest_Income,IS_Net Interest Income,0.01067628507195708,11
+High Risk,0,1.5,BS_Net_Debt,BS_Net Debt,0.010421564452691797,12
+High Risk,0,1.5,currentRatio,currentRatio,0.008502342560476281,13
+High Risk,0,1.5,revenuePerShare,revenuePerShare,0.007976759989552771,14
+High Risk,0,1.5,enterpriseToEbitda,enterpriseToEbitda,0.006996351967593604,15
+High Risk,0,1.5,BS_Total_Tax_Payable,BS_Total Tax Payable,0.005903777094517132,16
+High Risk,0,1.5,fullTimeEmployees,fullTimeEmployees,0.005279557137116551,17
+High Risk,0,1.5,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.005165315896319307,18
+High Risk,0,1.5,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.004771158531709123,19
+High Risk,0,1.5,grossProfits,grossProfits,0.004621535189723656,20
+High Risk,0,1.5,ebitda,ebitda,0.004485972120264406,21
+High Risk,0,1.5,totalCashPerShare,totalCashPerShare,0.004447932254043688,22
+High Risk,0,1.5,quickRatio,quickRatio,0.004327760118123854,23
+High Risk,0,1.5,debtToEquity,debtToEquity,0.004257164340570038,24
+High Risk,0,1.5,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.004101968608236251,25
+High Risk,0,1.5,totalCash,totalCash,0.003927044464638579,26
+High Risk,0,1.5,earningsGrowth,earningsGrowth,0.003792092071631019,27
+High Risk,0,1.5,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.003726541554369331,28
+High Risk,0,1.5,returnOnAssets,returnOnAssets,0.0036750493182894106,29
+High Risk,0,1.5,Revenue_2023,Revenue 2023,0.0036566912554270195,30
+High Risk,0,1.5,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.0036344303301561664,31
+High Risk,0,1.5,operatingMargins,operatingMargins,0.0035925950883324642,32
+High Risk,0,1.5,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.0034862733861039893,33
+High Risk,0,1.5,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0034650206729745503,34
+High Risk,0,1.5,CR_2024,CR 2024,0.0034618753931487606,35
+High Risk,0,1.5,BS_Construction_In_Progress,BS_Construction In Progress,0.0033017289400199745,36
+High Risk,0,1.5,CF_Sale_Of_Business,CF_Sale Of Business,0.0031856597255487274,37
+High Risk,0,1.5,freeCashflow,freeCashflow,0.003173078144382082,38
+High Risk,0,1.5,revenueGrowth,revenueGrowth,0.0030582496935060407,39
+High Risk,0,1.5,hasRiskOfficer,hasRiskOfficer,0.003050528357123045,40
+High Risk,0,1.5,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.0029925019755874817,41
+High Risk,0,1.5,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0029860568459437165,42
+High Risk,0,1.5,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.002970143544932335,43
+High Risk,0,1.5,operatingCashflow,operatingCashflow,0.0028639185343641406,44
+High Risk,0,1.5,enterpriseValue,enterpriseValue,0.002855389965397051,45
+High Risk,0,1.5,BS_Other_Payable,BS_Other Payable,0.0028409663634514763,46
+High Risk,0,1.5,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.0028293041828966275,47
+High Risk,0,1.5,BS_Prepaid_Assets,BS_Prepaid Assets,0.0027410744335872646,48
+High Risk,0,1.5,BS_Common_Stock,BS_Common Stock,0.00266592265660467,49
+High Risk,0,1.5,BS_Cash_Equivalents,BS_Cash Equivalents,0.002641172215395984,50
+High Risk,0,1.5,Revenue_2024,Revenue 2024,0.0026129982520951525,51
+High Risk,0,1.5,BS_Other_Inventories,BS_Other Inventories,0.002590574969324698,52
+High Risk,0,1.5,lastDividendDate,lastDividendDate,0.0025232489344882035,53
+High Risk,0,1.5,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0024638335126598633,54
+High Risk,0,1.5,maxAge,maxAge,0.0024291273744629837,55
+High Risk,0,1.5,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.002399923189590335,56
+High Risk,0,1.5,mostRecentQuarter,mostRecentQuarter,0.0023782225387103577,57
+High Risk,0,1.5,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.0023495115912828507,58
+High Risk,0,1.5,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.002338788788683571,59
+High Risk,0,1.5,regularMarketChangePercent,regularMarketChangePercent,0.002325046072086214,60
+High Risk,0,1.5,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0023033176687007016,61
+High Risk,0,1.5,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.002257115737658934,62
+High Risk,0,1.5,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0022529394705718105,63
+High Risk,0,1.5,BS_Payables,BS_Payables,0.0022405256166152156,64
+High Risk,0,1.5,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.0022358986718243176,65
+High Risk,0,1.5,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0021429473998213,66
+High Risk,0,1.5,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.002133895314824865,67
+High Risk,0,1.5,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.002125583779008997,68
+High Risk,0,1.5,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0021057731047495936,69
+High Risk,0,1.5,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0020998720034789576,70
+High Risk,0,1.5,BS_Accounts_Receivable,BS_Accounts Receivable,0.002098995246809293,71
+High Risk,0,1.5,IS_Basic_EPS,IS_Basic EPS,0.0020909141307668914,72
+High Risk,0,1.5,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.0020769659605591197,73
+High Risk,0,1.5,CYC_2024,CYC 2024,0.00206016887227685,74
+High Risk,0,1.5,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.002027187844588683,75
+High Risk,0,1.5,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.002003714090374284,76
+High Risk,0,1.5,BS_Retained_Earnings,BS_Retained Earnings,0.0019975192873675084,77
+High Risk,0,1.5,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0019918122369690784,78
+High Risk,0,1.5,BS_Current_Liabilities,BS_Current Liabilities,0.0019839753532144627,79
+High Risk,0,1.5,BS_Current_Assets,BS_Current Assets,0.001974398656341388,80
+High Risk,0,1.5,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.0019573364704979163,81
+High Risk,0,1.5,SandP52WeekChange,SandP52WeekChange,0.0019548577462597328,82
+High Risk,0,1.5,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.001933964709205922,83
+High Risk,0,1.5,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0019183993638379204,84
+High Risk,0,1.5,IS_Gross_Profit,IS_Gross Profit,0.0019173944421910258,85
+High Risk,0,1.5,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0018744275178039203,86
+High Risk,0,1.5,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0018685842249259966,87
+High Risk,0,1.5,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.0018565302527950057,88
+High Risk,0,1.5,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0018563444848647206,89
+High Risk,0,1.5,CF_Sale_Of_PPE,CF_Sale Of PPE,0.0018196381623855513,90
+High Risk,0,1.5,BS_Working_Capital,BS_Working Capital,0.0018071352756843333,91
+High Risk,0,1.5,CF_Changes_In_Cash,CF_Changes In Cash,0.0017997183996254773,92
+High Risk,0,1.5,marketCap,marketCap,0.001799413454328293,93
+High Risk,0,1.5,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0017730744856259148,94
+High Risk,0,1.5,IS_Interest_Expense,IS_Interest Expense,0.001740570280993911,95
+High Risk,0,1.5,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0017088799954494424,96
+High Risk,0,1.5,BS_Cash_Financial,BS_Cash Financial,0.0016780448964472227,97
+High Risk,0,1.5,CF_Capital_Expenditure,CF_Capital Expenditure,0.0016780245169830707,98
+High Risk,0,1.5,BS_Minority_Interest,BS_Minority Interest,0.0016738166627440396,99
+High Risk,0,1.5,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0016657352865293675,100
+High Risk,0,1.5,BS_Land_And_Improvements,BS_Land And Improvements,0.0016639249750359877,101
+High Risk,0,1.5,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.001644582086729232,102
+High Risk,0,1.5,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.001603801076671791,103
+High Risk,0,1.5,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.0015978723599336306,104
+High Risk,0,1.5,totalDebt,totalDebt,0.0015922346223671854,105
+High Risk,0,1.5,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.0015852601613309863,106
+High Risk,0,1.5,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.0015723485393247015,107
+High Risk,0,1.5,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0015636652679550595,108
+High Risk,0,1.5,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.001548740205051585,109
+High Risk,0,1.5,CYC_2023,CYC 2023,0.0015127642889599014,110
+High Risk,0,1.5,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.0015005292741709266,111
+High Risk,0,1.5,BS_Raw_Materials,BS_Raw Materials,0.0014955672974898292,112
+High Risk,0,1.5,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0014490963945418588,113
+High Risk,0,1.5,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0014420226639506638,114
+High Risk,0,1.5,lastFiscalYearEnd,lastFiscalYearEnd,0.0014251005582898231,115
+High Risk,0,1.5,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0014238551416817643,116
+High Risk,0,1.5,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.0014182894460510248,117
+High Risk,0,1.5,BS_Other_Properties,BS_Other Properties,0.001409150516426904,118
+High Risk,0,1.5,CF_Interest_Received_Direct,CF_Interest Received Direct,0.001407071620076721,119
+High Risk,0,1.5,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.001406433092169708,120
+High Risk,0,1.5,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0013853610257750192,121
+High Risk,0,1.5,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0013535712465684525,122
+High Risk,0,1.5,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0013354149376733617,123
+High Risk,0,1.5,industryKey,industryKey,0.0013036160489783809,124
+High Risk,0,1.5,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.001276091799427719,125
+High Risk,0,1.5,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.001249896785533295,126
+High Risk,0,1.5,regularMarketPreviousClose,regularMarketPreviousClose,0.0012258503887461738,127
+High Risk,0,1.5,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.0012121424935379538,128
+High Risk,0,1.5,BS_Finished_Goods,BS_Finished Goods,0.0012094526877815723,129
+High Risk,0,1.5,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0011724669953125113,130
+High Risk,0,1.5,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0011723343552464095,131
+High Risk,0,1.5,BS_Inventory,BS_Inventory,0.0011600525812825492,132
+High Risk,0,1.5,BS_Accounts_Payable,BS_Accounts Payable,0.0011194266038654645,133
+High Risk,0,1.5,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0011088102522328913,134
+High Risk,0,1.5,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0010946112345770903,135
+High Risk,0,1.5,BS_Share_Issued,BS_Share Issued,0.0010317107502561995,136
+High Risk,0,1.5,BS_Tangible_Book_Value,BS_Tangible Book Value,0.001029315601680264,137
+High Risk,0,1.5,regularMarketTime,regularMarketTime,0.0010176808424708188,138
+High Risk,0,1.5,BS_Total_Assets,BS_Total Assets,0.001017188110563528,139
+High Risk,0,1.5,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0010045361120347262,140
+High Risk,0,1.5,grossMargins,grossMargins,0.0010022120276947568,141
+High Risk,0,1.5,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0009738964733129137,142
+High Risk,0,1.5,IS_Minority_Interests,IS_Minority Interests,0.0009573536905977732,143
+High Risk,0,1.5,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.0009400590955778215,144
+High Risk,0,1.5,IS_Other_Special_Charges,IS_Other Special Charges,0.0009254950673680629,145
+High Risk,0,1.5,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.000873514440211357,146
+High Risk,0,1.5,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.0008722486692138189,147
+High Risk,0,1.5,BS_Other_Receivables,BS_Other Receivables,0.000828631442458161,148
+High Risk,0,1.5,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.0007935945576710514,149
+High Risk,0,1.5,CR_2023,CR 2023,0.0007648880955156644,150
+High Risk,0,1.5,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0007161984251607159,151
+High Risk,0,1.5,BS_Gross_PPE,BS_Gross PPE,0.0006958347724420708,152
+High Risk,0,1.5,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.0006809824454489967,153
+High Risk,0,1.5,BS_Properties,BS_Properties,0.0006313778479883476,154
+High Risk,0,1.5,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.0005363608752671712,155
+High Risk,0,1.5,IS_Write_Off,IS_Write Off,0.0004649766121276049,156
+High Risk,0,1.5,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0003995599693981599,157
+High Risk,0,1.5,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.00038487900394698686,158
+High Risk,0,1.5,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.0003679437372879193,159
+High Risk,0,1.5,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.00027647226116869983,160
+High Risk,0,1.5,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0,161
+High Risk,0,1.5,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,162
+High Risk,0,1.5,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,163
+High Risk,0,1.5,priceHint,priceHint,0.0,164
+Low Risk,1,0.5,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.03303736230835251,1
+Low Risk,1,0.5,sectorKey,sectorKey,0.02439695451015729,2
+Low Risk,1,0.5,IS_EBIT,IS_EBIT,0.010118797562576474,3
+Low Risk,1,0.5,enterpriseToRevenue,enterpriseToRevenue,0.009998958684555964,4
+Low Risk,1,0.5,totalRevenue,totalRevenue,0.00850274219525969,5
+Low Risk,1,0.5,IS_Net_Income,IS_Net Income,0.0078735158696003,6
+Low Risk,1,0.5,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.006363600058447071,7
+Low Risk,1,0.5,ebitdaMargins,ebitdaMargins,0.00527114421627041,8
+Low Risk,1,0.5,profitMargins,profitMargins,0.0052382758037532685,9
+Low Risk,1,0.5,BS_Net_Debt,BS_Net Debt,0.004584397897352998,10
+Low Risk,1,0.5,totalCashPerShare,totalCashPerShare,0.003711159161199911,11
+Low Risk,1,0.5,BS_Common_Stock,BS_Common Stock,0.003442942701946291,12
+Low Risk,1,0.5,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.002450057566891677,13
+Low Risk,1,0.5,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.0021439694301659904,14
+Low Risk,1,0.5,IS_Net_Interest_Income,IS_Net Interest Income,0.0020792437804957875,15
+Low Risk,1,0.5,debtToEquity,debtToEquity,0.0019576779474311844,16
+Low Risk,1,0.5,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0017719716200419976,17
+Low Risk,1,0.5,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0016986914556312133,18
+Low Risk,1,0.5,revenuePerShare,revenuePerShare,0.0015990148821659127,19
+Low Risk,1,0.5,CR_2024,CR 2024,0.0015459909931230548,20
+Low Risk,1,0.5,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.0015102218139464308,21
+Low Risk,1,0.5,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.0014987434786783026,22
+Low Risk,1,0.5,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.0014871151205034384,23
+Low Risk,1,0.5,grossProfits,grossProfits,0.0014794707480313292,24
+Low Risk,1,0.5,enterpriseToEbitda,enterpriseToEbitda,0.0014785010621778552,25
+Low Risk,1,0.5,BS_Total_Tax_Payable,BS_Total Tax Payable,0.001402924371019375,26
+Low Risk,1,0.5,currentRatio,currentRatio,0.001399683790796479,27
+Low Risk,1,0.5,totalCash,totalCash,0.0013775555930620503,28
+Low Risk,1,0.5,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.0013562372352655795,29
+Low Risk,1,0.5,Revenue_2023,Revenue 2023,0.0013268699789411337,30
+Low Risk,1,0.5,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.001307018653157156,31
+Low Risk,1,0.5,CR_2023,CR 2023,0.0012695536748730703,32
+Low Risk,1,0.5,ebitda,ebitda,0.001263791249465945,33
+Low Risk,1,0.5,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.0012314101270107488,34
+Low Risk,1,0.5,industryKey,industryKey,0.0011578593123726688,35
+Low Risk,1,0.5,quickRatio,quickRatio,0.001078522041922551,36
+Low Risk,1,0.5,lastFiscalYearEnd,lastFiscalYearEnd,0.0010588465775250946,37
+Low Risk,1,0.5,freeCashflow,freeCashflow,0.0010471110043874209,38
+Low Risk,1,0.5,returnOnEquity,returnOnEquity,0.001033379077619973,39
+Low Risk,1,0.5,BS_Retained_Earnings,BS_Retained Earnings,0.0010333605777738545,40
+Low Risk,1,0.5,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0010265075270869722,41
+Low Risk,1,0.5,BS_Other_Receivables,BS_Other Receivables,0.0009590828630708667,42
+Low Risk,1,0.5,BS_Other_Properties,BS_Other Properties,0.0009485261164675433,43
+Low Risk,1,0.5,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0009357460356753585,44
+Low Risk,1,0.5,IS_Interest_Expense,IS_Interest Expense,0.0009195926131122501,45
+Low Risk,1,0.5,CYC_2024,CYC 2024,0.0009120183544924163,46
+Low Risk,1,0.5,SandP52WeekChange,SandP52WeekChange,0.0008560552854761766,47
+Low Risk,1,0.5,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.0008310452871614828,48
+Low Risk,1,0.5,BS_Gross_PPE,BS_Gross PPE,0.0008295526622318752,49
+Low Risk,1,0.5,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0007921537768425719,50
+Low Risk,1,0.5,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.0007918492588037159,51
+Low Risk,1,0.5,BS_Other_Payable,BS_Other Payable,0.0007721114917998213,52
+Low Risk,1,0.5,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0007607290755045165,53
+Low Risk,1,0.5,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.0007347937202446231,54
+Low Risk,1,0.5,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0007314974964860823,55
+Low Risk,1,0.5,CF_Sale_Of_Business,CF_Sale Of Business,0.0007308219099186385,56
+Low Risk,1,0.5,maxAge,maxAge,0.0007258449540386316,57
+Low Risk,1,0.5,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0007193712701976484,58
+Low Risk,1,0.5,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.00071902653228906,59
+Low Risk,1,0.5,BS_Current_Assets,BS_Current Assets,0.0007090190021963533,60
+Low Risk,1,0.5,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.000706607410082685,61
+Low Risk,1,0.5,BS_Finished_Goods,BS_Finished Goods,0.0006957693046652726,62
+Low Risk,1,0.5,CF_Interest_Received_Direct,CF_Interest Received Direct,0.0006938181686516649,63
+Low Risk,1,0.5,operatingCashflow,operatingCashflow,0.0006770871233047128,64
+Low Risk,1,0.5,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0006764554631058068,65
+Low Risk,1,0.5,lastDividendDate,lastDividendDate,0.0006719854817886588,66
+Low Risk,1,0.5,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0006692913480292923,67
+Low Risk,1,0.5,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0006557135749598791,68
+Low Risk,1,0.5,earningsGrowth,earningsGrowth,0.0006414489037491455,69
+Low Risk,1,0.5,BS_Construction_In_Progress,BS_Construction In Progress,0.0006395962475859363,70
+Low Risk,1,0.5,marketCap,marketCap,0.0006313892611267541,71
+Low Risk,1,0.5,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0006208126774733538,72
+Low Risk,1,0.5,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.000618726350041083,73
+Low Risk,1,0.5,regularMarketTime,regularMarketTime,0.0006164821715491028,74
+Low Risk,1,0.5,BS_Total_Assets,BS_Total Assets,0.0006162558289955494,75
+Low Risk,1,0.5,BS_Accounts_Payable,BS_Accounts Payable,0.0006130540986243999,76
+Low Risk,1,0.5,operatingMargins,operatingMargins,0.0006062171429597678,77
+Low Risk,1,0.5,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0006043465705813351,78
+Low Risk,1,0.5,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0006036732349544981,79
+Low Risk,1,0.5,mostRecentQuarter,mostRecentQuarter,0.0006023491990874928,80
+Low Risk,1,0.5,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.000589736905656025,81
+Low Risk,1,0.5,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.000588982493563724,82
+Low Risk,1,0.5,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.0005854984666713302,83
+Low Risk,1,0.5,CF_Capital_Expenditure,CF_Capital Expenditure,0.0005835273632321288,84
+Low Risk,1,0.5,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.0005794385016023673,85
+Low Risk,1,0.5,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.000575992901329319,86
+Low Risk,1,0.5,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.000547245706981777,87
+Low Risk,1,0.5,BS_Payables,BS_Payables,0.0005460817821182694,88
+Low Risk,1,0.5,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.0005448805598244004,89
+Low Risk,1,0.5,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0005427316270059982,90
+Low Risk,1,0.5,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0005426274577962726,91
+Low Risk,1,0.5,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.000540786675037602,92
+Low Risk,1,0.5,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0005318738505801785,93
+Low Risk,1,0.5,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0005274887556611095,94
+Low Risk,1,0.5,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0005196290988044111,95
+Low Risk,1,0.5,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.0005155212797412353,96
+Low Risk,1,0.5,hasRiskOfficer,hasRiskOfficer,0.000514417342295453,97
+Low Risk,1,0.5,regularMarketChangePercent,regularMarketChangePercent,0.0005133342205737271,98
+Low Risk,1,0.5,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0005049528985256625,99
+Low Risk,1,0.5,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.0004868774838578205,100
+Low Risk,1,0.5,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.0004806584362278791,101
+Low Risk,1,0.5,BS_Accounts_Receivable,BS_Accounts Receivable,0.00047726664084676753,102
+Low Risk,1,0.5,BS_Share_Issued,BS_Share Issued,0.00047172407668226945,103
+Low Risk,1,0.5,returnOnAssets,returnOnAssets,0.00046964620292276496,104
+Low Risk,1,0.5,CYC_2023,CYC 2023,0.00046793949086620153,105
+Low Risk,1,0.5,IS_Minority_Interests,IS_Minority Interests,0.00045301850925196077,106
+Low Risk,1,0.5,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.00044829854456690597,107
+Low Risk,1,0.5,regularMarketPreviousClose,regularMarketPreviousClose,0.0004481069925687927,108
+Low Risk,1,0.5,revenueGrowth,revenueGrowth,0.00044805644626360306,109
+Low Risk,1,0.5,enterpriseValue,enterpriseValue,0.00043935007376349675,110
+Low Risk,1,0.5,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.00042678597714156346,111
+Low Risk,1,0.5,Revenue_2024,Revenue 2024,0.00042630998233193816,112
+Low Risk,1,0.5,BS_Cash_Financial,BS_Cash Financial,0.0004247288338488153,113
+Low Risk,1,0.5,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.00041749638677034194,114
+Low Risk,1,0.5,BS_Minority_Interest,BS_Minority Interest,0.00041602410040437435,115
+Low Risk,1,0.5,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0004016195477050566,116
+Low Risk,1,0.5,BS_Cash_Equivalents,BS_Cash Equivalents,0.00038919310198535703,117
+Low Risk,1,0.5,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0003860613804286067,118
+Low Risk,1,0.5,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.00036803740589609206,119
+Low Risk,1,0.5,BS_Properties,BS_Properties,0.00034800126773263166,120
+Low Risk,1,0.5,BS_Current_Liabilities,BS_Current Liabilities,0.00033597712600649875,121
+Low Risk,1,0.5,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.00031913246830760447,122
+Low Risk,1,0.5,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.0003054889132877669,123
+Low Risk,1,0.5,BS_Working_Capital,BS_Working Capital,0.0003036189785027091,124
+Low Risk,1,0.5,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.00029856273785321455,125
+Low Risk,1,0.5,BS_Raw_Materials,BS_Raw Materials,0.00029605990346134197,126
+Low Risk,1,0.5,BS_Inventory,BS_Inventory,0.0002959298218817659,127
+Low Risk,1,0.5,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.00029463114203638065,128
+Low Risk,1,0.5,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.00028983696942446114,129
+Low Risk,1,0.5,BS_Prepaid_Assets,BS_Prepaid Assets,0.00028765845734479505,130
+Low Risk,1,0.5,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.00028544413834947737,131
+Low Risk,1,0.5,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.00028154783526588174,132
+Low Risk,1,0.5,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.00028067800131823315,133
+Low Risk,1,0.5,CF_Sale_Of_PPE,CF_Sale Of PPE,0.00027840809291626155,134
+Low Risk,1,0.5,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.00027763343944308533,135
+Low Risk,1,0.5,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.00027751958787075516,136
+Low Risk,1,0.5,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.000276954679250651,137
+Low Risk,1,0.5,totalDebt,totalDebt,0.00026850030269308085,138
+Low Risk,1,0.5,fullTimeEmployees,fullTimeEmployees,0.00026623004035143547,139
+Low Risk,1,0.5,IS_Other_Special_Charges,IS_Other Special Charges,0.0002651412756716795,140
+Low Risk,1,0.5,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.00024682679390233153,141
+Low Risk,1,0.5,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.0002277797418378385,142
+Low Risk,1,0.5,grossMargins,grossMargins,0.00022757325352312042,143
+Low Risk,1,0.5,CF_Changes_In_Cash,CF_Changes In Cash,0.00021744515978831583,144
+Low Risk,1,0.5,BS_Other_Inventories,BS_Other Inventories,0.00021368668771842126,145
+Low Risk,1,0.5,IS_Basic_EPS,IS_Basic EPS,0.00021354310926366196,146
+Low Risk,1,0.5,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.0002116871876229982,147
+Low Risk,1,0.5,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.00020402536983464052,148
+Low Risk,1,0.5,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.00018118812303796457,149
+Low Risk,1,0.5,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.00018068832917274936,150
+Low Risk,1,0.5,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.00016361988422826384,151
+Low Risk,1,0.5,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0001550858466808628,152
+Low Risk,1,0.5,BS_Land_And_Improvements,BS_Land And Improvements,0.00015116240932670788,153
+Low Risk,1,0.5,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.00012529669592515984,154
+Low Risk,1,0.5,IS_Gross_Profit,IS_Gross Profit,0.00011550521412351109,155
+Low Risk,1,0.5,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.00011176023099071523,156
+Low Risk,1,0.5,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,9.01278785141372e-05,157
+Low Risk,1,0.5,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,8.153502027111352e-05,158
+Low Risk,1,0.5,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,7.971154033297805e-05,159
+Low Risk,1,0.5,IS_Write_Off,IS_Write Off,6.961020824167245e-05,160
+Low Risk,1,0.5,priceHint,priceHint,5.1636547493350194e-05,161
+Low Risk,1,0.5,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),2.8027940200934256e-05,162
+Low Risk,1,0.5,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,163
+Low Risk,1,0.5,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,164
+Medium Risk,2,1.0,sectorKey,sectorKey,0.08095307822193182,1
+Medium Risk,2,1.0,IS_EBIT,IS_EBIT,0.04649936639858184,2
+Medium Risk,2,1.0,profitMargins,profitMargins,0.036648433527289956,3
+Medium Risk,2,1.0,IS_Net_Income,IS_Net Income,0.033554670014926014,4
+Medium Risk,2,1.0,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.013885506538870851,5
+Medium Risk,2,1.0,enterpriseToRevenue,enterpriseToRevenue,0.006822629176732162,6
+Medium Risk,2,1.0,returnOnEquity,returnOnEquity,0.004733913844768635,7
+Medium Risk,2,1.0,totalRevenue,totalRevenue,0.004134313456129915,8
+Medium Risk,2,1.0,fullTimeEmployees,fullTimeEmployees,0.003821241476826734,9
+Medium Risk,2,1.0,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0034271828924929224,10
+Medium Risk,2,1.0,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.0031590101953497176,11
+Medium Risk,2,1.0,totalCashPerShare,totalCashPerShare,0.003145426952837038,12
+Medium Risk,2,1.0,currentRatio,currentRatio,0.0028960866893181503,13
+Medium Risk,2,1.0,enterpriseToEbitda,enterpriseToEbitda,0.002825194381186604,14
+Medium Risk,2,1.0,IS_Net_Interest_Income,IS_Net Interest Income,0.0026557509914047657,15
+Medium Risk,2,1.0,revenuePerShare,revenuePerShare,0.002611654944350225,16
+Medium Risk,2,1.0,BS_Common_Stock,BS_Common Stock,0.002495934294615476,17
+Medium Risk,2,1.0,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.002381634748769345,18
+Medium Risk,2,1.0,totalCash,totalCash,0.002229247241199537,19
+Medium Risk,2,1.0,BS_Total_Tax_Payable,BS_Total Tax Payable,0.002169297194584562,20
+Medium Risk,2,1.0,grossProfits,grossProfits,0.002066940805935278,21
+Medium Risk,2,1.0,CR_2023,CR 2023,0.0019569727314956526,22
+Medium Risk,2,1.0,CYC_2024,CYC 2024,0.0019519930682822405,23
+Medium Risk,2,1.0,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.001922453528131868,24
+Medium Risk,2,1.0,CR_2024,CR 2024,0.001825999296258463,25
+Medium Risk,2,1.0,IS_Minority_Interests,IS_Minority Interests,0.0018235998734065565,26
+Medium Risk,2,1.0,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0017885854410623983,27
+Medium Risk,2,1.0,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0017397804592592203,28
+Medium Risk,2,1.0,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.0017396690141778298,29
+Medium Risk,2,1.0,CF_Changes_In_Cash,CF_Changes In Cash,0.001732981195344444,30
+Medium Risk,2,1.0,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.001598341171326679,31
+Medium Risk,2,1.0,BS_Construction_In_Progress,BS_Construction In Progress,0.0015825791347578954,32
+Medium Risk,2,1.0,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0015733695717643672,33
+Medium Risk,2,1.0,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.001551345427870902,34
+Medium Risk,2,1.0,regularMarketTime,regularMarketTime,0.0015231051708486727,35
+Medium Risk,2,1.0,BS_Accounts_Payable,BS_Accounts Payable,0.0015228558802449273,36
+Medium Risk,2,1.0,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.0014845878880476234,37
+Medium Risk,2,1.0,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.001446862936438532,38
+Medium Risk,2,1.0,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0013929237405101748,39
+Medium Risk,2,1.0,BS_Current_Assets,BS_Current Assets,0.0013856418150065939,40
+Medium Risk,2,1.0,BS_Minority_Interest,BS_Minority Interest,0.0013840071671408392,41
+Medium Risk,2,1.0,quickRatio,quickRatio,0.001351973139283545,42
+Medium Risk,2,1.0,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0013481593332053368,43
+Medium Risk,2,1.0,IS_Interest_Expense,IS_Interest Expense,0.0013419180663932538,44
+Medium Risk,2,1.0,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.001289185410922951,45
+Medium Risk,2,1.0,CYC_2023,CYC 2023,0.0012767359751689371,46
+Medium Risk,2,1.0,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.0012703542669854325,47
+Medium Risk,2,1.0,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0012552457869396938,48
+Medium Risk,2,1.0,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0012542395323042093,49
+Medium Risk,2,1.0,marketCap,marketCap,0.001212940479320533,50
+Medium Risk,2,1.0,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0012092325600008358,51
+Medium Risk,2,1.0,operatingCashflow,operatingCashflow,0.0012060476124018853,52
+Medium Risk,2,1.0,CF_Interest_Received_Direct,CF_Interest Received Direct,0.0012055617606397157,53
+Medium Risk,2,1.0,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0011949252537233875,54
+Medium Risk,2,1.0,CF_Sale_Of_Business,CF_Sale Of Business,0.001183748026071069,55
+Medium Risk,2,1.0,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.0011734047058365614,56
+Medium Risk,2,1.0,returnOnAssets,returnOnAssets,0.0011516189979101626,57
+Medium Risk,2,1.0,Revenue_2024,Revenue 2024,0.0011400285928234461,58
+Medium Risk,2,1.0,CF_Purchase_Of_Business,CF_Purchase Of Business,0.001125888508401284,59
+Medium Risk,2,1.0,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0011178688584380335,60
+Medium Risk,2,1.0,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.001111929337241119,61
+Medium Risk,2,1.0,BS_Other_Equity_Interest,BS_Other Equity Interest,0.001099928390365801,62
+Medium Risk,2,1.0,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.0010982457262614421,63
+Medium Risk,2,1.0,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.001077913490549737,64
+Medium Risk,2,1.0,hasRiskOfficer,hasRiskOfficer,0.001072325095360896,65
+Medium Risk,2,1.0,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0010637646810982872,66
+Medium Risk,2,1.0,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0010526199967584547,67
+Medium Risk,2,1.0,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0010151334206477366,68
+Medium Risk,2,1.0,operatingMargins,operatingMargins,0.000989701525598858,69
+Medium Risk,2,1.0,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0009817046074973826,70
+Medium Risk,2,1.0,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.0009744302910369026,71
+Medium Risk,2,1.0,BS_Land_And_Improvements,BS_Land And Improvements,0.0009332958672907364,72
+Medium Risk,2,1.0,regularMarketPreviousClose,regularMarketPreviousClose,0.0009294911340210339,73
+Medium Risk,2,1.0,revenueGrowth,revenueGrowth,0.0009287911912568519,74
+Medium Risk,2,1.0,SandP52WeekChange,SandP52WeekChange,0.000926780004002704,75
+Medium Risk,2,1.0,freeCashflow,freeCashflow,0.0008984159884211297,76
+Medium Risk,2,1.0,BS_Inventory,BS_Inventory,0.0008921910659695961,77
+Medium Risk,2,1.0,CF_Capital_Expenditure,CF_Capital Expenditure,0.0008799824570883475,78
+Medium Risk,2,1.0,BS_Net_Debt,BS_Net Debt,0.0008464734480329722,79
+Medium Risk,2,1.0,IS_Basic_EPS,IS_Basic EPS,0.0008415065602804256,80
+Medium Risk,2,1.0,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0008234680013731771,81
+Medium Risk,2,1.0,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.0008210402586792747,82
+Medium Risk,2,1.0,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.0008208063714199684,83
+Medium Risk,2,1.0,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.0008020983015282509,84
+Medium Risk,2,1.0,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.0007992377430098395,85
+Medium Risk,2,1.0,CF_Sale_Of_PPE,CF_Sale Of PPE,0.000785002096167308,86
+Medium Risk,2,1.0,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0007806919402847976,87
+Medium Risk,2,1.0,IS_Other_Special_Charges,IS_Other Special Charges,0.0007676858060638333,88
+Medium Risk,2,1.0,Revenue_2023,Revenue 2023,0.0007417986328959988,89
+Medium Risk,2,1.0,enterpriseValue,enterpriseValue,0.0007275304911770636,90
+Medium Risk,2,1.0,ebitda,ebitda,0.0007008015948734072,91
+Medium Risk,2,1.0,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0006924704810024792,92
+Medium Risk,2,1.0,BS_Other_Inventories,BS_Other Inventories,0.0006912032115414629,93
+Medium Risk,2,1.0,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0006904477085060913,94
+Medium Risk,2,1.0,mostRecentQuarter,mostRecentQuarter,0.000690446523550297,95
+Medium Risk,2,1.0,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.0006659069091955751,96
+Medium Risk,2,1.0,BS_Cash_Equivalents,BS_Cash Equivalents,0.000655986365318952,97
+Medium Risk,2,1.0,BS_Other_Payable,BS_Other Payable,0.0006494745859742413,98
+Medium Risk,2,1.0,ebitdaMargins,ebitdaMargins,0.0006472178469112461,99
+Medium Risk,2,1.0,BS_Share_Issued,BS_Share Issued,0.0006427647308946869,100
+Medium Risk,2,1.0,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.000635845818424901,101
+Medium Risk,2,1.0,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.0006251324872175534,102
+Medium Risk,2,1.0,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0006249940810422035,103
+Medium Risk,2,1.0,BS_Properties,BS_Properties,0.0006182107096492661,104
+Medium Risk,2,1.0,BS_Gross_PPE,BS_Gross PPE,0.0006178258945040761,105
+Medium Risk,2,1.0,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0006129054331836547,106
+Medium Risk,2,1.0,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.0006121116354801873,107
+Medium Risk,2,1.0,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0006119552634941153,108
+Medium Risk,2,1.0,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.0006090149924216327,109
+Medium Risk,2,1.0,BS_Accounts_Receivable,BS_Accounts Receivable,0.0005975980933437057,110
+Medium Risk,2,1.0,BS_Payables,BS_Payables,0.0005841930110179415,111
+Medium Risk,2,1.0,grossMargins,grossMargins,0.0005656526135208463,112
+Medium Risk,2,1.0,BS_Retained_Earnings,BS_Retained Earnings,0.0005565189193982781,113
+Medium Risk,2,1.0,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0005542867386584295,114
+Medium Risk,2,1.0,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0005491298381078772,115
+Medium Risk,2,1.0,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0005448812928138009,116
+Medium Risk,2,1.0,lastDividendDate,lastDividendDate,0.0005374111561861849,117
+Medium Risk,2,1.0,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0005352761663617213,118
+Medium Risk,2,1.0,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.0005334048052713508,119
+Medium Risk,2,1.0,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0005199402488231141,120
+Medium Risk,2,1.0,BS_Finished_Goods,BS_Finished Goods,0.0005192580491264283,121
+Medium Risk,2,1.0,lastFiscalYearEnd,lastFiscalYearEnd,0.0005152898982193135,122
+Medium Risk,2,1.0,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.0005044986761627468,123
+Medium Risk,2,1.0,earningsGrowth,earningsGrowth,0.0004851411397137476,124
+Medium Risk,2,1.0,BS_Raw_Materials,BS_Raw Materials,0.00048363687462773245,125
+Medium Risk,2,1.0,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.00048238854225159534,126
+Medium Risk,2,1.0,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.000474022641000667,127
+Medium Risk,2,1.0,industryKey,industryKey,0.0004725420952884893,128
+Medium Risk,2,1.0,totalDebt,totalDebt,0.00046715732305771654,129
+Medium Risk,2,1.0,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.000437171646931189,130
+Medium Risk,2,1.0,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.000436171990416291,131
+Medium Risk,2,1.0,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.00042778286750027596,132
+Medium Risk,2,1.0,maxAge,maxAge,0.0004255887329620509,133
+Medium Risk,2,1.0,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0004252303729654718,134
+Medium Risk,2,1.0,BS_Prepaid_Assets,BS_Prepaid Assets,0.0004083519119607049,135
+Medium Risk,2,1.0,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.00040335502446306297,136
+Medium Risk,2,1.0,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.0003995261664416243,137
+Medium Risk,2,1.0,BS_Other_Receivables,BS_Other Receivables,0.00037690706954537006,138
+Medium Risk,2,1.0,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.00037657461378055456,139
+Medium Risk,2,1.0,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.000375811242846994,140
+Medium Risk,2,1.0,BS_Other_Properties,BS_Other Properties,0.00037006879823690185,141
+Medium Risk,2,1.0,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.00036989525822373224,142
+Medium Risk,2,1.0,BS_Cash_Financial,BS_Cash Financial,0.0003675772120496486,143
+Medium Risk,2,1.0,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.00035075428580564206,144
+Medium Risk,2,1.0,IS_Write_Off,IS_Write Off,0.0003505944547684694,145
+Medium Risk,2,1.0,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.000350529814303373,146
+Medium Risk,2,1.0,BS_Current_Liabilities,BS_Current Liabilities,0.0003301086180679783,147
+Medium Risk,2,1.0,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.00031970252335877976,148
+Medium Risk,2,1.0,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.00029849608146178836,149
+Medium Risk,2,1.0,regularMarketChangePercent,regularMarketChangePercent,0.00027584297648223854,150
+Medium Risk,2,1.0,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.00027300612460951943,151
+Medium Risk,2,1.0,BS_Total_Assets,BS_Total Assets,0.00027122985219772753,152
+Medium Risk,2,1.0,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.00026783523191508237,153
+Medium Risk,2,1.0,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0002267211010205076,154
+Medium Risk,2,1.0,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.00021449059971252873,155
+Medium Risk,2,1.0,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.00019143120069138188,156
+Medium Risk,2,1.0,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.00013873021184069643,157
+Medium Risk,2,1.0,BS_Working_Capital,BS_Working Capital,0.00013509655527037517,158
+Medium Risk,2,1.0,debtToEquity,debtToEquity,9.032260242817247e-05,159
+Medium Risk,2,1.0,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,7.801155784155153e-05,160
+Medium Risk,2,1.0,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,161
+Medium Risk,2,1.0,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,162
+Medium Risk,2,1.0,IS_Gross_Profit,IS_Gross Profit,0.0,163
+Medium Risk,2,1.0,priceHint,priceHint,0.0,164

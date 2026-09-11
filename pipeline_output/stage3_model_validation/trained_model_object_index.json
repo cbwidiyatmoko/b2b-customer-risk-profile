@@ -1,0 +1,44 @@
+{
+    "SVM": {
+        "model_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm",
+        "cv_results": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm\\svm_cv_results.csv",
+        "best_params": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm\\svm_best_params.json",
+        "best_score": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm\\svm_best_cv_score.json",
+        "validation_metrics": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm\\validation_metrics_standardized.json",
+        "confusion_matrix": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\svm\\validation_confusion_matrix.png",
+        "oof_meta_features": null,
+        "end_to_end_cv_scores": null,
+        "base_learner_config": null,
+        "final_meta_weight_lock": null,
+        "paired_repeated_cv": null,
+        "paired_repeated_cv_summary": null
+    },
+    "RandomForest": {
+        "model_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest",
+        "cv_results": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest\\randomforest_cv_results.csv",
+        "best_params": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest\\randomforest_best_params.json",
+        "best_score": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest\\randomforest_best_cv_score.json",
+        "validation_metrics": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest\\validation_metrics_standardized.json",
+        "confusion_matrix": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\randomforest\\validation_confusion_matrix.png",
+        "oof_meta_features": null,
+        "end_to_end_cv_scores": null,
+        "base_learner_config": null,
+        "final_meta_weight_lock": null,
+        "paired_repeated_cv": null,
+        "paired_repeated_cv_summary": null
+    },
+    "StackedEnsemble": {
+        "model_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble",
+        "cv_results": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_cv_results.csv",
+        "best_params": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_best_params.json",
+        "best_score": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_best_cv_score.json",
+        "validation_metrics": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\validation_metrics_standardized.json",
+        "confusion_matrix": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\validation_confusion_matrix.png",
+        "oof_meta_features": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_oof_meta_features.csv",
+        "end_to_end_cv_scores": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_end_to_end_cv_scores.csv",
+        "base_learner_config": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_base_learner_config.json",
+        "final_meta_weight_lock": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\stackedensemble\\stackedensemble_final_meta_weight_lock.json",
+        "paired_repeated_cv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\paired_repeated_cv_rf_vs_se.csv",
+        "paired_repeated_cv_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation\\paired_repeated_cv_rf_vs_se_summary.json"
+    }
+}

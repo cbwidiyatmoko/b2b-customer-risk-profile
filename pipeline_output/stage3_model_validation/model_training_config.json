@@ -1,0 +1,35 @@
+{
+    "training_design": "final_locked_sequential_tuned_stacking",
+    "models": [
+        "SVM",
+        "RandomForest",
+        "StackedEnsemble"
+    ],
+    "model_n_iter": {
+        "SVM": 30,
+        "RandomForest": 30,
+        "StackedEnsemble_meta": 60
+    },
+    "n_features": 164,
+    "n_numeric_features": 162,
+    "n_categorical_features": 2,
+    "scoring": "f1_macro",
+    "cv_folds": 5,
+    "xgboost_available": true,
+    "high_risk_class_label": "High Risk",
+    "svm_search_probability": false,
+    "svm_standalone_probability": true,
+    "svm_stack_signal": "decision_function",
+    "rf_stack_signal": "predict_proba",
+    "stack_method": "auto",
+    "stack_meta_tuning": "RandomizedSearchCV on OOF meta-features",
+    "stack_end_to_end_cv_after_tuning": true,
+    "final_meta_high_risk_weight": 1.0,
+    "meta_weighting": "unweighted_final_lock",
+    "paired_repeated_cv_enabled": true,
+    "paired_repeated_cv_splits": 5,
+    "paired_repeated_cv_repeats": 3,
+    "validation_used_for_tuning": false,
+    "test_used_in_this_stage": false,
+    "fast_debug_mode": false
+}

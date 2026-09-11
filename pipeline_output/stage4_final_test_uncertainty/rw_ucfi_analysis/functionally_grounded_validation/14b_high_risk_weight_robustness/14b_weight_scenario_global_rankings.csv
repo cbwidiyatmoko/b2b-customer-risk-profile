@@ -1,0 +1,657 @@
+scenario,high_risk_weight,feature,original_column,rw_ucfi_score,rw_ucfi_rank
+high_weight_1.25,1.25,sectorKey,sectorKey,0.05283350154245328,1
+high_weight_1.25,1.25,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.042558815812290304,2
+high_weight_1.25,1.25,profitMargins,profitMargins,0.030729964201504482,3
+high_weight_1.25,1.25,IS_Net_Income,IS_Net Income,0.028498755604343368,4
+high_weight_1.25,1.25,IS_EBIT,IS_EBIT,0.022193958978790417,5
+high_weight_1.25,1.25,totalRevenue,totalRevenue,0.012635828192291336,6
+high_weight_1.25,1.25,enterpriseToRevenue,enterpriseToRevenue,0.010742935306237473,7
+high_weight_1.25,1.25,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.007492113853352331,8
+high_weight_1.25,1.25,ebitdaMargins,ebitdaMargins,0.00542948935159105,9
+high_weight_1.25,1.25,returnOnEquity,returnOnEquity,0.004640694196758386,10
+high_weight_1.25,1.25,BS_Net_Debt,BS_Net Debt,0.004405554478905099,11
+high_weight_1.25,1.25,IS_Net_Interest_Income,IS_Net Interest Income,0.00440518350228137,12
+high_weight_1.25,1.25,currentRatio,currentRatio,0.0036988308337928618,13
+high_weight_1.25,1.25,revenuePerShare,revenuePerShare,0.003519661886608724,14
+high_weight_1.25,1.25,totalCashPerShare,totalCashPerShare,0.003456747211928169,15
+high_weight_1.25,1.25,enterpriseToEbitda,enterpriseToEbitda,0.0032609901970107285,16
+high_weight_1.25,1.25,BS_Total_Tax_Payable,BS_Total Tax Payable,0.002796102395877282,17
+high_weight_1.25,1.25,BS_Common_Stock,BS_Common Stock,0.0026982837761570237,18
+high_weight_1.25,1.25,fullTimeEmployees,fullTimeEmployees,0.00269433713978533,19
+high_weight_1.25,1.25,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0024788605324226145,20
+high_weight_1.25,1.25,grossProfits,grossProfits,0.0024189524326921445,21
+high_weight_1.25,1.25,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.0022635536221494537,22
+high_weight_1.25,1.25,totalCash,totalCash,0.002253809724409827,23
+high_weight_1.25,1.25,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.0022222492816947213,24
+high_weight_1.25,1.25,CR_2024,CR 2024,0.0020127165493479256,25
+high_weight_1.25,1.25,quickRatio,quickRatio,0.001982682374651607,26
+high_weight_1.25,1.25,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.0019749204723237897,27
+high_weight_1.25,1.25,ebitda,ebitda,0.0018720181462107243,28
+high_weight_1.25,1.25,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.0018481689341266123,29
+high_weight_1.25,1.25,debtToEquity,debtToEquity,0.0018289483245914186,30
+high_weight_1.25,1.25,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.0017421455352079078,31
+high_weight_1.25,1.25,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.0016538494815402,32
+high_weight_1.25,1.25,Revenue_2023,Revenue 2023,0.001652927681166097,33
+high_weight_1.25,1.25,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0016305397988475119,34
+high_weight_1.25,1.25,BS_Construction_In_Progress,BS_Construction In Progress,0.001594174836215098,35
+high_weight_1.25,1.25,returnOnAssets,returnOnAssets,0.001525451172946651,36
+high_weight_1.25,1.25,CF_Sale_Of_Business,CF_Sale Of Business,0.0015049250902508646,37
+high_weight_1.25,1.25,freeCashflow,freeCashflow,0.001489888900251036,38
+high_weight_1.25,1.25,CYC_2024,CYC 2024,0.001464175221098964,39
+high_weight_1.25,1.25,operatingMargins,operatingMargins,0.0014433054052877688,40
+high_weight_1.25,1.25,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.0014036693273697556,41
+high_weight_1.25,1.25,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.0013917220033577403,42
+high_weight_1.25,1.25,operatingCashflow,operatingCashflow,0.0013885835926640694,43
+high_weight_1.25,1.25,hasRiskOfficer,hasRiskOfficer,0.001359853110440962,44
+high_weight_1.25,1.25,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0013409286431927097,45
+high_weight_1.25,1.25,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0013366594546118933,46
+high_weight_1.25,1.25,earningsGrowth,earningsGrowth,0.0013360113035281876,47
+high_weight_1.25,1.25,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0013235594007243584,48
+high_weight_1.25,1.25,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.001318181533975653,49
+high_weight_1.25,1.25,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0013092089859813873,50
+high_weight_1.25,1.25,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.0013051016881127006,51
+high_weight_1.25,1.25,CR_2023,CR 2023,0.0012533080894942493,52
+high_weight_1.25,1.25,revenueGrowth,revenueGrowth,0.0012338087088323887,53
+high_weight_1.25,1.25,BS_Other_Payable,BS_Other Payable,0.001226032417681179,54
+high_weight_1.25,1.25,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.0012095213585729208,55
+high_weight_1.25,1.25,IS_Interest_Expense,IS_Interest Expense,0.0012093004375925943,56
+high_weight_1.25,1.25,BS_Current_Assets,BS_Current Assets,0.001191976624604661,57
+high_weight_1.25,1.25,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0011783679288672425,58
+high_weight_1.25,1.25,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0011742224819496568,59
+high_weight_1.25,1.25,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.0011665206605135298,60
+high_weight_1.25,1.25,Revenue_2024,Revenue 2024,0.001160517924980121,61
+high_weight_1.25,1.25,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0011440157947226704,62
+high_weight_1.25,1.25,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.0011409674428511799,63
+high_weight_1.25,1.25,enterpriseValue,enterpriseValue,0.0011380494979889998,64
+high_weight_1.25,1.25,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.0011133730296782186,65
+high_weight_1.25,1.25,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0011121520099763454,66
+high_weight_1.25,1.25,CF_Changes_In_Cash,CF_Changes In Cash,0.0011091535547137063,67
+high_weight_1.25,1.25,SandP52WeekChange,SandP52WeekChange,0.0011029302453407453,68
+high_weight_1.25,1.25,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0010909514840950192,69
+high_weight_1.25,1.25,lastDividendDate,lastDividendDate,0.0010817872053196453,70
+high_weight_1.25,1.25,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.0010682196970657916,71
+high_weight_1.25,1.25,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0010663377786745778,72
+high_weight_1.25,1.25,marketCap,marketCap,0.0010618360575442426,73
+high_weight_1.25,1.25,BS_Retained_Earnings,BS_Retained Earnings,0.0010591319225823463,74
+high_weight_1.25,1.25,BS_Minority_Interest,BS_Minority Interest,0.0010565437234742753,75
+high_weight_1.25,1.25,BS_Cash_Equivalents,BS_Cash Equivalents,0.001039118742090398,76
+high_weight_1.25,1.25,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.0010352328448962741,77
+high_weight_1.25,1.25,maxAge,maxAge,0.001034194842155133,78
+high_weight_1.25,1.25,mostRecentQuarter,mostRecentQuarter,0.0010287008866094727,79
+high_weight_1.25,1.25,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.0010268702957965958,80
+high_weight_1.25,1.25,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0010267821858155576,81
+high_weight_1.25,1.25,IS_Minority_Interests,IS_Minority Interests,0.0010046915484392752,82
+high_weight_1.25,1.25,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.00100007874693319,83
+high_weight_1.25,1.25,BS_Other_Inventories,BS_Other Inventories,0.0009994994112806574,84
+high_weight_1.25,1.25,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.0009850846889384742,85
+high_weight_1.25,1.25,CF_Interest_Received_Direct,CF_Interest Received Direct,0.0009846404621300714,86
+high_weight_1.25,1.25,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0009775646643471873,87
+high_weight_1.25,1.25,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.0009655872773368404,88
+high_weight_1.25,1.25,BS_Accounts_Payable,BS_Accounts Payable,0.0009604457057286089,89
+high_weight_1.25,1.25,BS_Prepaid_Assets,BS_Prepaid Assets,0.000959302348071585,90
+high_weight_1.25,1.25,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0009573304448222358,91
+high_weight_1.25,1.25,regularMarketTime,regularMarketTime,0.0009535226875612166,92
+high_weight_1.25,1.25,BS_Payables,BS_Payables,0.0009502803447577945,93
+high_weight_1.25,1.25,CF_Capital_Expenditure,CF_Capital Expenditure,0.0009348564678439092,94
+high_weight_1.25,1.25,CYC_2023,CYC 2023,0.0009312642008995608,95
+high_weight_1.25,1.25,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0009126315815162317,96
+high_weight_1.25,1.25,lastFiscalYearEnd,lastFiscalYearEnd,0.0009076400332194199,97
+high_weight_1.25,1.25,IS_Basic_EPS,IS_Basic EPS,0.0009015967275220408,98
+high_weight_1.25,1.25,industryKey,industryKey,0.0008987970697565732,99
+high_weight_1.25,1.25,regularMarketChangePercent,regularMarketChangePercent,0.000889130832341123,100
+high_weight_1.25,1.25,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0008869646009606534,101
+high_weight_1.25,1.25,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.0008808998967964612,102
+high_weight_1.25,1.25,BS_Accounts_Receivable,BS_Accounts Receivable,0.0008568362098735771,103
+high_weight_1.25,1.25,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0008561655217008008,104
+high_weight_1.25,1.25,CF_Sale_Of_PPE,CF_Sale Of PPE,0.0008425521787765703,105
+high_weight_1.25,1.25,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0008357178647517041,106
+high_weight_1.25,1.25,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.000835650059628059,107
+high_weight_1.25,1.25,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0008350136794989702,108
+high_weight_1.25,1.25,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0008039351579746735,109
+high_weight_1.25,1.25,regularMarketPreviousClose,regularMarketPreviousClose,0.0007976545978154148,110
+high_weight_1.25,1.25,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.000793839792168202,111
+high_weight_1.25,1.25,BS_Land_And_Improvements,BS_Land And Improvements,0.0007922364996412703,112
+high_weight_1.25,1.25,BS_Other_Properties,BS_Other Properties,0.0007827769015283062,113
+high_weight_1.25,1.25,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0007744053468045835,114
+high_weight_1.25,1.25,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.0007689353842920118,115
+high_weight_1.25,1.25,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0007624156556596367,116
+high_weight_1.25,1.25,BS_Current_Liabilities,BS_Current Liabilities,0.0007601318857871623,117
+high_weight_1.25,1.25,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.000744409230836702,118
+high_weight_1.25,1.25,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0007424213225234726,119
+high_weight_1.25,1.25,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0007309663675725881,120
+high_weight_1.25,1.25,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.0007307680726594774,121
+high_weight_1.25,1.25,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0007208783540349502,122
+high_weight_1.25,1.25,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.0007064941064775029,123
+high_weight_1.25,1.25,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0007046039809494943,124
+high_weight_1.25,1.25,BS_Finished_Goods,BS_Finished Goods,0.0007023158193623568,125
+high_weight_1.25,1.25,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0006992563959918069,126
+high_weight_1.25,1.25,BS_Cash_Financial,BS_Cash Financial,0.0006973989967687314,127
+high_weight_1.25,1.25,BS_Inventory,BS_Inventory,0.0006810354602665126,128
+high_weight_1.25,1.25,totalDebt,totalDebt,0.0006803743230793985,129
+high_weight_1.25,1.25,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.0006663673723414754,130
+high_weight_1.25,1.25,BS_Raw_Materials,BS_Raw Materials,0.0006581568286928846,131
+high_weight_1.25,1.25,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.0006541570269881858,132
+high_weight_1.25,1.25,BS_Working_Capital,BS_Working Capital,0.0006356126388154171,133
+high_weight_1.25,1.25,BS_Other_Receivables,BS_Other Receivables,0.0006339592179880516,134
+high_weight_1.25,1.25,BS_Gross_PPE,BS_Gross PPE,0.000631858901281364,135
+high_weight_1.25,1.25,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0006316142663341075,136
+high_weight_1.25,1.25,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0006313867378840653,137
+high_weight_1.25,1.25,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.0005978544256669531,138
+high_weight_1.25,1.25,BS_Share_Issued,BS_Share Issued,0.0005952744315509433,139
+high_weight_1.25,1.25,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.000592786678965748,140
+high_weight_1.25,1.25,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0005862875416982484,141
+high_weight_1.25,1.25,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.0005816111646571914,142
+high_weight_1.25,1.25,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0005797903615961102,143
+high_weight_1.25,1.25,BS_Total_Assets,BS_Total Assets,0.0005770690801185809,144
+high_weight_1.25,1.25,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0005770016033200216,145
+high_weight_1.25,1.25,IS_Other_Special_Charges,IS_Other Special Charges,0.0005713518152128316,146
+high_weight_1.25,1.25,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0005682214562682567,147
+high_weight_1.25,1.25,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0005451250470485948,148
+high_weight_1.25,1.25,IS_Gross_Profit,IS_Gross Profit,0.0005444898892884179,149
+high_weight_1.25,1.25,grossMargins,grossMargins,0.0005277635574314825,150
+high_weight_1.25,1.25,BS_Properties,BS_Properties,0.0004974533935426159,151
+high_weight_1.25,1.25,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.0004660591673464594,152
+high_weight_1.25,1.25,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.000464995648164656,153
+high_weight_1.25,1.25,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0004543851380101422,154
+high_weight_1.25,1.25,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.00044924908424317047,155
+high_weight_1.25,1.25,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.0004340478330180493,156
+high_weight_1.25,1.25,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.0004250775308097317,157
+high_weight_1.25,1.25,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.0004156436223244134,158
+high_weight_1.25,1.25,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.0002558309587107663,159
+high_weight_1.25,1.25,IS_Write_Off,IS_Write Off,0.00024531553323814604,160
+high_weight_1.25,1.25,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.0002242381101766035,161
+high_weight_1.25,1.25,priceHint,priceHint,1.72121824977834e-05,162
+high_weight_1.25,1.25,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,163
+high_weight_1.25,1.25,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,163
+high_weight_1.50,1.5,sectorKey,sectorKey,0.0565838849818675,1
+high_weight_1.50,1.5,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.048042942685850895,2
+high_weight_1.50,1.5,profitMargins,profitMargins,0.03423082664066184,3
+high_weight_1.50,1.5,IS_Net_Income,IS_Net Income,0.031546162945949356,4
+high_weight_1.50,1.5,IS_EBIT,IS_EBIT,0.02305812230269702,5
+high_weight_1.50,1.5,totalRevenue,totalRevenue,0.014333770007981198,6
+high_weight_1.50,1.5,enterpriseToRevenue,enterpriseToRevenue,0.011773995310007997,7
+high_weight_1.50,1.5,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.008450316916839142,8
+high_weight_1.50,1.5,ebitdaMargins,ebitdaMargins,0.006146535498665497,9
+high_weight_1.50,1.5,returnOnEquity,returnOnEquity,0.005204506126662243,10
+high_weight_1.50,1.5,IS_Net_Interest_Income,IS_Net Interest Income,0.004981661607370221,11
+high_weight_1.50,1.5,BS_Net_Debt,BS_Net Debt,0.004943689840900715,12
+high_weight_1.50,1.5,currentRatio,currentRatio,0.004160127895880598,13
+high_weight_1.50,1.5,revenuePerShare,revenuePerShare,0.00395126874672076,14
+high_weight_1.50,1.5,totalCashPerShare,totalCashPerShare,0.0036986146533022676,15
+high_weight_1.50,1.5,enterpriseToEbitda,enterpriseToEbitda,0.0036346226384270184,16
+high_weight_1.50,1.5,BS_Total_Tax_Payable,BS_Total Tax Payable,0.003121219986709129,17
+high_weight_1.50,1.5,fullTimeEmployees,fullTimeEmployees,0.0029751184734760146,18
+high_weight_1.50,1.5,BS_Common_Stock,BS_Common Stock,0.002844057035022072,19
+high_weight_1.50,1.5,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.002692939818025617,20
+high_weight_1.50,1.5,grossProfits,grossProfits,0.002674223673476351,21
+high_weight_1.50,1.5,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.0025328150193785408,22
+high_weight_1.50,1.5,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.002477323989675575,23
+high_weight_1.50,1.5,totalCash,totalCash,0.002471198915439493,24
+high_weight_1.50,1.5,quickRatio,quickRatio,0.002219160454185488,25
+high_weight_1.50,1.5,CR_2024,CR 2024,0.002199743213314184,26
+high_weight_1.50,1.5,ebitda,ebitda,0.0021182906478089776,27
+high_weight_1.50,1.5,debtToEquity,debtToEquity,0.002059021344513109,28
+high_weight_1.50,1.5,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.0020588266436417034,29
+high_weight_1.50,1.5,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.0019436718952541962,30
+high_weight_1.50,1.5,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.0019373181724575308,31
+high_weight_1.50,1.5,Revenue_2023,Revenue 2023,0.0018490513343226527,32
+high_weight_1.50,1.5,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.001844102146416562,33
+high_weight_1.50,1.5,BS_Construction_In_Progress,BS_Construction In Progress,0.0017704051973296965,34
+high_weight_1.50,1.5,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0017290439369378404,35
+high_weight_1.50,1.5,returnOnAssets,returnOnAssets,0.0017255608669111053,36
+high_weight_1.50,1.5,CF_Sale_Of_Business,CF_Sale Of Business,0.0016819061861146828,37
+high_weight_1.50,1.5,freeCashflow,freeCashflow,0.00166174563778729,38
+high_weight_1.50,1.5,operatingMargins,operatingMargins,0.001631160662419896,39
+high_weight_1.50,1.5,CYC_2024,CYC 2024,0.0015747721631461404,40
+high_weight_1.50,1.5,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.0015641659914962644,41
+high_weight_1.50,1.5,operatingCashflow,operatingCashflow,0.0015429818814046538,42
+high_weight_1.50,1.5,earningsGrowth,earningsGrowth,0.0015327702891569591,43
+high_weight_1.50,1.5,hasRiskOfficer,hasRiskOfficer,0.0015293269080589092,44
+high_weight_1.50,1.5,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.0015142657518260093,45
+high_weight_1.50,1.5,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.001505276397938207,46
+high_weight_1.50,1.5,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0014993394378542055,47
+high_weight_1.50,1.5,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0014945637283624701,48
+high_weight_1.50,1.5,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0014549460206633802,49
+high_weight_1.50,1.5,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0014418803872871492,50
+high_weight_1.50,1.5,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.0013942017479278005,51
+high_weight_1.50,1.5,revenueGrowth,revenueGrowth,0.0013941117182645635,52
+high_weight_1.50,1.5,BS_Other_Payable,BS_Other Payable,0.0013803830427835961,53
+high_weight_1.50,1.5,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.0013293905490770262,54
+high_weight_1.50,1.5,IS_Interest_Expense,IS_Interest Expense,0.001305409422774993,55
+high_weight_1.50,1.5,Revenue_2024,Revenue 2024,0.001295888333314312,56
+high_weight_1.50,1.5,CR_2023,CR 2023,0.0012939689923565352,57
+high_weight_1.50,1.5,BS_Current_Assets,BS_Current Assets,0.001293580715881676,58
+high_weight_1.50,1.5,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0012916135863613911,59
+high_weight_1.50,1.5,enterpriseValue,enterpriseValue,0.001288141275361357,60
+high_weight_1.50,1.5,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0012760037926414986,61
+high_weight_1.50,1.5,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0012745038547965948,62
+high_weight_1.50,1.5,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.0012657478860403023,63
+high_weight_1.50,1.5,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.001265267480530139,64
+high_weight_1.50,1.5,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.0012590292697055425,65
+high_weight_1.50,1.5,lastDividendDate,lastDividendDate,0.0012208281111585643,66
+high_weight_1.50,1.5,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0012181857299801387,67
+high_weight_1.50,1.5,SandP52WeekChange,SandP52WeekChange,0.0012090992698771993,68
+high_weight_1.50,1.5,CF_Changes_In_Cash,CF_Changes In Cash,0.001206694907018186,69
+high_weight_1.50,1.5,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.001197275187252943,70
+high_weight_1.50,1.5,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.0011888469587129982,71
+high_weight_1.50,1.5,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0011844257663972998,72
+high_weight_1.50,1.5,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0011834923333466506,73
+high_weight_1.50,1.5,BS_Cash_Equivalents,BS_Cash Equivalents,0.0011804472573757915,74
+high_weight_1.50,1.5,maxAge,maxAge,0.0011671349574675653,75
+high_weight_1.50,1.5,BS_Retained_Earnings,BS_Retained Earnings,0.0011668519543343977,76
+high_weight_1.50,1.5,marketCap,marketCap,0.0011579464077807102,77
+high_weight_1.50,1.5,mostRecentQuarter,mostRecentQuarter,0.001153098119221079,78
+high_weight_1.50,1.5,BS_Minority_Interest,BS_Minority Interest,0.001149533538071166,79
+high_weight_1.50,1.5,BS_Other_Inventories,BS_Other Inventories,0.0011418382591732923,80
+high_weight_1.50,1.5,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.0011401375110174975,81
+high_weight_1.50,1.5,BS_Prepaid_Assets,BS_Prepaid Assets,0.001107692965998562,82
+high_weight_1.50,1.5,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.0011050899477712765,83
+high_weight_1.50,1.5,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.001100471686747314,84
+high_weight_1.50,1.5,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0010882208997343582,85
+high_weight_1.50,1.5,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0010816500640961203,86
+high_weight_1.50,1.5,BS_Payables,BS_Payables,0.001069371626440373,87
+high_weight_1.50,1.5,CF_Interest_Received_Direct,CF_Interest Received Direct,0.0010601432836075785,88
+high_weight_1.50,1.5,IS_Minority_Interests,IS_Minority Interests,0.001057877864583596,89
+high_weight_1.50,1.5,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0010509308120375785,90
+high_weight_1.50,1.5,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.001028516121366057,91
+high_weight_1.50,1.5,CF_Capital_Expenditure,CF_Capital Expenditure,0.001027884112049086,92
+high_weight_1.50,1.5,regularMarketChangePercent,regularMarketChangePercent,0.0010179583974352282,93
+high_weight_1.50,1.5,BS_Accounts_Payable,BS_Accounts Payable,0.0010177924294709202,94
+high_weight_1.50,1.5,IS_Basic_EPS,IS_Basic EPS,0.0010158205689859384,95
+high_weight_1.50,1.5,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.0010094983135307553,96
+high_weight_1.50,1.5,regularMarketTime,regularMarketTime,0.001009467013912989,97
+high_weight_1.50,1.5,CYC_2023,CYC 2023,0.0010056898587542567,98
+high_weight_1.50,1.5,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0009900227280084484,99
+high_weight_1.50,1.5,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0009894704298683832,100
+high_weight_1.50,1.5,lastFiscalYearEnd,lastFiscalYearEnd,0.0009868122864577435,101
+high_weight_1.50,1.5,industryKey,industryKey,0.0009712201835887053,102
+high_weight_1.50,1.5,BS_Accounts_Receivable,BS_Accounts Receivable,0.0009633670054306494,103
+high_weight_1.50,1.5,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0009417602011620078,104
+high_weight_1.50,1.5,CF_Sale_Of_PPE,CF_Sale Of PPE,0.0009403919969435405,105
+high_weight_1.50,1.5,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0009148918029740236,106
+high_weight_1.50,1.5,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0009126823664119202,107
+high_weight_1.50,1.5,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.0009100138282196452,108
+high_weight_1.50,1.5,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0008891097226153823,109
+high_weight_1.50,1.5,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.0008878755649379379,110
+high_weight_1.50,1.5,BS_Land_And_Improvements,BS_Land And Improvements,0.000881405814253649,111
+high_weight_1.50,1.5,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.0008756686897845692,112
+high_weight_1.50,1.5,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0008729492914684243,113
+high_weight_1.50,1.5,BS_Current_Liabilities,BS_Current Liabilities,0.0008680717074387493,114
+high_weight_1.50,1.5,regularMarketPreviousClose,regularMarketPreviousClose,0.000865757397190202,115
+high_weight_1.50,1.5,BS_Other_Properties,BS_Other Properties,0.0008561309719192527,116
+high_weight_1.50,1.5,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.0008277719682906424,117
+high_weight_1.50,1.5,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0008275527109547762,118
+high_weight_1.50,1.5,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0008274560964703901,119
+high_weight_1.50,1.5,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0008217833925508902,120
+high_weight_1.50,1.5,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0007995417585743665,121
+high_weight_1.50,1.5,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.0007908573908268525,122
+high_weight_1.50,1.5,BS_Cash_Financial,BS_Cash Financial,0.0007871982513290452,123
+high_weight_1.50,1.5,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0007850717272010833,124
+high_weight_1.50,1.5,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.0007846292781422398,125
+high_weight_1.50,1.5,totalDebt,totalDebt,0.0007688318023148336,126
+high_weight_1.50,1.5,BS_Finished_Goods,BS_Finished Goods,0.0007635435456197305,127
+high_weight_1.50,1.5,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0007608569655603007,128
+high_weight_1.50,1.5,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.000754267518434,129
+high_weight_1.50,1.5,BS_Inventory,BS_Inventory,0.0007417686869567702,130
+high_weight_1.50,1.5,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.000738742529890709,131
+high_weight_1.50,1.5,BS_Raw_Materials,BS_Raw Materials,0.0007379905573273451,132
+high_weight_1.50,1.5,BS_Working_Capital,BS_Working Capital,0.0007351863404185552,133
+high_weight_1.50,1.5,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0007083640318586225,134
+high_weight_1.50,1.5,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0006962706202036662,135
+high_weight_1.50,1.5,BS_Other_Receivables,BS_Other Receivables,0.000677177499576726,136
+high_weight_1.50,1.5,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.0006746463339489634,137
+high_weight_1.50,1.5,BS_Gross_PPE,BS_Gross PPE,0.0006668578122030088,138
+high_weight_1.50,1.5,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0006610765510951079,139
+high_weight_1.50,1.5,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.0006566462609660216,140
+high_weight_1.50,1.5,BS_Share_Issued,BS_Share Issued,0.0006478857935359553,141
+high_weight_1.50,1.5,IS_Gross_Profit,IS_Gross Profit,0.0006460598267481077,142
+high_weight_1.50,1.5,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0006449200479986886,143
+high_weight_1.50,1.5,BS_Total_Assets,BS_Total Assets,0.0006335795307054435,144
+high_weight_1.50,1.5,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0006263944485511347,145
+high_weight_1.50,1.5,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0006203234496357312,146
+high_weight_1.50,1.5,IS_Other_Special_Charges,IS_Other Special Charges,0.000617629770666758,147
+high_weight_1.50,1.5,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0005979770725557935,148
+high_weight_1.50,1.5,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0005862875416982484,149
+high_weight_1.50,1.5,grossMargins,grossMargins,0.0005808501860892198,150
+high_weight_1.50,1.5,BS_Properties,BS_Properties,0.0005325299404659965,151
+high_weight_1.50,1.5,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0004912565364394122,152
+high_weight_1.50,1.5,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.0004911007866492988,153
+high_weight_1.50,1.5,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.00048650048608467713,154
+high_weight_1.50,1.5,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.00048590375008022237,155
+high_weight_1.50,1.5,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.0004774807195810242,156
+high_weight_1.50,1.5,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.00046815463952879605,157
+high_weight_1.50,1.5,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.0004583208315256392,158
+high_weight_1.50,1.5,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.0002702954362875679,159
+high_weight_1.50,1.5,IS_Write_Off,IS_Write Off,0.00026785058631280726,160
+high_weight_1.50,1.5,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.00024290823799322166,161
+high_weight_1.50,1.5,priceHint,priceHint,1.72121824977834e-05,162
+high_weight_1.50,1.5,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,163
+high_weight_1.50,1.5,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,163
+high_weight_1.75,1.75,sectorKey,sectorKey,0.06033426842128174,1
+high_weight_1.75,1.75,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.05352706955941153,2
+high_weight_1.75,1.75,profitMargins,profitMargins,0.037731689079819226,3
+high_weight_1.75,1.75,IS_Net_Income,IS_Net Income,0.03459357028755532,4
+high_weight_1.75,1.75,IS_EBIT,IS_EBIT,0.02392228562660362,5
+high_weight_1.75,1.75,totalRevenue,totalRevenue,0.016031711823671066,6
+high_weight_1.75,1.75,enterpriseToRevenue,enterpriseToRevenue,0.012805055313778527,7
+high_weight_1.75,1.75,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.00940851998032596,8
+high_weight_1.75,1.75,ebitdaMargins,ebitdaMargins,0.006863581645739945,9
+high_weight_1.75,1.75,returnOnEquity,returnOnEquity,0.005768318056566101,10
+high_weight_1.75,1.75,IS_Net_Interest_Income,IS_Net Interest Income,0.005558139712459072,11
+high_weight_1.75,1.75,BS_Net_Debt,BS_Net Debt,0.00548182520289633,12
+high_weight_1.75,1.75,currentRatio,currentRatio,0.004621424957968333,13
+high_weight_1.75,1.75,revenuePerShare,revenuePerShare,0.004382875606832796,14
+high_weight_1.75,1.75,enterpriseToEbitda,enterpriseToEbitda,0.004008255079843309,15
+high_weight_1.75,1.75,totalCashPerShare,totalCashPerShare,0.003940482094676366,16
+high_weight_1.75,1.75,BS_Total_Tax_Payable,BS_Total Tax Payable,0.003446337577540977,17
+high_weight_1.75,1.75,fullTimeEmployees,fullTimeEmployees,0.003255899807166699,18
+high_weight_1.75,1.75,BS_Common_Stock,BS_Common Stock,0.002989830293887121,19
+high_weight_1.75,1.75,grossProfits,grossProfits,0.0029294949142605574,20
+high_weight_1.75,1.75,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0029070191036286194,21
+high_weight_1.75,1.75,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.002802076416607628,22
+high_weight_1.75,1.75,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.002732398697656428,23
+high_weight_1.75,1.75,totalCash,totalCash,0.0026885881064691586,24
+high_weight_1.75,1.75,quickRatio,quickRatio,0.0024556385337193678,25
+high_weight_1.75,1.75,CR_2024,CR 2024,0.0023867698772804427,26
+high_weight_1.75,1.75,ebitda,ebitda,0.0023645631494072315,27
+high_weight_1.75,1.75,debtToEquity,debtToEquity,0.0022890943644348,28
+high_weight_1.75,1.75,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.002145198255300484,29
+high_weight_1.75,1.75,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.002142732814959617,30
+high_weight_1.75,1.75,Revenue_2023,Revenue 2023,0.002045174987479208,31
+high_weight_1.75,1.75,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.002034354811292923,32
+high_weight_1.75,1.75,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.0020264674107884494,33
+high_weight_1.75,1.75,BS_Construction_In_Progress,BS_Construction In Progress,0.0019466355584442942,34
+high_weight_1.75,1.75,returnOnAssets,returnOnAssets,0.0019256705608755587,35
+high_weight_1.75,1.75,CF_Sale_Of_Business,CF_Sale Of Business,0.001858887281978501,36
+high_weight_1.75,1.75,freeCashflow,freeCashflow,0.0018336023753235443,37
+high_weight_1.75,1.75,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0018275480750281695,38
+high_weight_1.75,1.75,operatingMargins,operatingMargins,0.001819015919552023,39
+high_weight_1.75,1.75,earningsGrowth,earningsGrowth,0.0017295292747857298,40
+high_weight_1.75,1.75,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.001724662655622773,41
+high_weight_1.75,1.75,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.0017103499696763664,42
+high_weight_1.75,1.75,hasRiskOfficer,hasRiskOfficer,0.0016988007056768562,43
+high_weight_1.75,1.75,operatingCashflow,operatingCashflow,0.0016973801701452385,44
+high_weight_1.75,1.75,CYC_2024,CYC 2024,0.0016853691051933169,45
+high_weight_1.75,1.75,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0016799184707435525,46
+high_weight_1.75,1.75,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0016577502325157015,47
+high_weight_1.75,1.75,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.001618830792518674,48
+high_weight_1.75,1.75,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0015732325867148674,49
+high_weight_1.75,1.75,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0015602013738499401,50
+high_weight_1.75,1.75,revenueGrowth,revenueGrowth,0.0015544147276967382,51
+high_weight_1.75,1.75,BS_Other_Payable,BS_Other Payable,0.0015347336678860134,52
+high_weight_1.75,1.75,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.0014833018077428997,53
+high_weight_1.75,1.75,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.0014492597395811318,54
+high_weight_1.75,1.75,enterpriseValue,enterpriseValue,0.0014382330527337147,55
+high_weight_1.75,1.75,Revenue_2024,Revenue 2024,0.0014312587416485038,56
+high_weight_1.75,1.75,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.0014181227424023854,57
+high_weight_1.75,1.75,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0014090046907731257,58
+high_weight_1.75,1.75,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0014079917905603268,59
+high_weight_1.75,1.75,IS_Interest_Expense,IS_Interest Expense,0.0014015184079573919,60
+high_weight_1.75,1.75,BS_Current_Assets,BS_Current Assets,0.001395184807158691,61
+high_weight_1.75,1.75,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.0013770910965599052,62
+high_weight_1.75,1.75,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0013706397807259467,63
+high_weight_1.75,1.75,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.0013640143005467483,64
+high_weight_1.75,1.75,lastDividendDate,lastDividendDate,0.0013598690169974838,65
+high_weight_1.75,1.75,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.0013508236216294004,66
+high_weight_1.75,1.75,CR_2023,CR 2023,0.0013346298952188209,67
+high_weight_1.75,1.75,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.0013263306774400946,68
+high_weight_1.75,1.75,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0013242194499839322,69
+high_weight_1.75,1.75,BS_Cash_Equivalents,BS_Cash Equivalents,0.0013217757726611851,70
+high_weight_1.75,1.75,SandP52WeekChange,SandP52WeekChange,0.0013152682944136533,71
+high_weight_1.75,1.75,CF_Changes_In_Cash,CF_Changes In Cash,0.001304236259322666,72
+high_weight_1.75,1.75,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0013025137541200218,73
+high_weight_1.75,1.75,maxAge,maxAge,0.0013000750727799975,74
+high_weight_1.75,1.75,BS_Other_Inventories,BS_Other Inventories,0.0012841771070659274,75
+high_weight_1.75,1.75,mostRecentQuarter,mostRecentQuarter,0.0012774953518326848,76
+high_weight_1.75,1.75,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0012760331825982822,77
+high_weight_1.75,1.75,BS_Retained_Earnings,BS_Retained Earnings,0.0012745719860864488,78
+high_weight_1.75,1.75,BS_Prepaid_Assets,BS_Prepaid Assets,0.0012560835839255384,79
+high_weight_1.75,1.75,marketCap,marketCap,0.0012540567580171778,80
+high_weight_1.75,1.75,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.001245042177138721,81
+high_weight_1.75,1.75,BS_Minority_Interest,BS_Minority Interest,0.0012425233526680572,82
+high_weight_1.75,1.75,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.0012158586845561542,83
+high_weight_1.75,1.75,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.001210101148609363,84
+high_weight_1.75,1.75,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0011988771351215293,85
+high_weight_1.75,1.75,BS_Payables,BS_Payables,0.0011884629081229513,86
+high_weight_1.75,1.75,regularMarketChangePercent,regularMarketChangePercent,0.0011467859625293334,87
+high_weight_1.75,1.75,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0011445311792529214,88
+high_weight_1.75,1.75,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.0011380967302650495,89
+high_weight_1.75,1.75,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0011365179423766828,90
+high_weight_1.75,1.75,CF_Interest_Received_Direct,CF_Interest Received Direct,0.0011356461050850857,91
+high_weight_1.75,1.75,IS_Basic_EPS,IS_Basic EPS,0.0011300444104498355,92
+high_weight_1.75,1.75,CF_Capital_Expenditure,CF_Capital Expenditure,0.0011209117562542626,93
+high_weight_1.75,1.75,IS_Minority_Interests,IS_Minority Interests,0.0011110641807279167,94
+high_weight_1.75,1.75,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0010919762587761129,95
+high_weight_1.75,1.75,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.0010914449653952735,96
+high_weight_1.75,1.75,CYC_2023,CYC 2023,0.001080115516608952,97
+high_weight_1.75,1.75,BS_Accounts_Payable,BS_Accounts Payable,0.0010751391532132315,98
+high_weight_1.75,1.75,BS_Accounts_Receivable,BS_Accounts Receivable,0.0010698978009877217,99
+high_weight_1.75,1.75,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0010674138745006652,100
+high_weight_1.75,1.75,lastFiscalYearEnd,lastFiscalYearEnd,0.0010659845396960668,101
+high_weight_1.75,1.75,regularMarketTime,regularMarketTime,0.0010654113402647615,102
+high_weight_1.75,1.75,industryKey,industryKey,0.0010436432974208377,103
+high_weight_1.75,1.75,CF_Sale_Of_PPE,CF_Sale Of PPE,0.0010382318151105107,104
+high_weight_1.75,1.75,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0010273548806232146,105
+high_weight_1.75,1.75,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.001026187864271088,106
+high_weight_1.75,1.75,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0010258484479733739,107
+high_weight_1.75,1.75,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0009896468680721366,108
+high_weight_1.75,1.75,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.0009824019952771265,109
+high_weight_1.75,1.75,BS_Current_Liabilities,BS_Current Liabilities,0.0009760115290903359,110
+high_weight_1.75,1.75,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0009714932361322649,111
+high_weight_1.75,1.75,BS_Land_And_Improvements,BS_Land And Improvements,0.000970575128866028,112
+high_weight_1.75,1.75,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0009432057657317939,113
+high_weight_1.75,1.75,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.0009401010702478168,114
+high_weight_1.75,1.75,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0009340338389058303,115
+high_weight_1.75,1.75,regularMarketPreviousClose,regularMarketPreviousClose,0.0009338601965649897,116
+high_weight_1.75,1.75,BS_Other_Properties,BS_Other Properties,0.0009294850423101994,117
+high_weight_1.75,1.75,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.0009111347057445826,118
+high_weight_1.75,1.75,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0009011454625783085,119
+high_weight_1.75,1.75,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0008944795361992383,120
+high_weight_1.75,1.75,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0008926897662499158,121
+high_weight_1.75,1.75,BS_Cash_Financial,BS_Cash Financial,0.0008769975058893589,122
+high_weight_1.75,1.75,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.0008627644498069765,123
+high_weight_1.75,1.75,totalDebt,totalDebt,0.0008572892815502684,124
+high_weight_1.75,1.75,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.0008509467089942276,125
+high_weight_1.75,1.75,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.0008421676645265244,126
+high_weight_1.75,1.75,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0008391770868295787,127
+high_weight_1.75,1.75,BS_Working_Capital,BS_Working Capital,0.0008347600420216932,128
+high_weight_1.75,1.75,BS_Finished_Goods,BS_Finished Goods,0.0008247712718771042,129
+high_weight_1.75,1.75,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.0008233280327932322,130
+high_weight_1.75,1.75,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0008224575351287949,131
+high_weight_1.75,1.75,BS_Raw_Materials,BS_Raw Materials,0.0008178242859618059,132
+high_weight_1.75,1.75,BS_Inventory,BS_Inventory,0.0008025019136470277,133
+high_weight_1.75,1.75,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0007851137973831375,134
+high_weight_1.75,1.75,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0007611545025232669,135
+high_weight_1.75,1.75,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.0007514382422309737,136
+high_weight_1.75,1.75,IS_Gross_Profit,IS_Gross Profit,0.0007476297642077976,137
+high_weight_1.75,1.75,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.000731681357274852,138
+high_weight_1.75,1.75,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0007293664232244678,139
+high_weight_1.75,1.75,BS_Other_Receivables,BS_Other Receivables,0.0007203957811654002,140
+high_weight_1.75,1.75,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0007100497344012669,141
+high_weight_1.75,1.75,BS_Gross_PPE,BS_Gross PPE,0.0007018567231246536,142
+high_weight_1.75,1.75,BS_Share_Issued,BS_Share Issued,0.000700497155520967,143
+high_weight_1.75,1.75,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0006955218522228674,144
+high_weight_1.75,1.75,BS_Total_Assets,BS_Total Assets,0.0006900899812923062,145
+high_weight_1.75,1.75,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0006845674408340124,146
+high_weight_1.75,1.75,IS_Other_Special_Charges,IS_Other Special Charges,0.0006639077261206843,147
+high_weight_1.75,1.75,grossMargins,grossMargins,0.0006339368147469571,148
+high_weight_1.75,1.75,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0006189525417915653,149
+high_weight_1.75,1.75,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0005862875416982484,150
+high_weight_1.75,1.75,BS_Properties,BS_Properties,0.000567606487389377,151
+high_weight_1.75,1.75,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0005281279348686823,152
+high_weight_1.75,1.75,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.0005225584159172744,153
+high_weight_1.75,1.75,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.000520913606143999,154
+high_weight_1.75,1.75,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.0005172059251339417,155
+high_weight_1.75,1.75,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.0005112317482478605,156
+high_weight_1.75,1.75,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.0005069418048228949,157
+high_weight_1.75,1.75,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.000500998040726865,158
+high_weight_1.75,1.75,IS_Write_Off,IS_Write Off,0.00029038563938746836,159
+high_weight_1.75,1.75,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.0002847599138643696,160
+high_weight_1.75,1.75,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.00026157836580983977,161
+high_weight_1.75,1.75,priceHint,priceHint,1.72121824977834e-05,162
+high_weight_1.75,1.75,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,163
+high_weight_1.75,1.75,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,163
+high_weight_2.00,2.0,sectorKey,sectorKey,0.064084651860696,1
+high_weight_2.00,2.0,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.05901119643297209,2
+high_weight_2.00,2.0,profitMargins,profitMargins,0.041232551518976604,3
+high_weight_2.00,2.0,IS_Net_Income,IS_Net Income,0.03764097762916131,4
+high_weight_2.00,2.0,IS_EBIT,IS_EBIT,0.02478644895051023,5
+high_weight_2.00,2.0,totalRevenue,totalRevenue,0.017729653639360937,6
+high_weight_2.00,2.0,enterpriseToRevenue,enterpriseToRevenue,0.01383611531754905,7
+high_weight_2.00,2.0,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.010366723043812772,8
+high_weight_2.00,2.0,ebitdaMargins,ebitdaMargins,0.007580627792814391,9
+high_weight_2.00,2.0,returnOnEquity,returnOnEquity,0.006332129986469958,10
+high_weight_2.00,2.0,IS_Net_Interest_Income,IS_Net Interest Income,0.006134617817547925,11
+high_weight_2.00,2.0,BS_Net_Debt,BS_Net Debt,0.006019960564891945,12
+high_weight_2.00,2.0,currentRatio,currentRatio,0.005082722020056069,13
+high_weight_2.00,2.0,revenuePerShare,revenuePerShare,0.004814482466944833,14
+high_weight_2.00,2.0,enterpriseToEbitda,enterpriseToEbitda,0.004381887521259599,15
+high_weight_2.00,2.0,totalCashPerShare,totalCashPerShare,0.004182349536050464,16
+high_weight_2.00,2.0,BS_Total_Tax_Payable,BS_Total Tax Payable,0.0037714551683728234,17
+high_weight_2.00,2.0,fullTimeEmployees,fullTimeEmployees,0.003536681140857383,18
+high_weight_2.00,2.0,grossProfits,grossProfits,0.003184766155044763,19
+high_weight_2.00,2.0,BS_Common_Stock,BS_Common Stock,0.0031356035527521694,20
+high_weight_2.00,2.0,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0031210983892316227,21
+high_weight_2.00,2.0,IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,0.003071337813836716,22
+high_weight_2.00,2.0,CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,0.002987473405637281,23
+high_weight_2.00,2.0,totalCash,totalCash,0.002905977297498824,24
+high_weight_2.00,2.0,quickRatio,quickRatio,0.0026921166132532486,25
+high_weight_2.00,2.0,ebitda,ebitda,0.0026108356510054858,26
+high_weight_2.00,2.0,CR_2024,CR 2024,0.0025737965412467013,27
+high_weight_2.00,2.0,debtToEquity,debtToEquity,0.0025191673843564908,28
+high_weight_2.00,2.0,IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,0.002346724615346772,29
+high_weight_2.00,2.0,Revenue_2023,Revenue 2023,0.002241298640635763,30
+high_weight_2.00,2.0,CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.002226638986277531,31
+high_weight_2.00,2.0,CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,0.002224607476169284,32
+high_weight_2.00,2.0,returnOnAssets,returnOnAssets,0.0021257802548400122,33
+high_weight_2.00,2.0,BS_Construction_In_Progress,BS_Construction In Progress,0.0021228659195588924,34
+high_weight_2.00,2.0,IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,0.002115616649119368,35
+high_weight_2.00,2.0,CF_Sale_Of_Business,CF_Sale Of Business,0.002035868377842319,36
+high_weight_2.00,2.0,operatingMargins,operatingMargins,0.0020068711766841503,37
+high_weight_2.00,2.0,freeCashflow,freeCashflow,0.002005459112859799,38
+high_weight_2.00,2.0,earningsGrowth,earningsGrowth,0.0019262882604145011,39
+high_weight_2.00,2.0,IS_General_And_Administrative_Expense,IS_General And Administrative Expense,0.0019260522131184978,40
+high_weight_2.00,2.0,BS_Buildings_And_Improvements,BS_Buildings And Improvements,0.0019064341875267231,41
+high_weight_2.00,2.0,BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,0.0018851593197492813,42
+high_weight_2.00,2.0,hasRiskOfficer,hasRiskOfficer,0.0018682745032948028,43
+high_weight_2.00,2.0,IS_Reconciled_Depreciation,IS_Reconciled Depreciation,0.0018652732131246347,44
+high_weight_2.00,2.0,operatingCashflow,operatingCashflow,0.0018517784588858233,45
+high_weight_2.00,2.0,BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,0.0018161610271771975,46
+high_weight_2.00,2.0,CYC_2024,CYC 2024,0.0017959660472404934,47
+high_weight_2.00,2.0,BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,0.0017323851870991406,48
+high_weight_2.00,2.0,revenueGrowth,revenueGrowth,0.0017147177371289127,49
+high_weight_2.00,2.0,CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,0.0016915191527663539,50
+high_weight_2.00,2.0,BS_Other_Payable,BS_Other Payable,0.0016890842929884306,51
+high_weight_2.00,2.0,BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,0.0016785223604127311,52
+high_weight_2.00,2.0,enterpriseValue,enterpriseValue,0.0015883248301060719,53
+high_weight_2.00,2.0,BS_Total_Non_Current_Assets,BS_Total Non Current Assets,0.0015724018675579991,54
+high_weight_2.00,2.0,CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,0.001570497598764469,55
+high_weight_2.00,2.0,BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,0.0015691289300852373,56
+high_weight_2.00,2.0,Revenue_2024,Revenue 2024,0.0015666291499826948,57
+high_weight_2.00,2.0,BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,0.0015399797884791551,58
+high_weight_2.00,2.0,BS_Other_Equity_Interest,BS_Other Equity Interest,0.0015263957951848596,59
+high_weight_2.00,2.0,IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,0.0015128002845458024,60
+high_weight_2.00,2.0,lastDividendDate,lastDividendDate,0.0014989099228364029,61
+high_weight_2.00,2.0,IS_Interest_Expense,IS_Interest Expense,0.0014976273931397903,62
+high_weight_2.00,2.0,BS_Current_Assets,BS_Current Assets,0.0014967888984357058,63
+high_weight_2.00,2.0,CF_Interest_Paid_Direct,CF_Interest Paid Direct,0.0014951529234142678,64
+high_weight_2.00,2.0,IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,0.0014667757066552985,65
+high_weight_2.00,2.0,BS_Cash_Equivalents,BS_Cash Equivalents,0.0014631042879465787,66
+high_weight_2.00,2.0,CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,0.0014627611205633574,67
+high_weight_2.00,2.0,CF_Purchase_Of_PPE,CF_Purchase Of PPE,0.0014553861676272464,68
+high_weight_2.00,2.0,maxAge,maxAge,0.0014330151880924294,69
+high_weight_2.00,2.0,CF_Purchase_Of_Business,CF_Purchase Of Business,0.0014302531699877258,70
+high_weight_2.00,2.0,BS_Other_Inventories,BS_Other Inventories,0.0014265159549585623,71
+high_weight_2.00,2.0,SandP52WeekChange,SandP52WeekChange,0.001421437318950107,72
+high_weight_2.00,2.0,CF_Dividends_Received_Direct,CF_Dividends Received Direct,0.0014206017418427438,73
+high_weight_2.00,2.0,BS_Prepaid_Assets,BS_Prepaid Assets,0.0014044742018525151,74
+high_weight_2.00,2.0,mostRecentQuarter,mostRecentQuarter,0.0014018925844442914,75
+high_weight_2.00,2.0,CF_Changes_In_Cash,CF_Changes In Cash,0.001401777611627146,76
+high_weight_2.00,2.0,BS_Retained_Earnings,BS_Retained Earnings,0.0013822920178384998,77
+high_weight_2.00,2.0,CR_2023,CR 2023,0.0013752907980811068,78
+high_weight_2.00,2.0,CF_Investing_Cash_Flow,CF_Investing Cash Flow,0.0013685740318499136,79
+high_weight_2.00,2.0,marketCap,marketCap,0.0013501671082536456,80
+high_weight_2.00,2.0,BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,0.0013499468432599444,81
+high_weight_2.00,2.0,BS_Minority_Interest,BS_Minority Interest,0.0013355131672649486,82
+high_weight_2.00,2.0,CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,0.0013312456823649942,83
+high_weight_2.00,2.0,CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,0.0013151123494474493,84
+high_weight_2.00,2.0,CF_Interest_Paid_Cff,CF_Interest Paid Cff,0.0013095333705087002,85
+high_weight_2.00,2.0,BS_Payables,BS_Payables,0.0013075541898055296,86
+high_weight_2.00,2.0,regularMarketChangePercent,regularMarketChangePercent,0.0012756135276234387,87
+high_weight_2.00,2.0,CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,0.0012666951469993434,88
+high_weight_2.00,2.0,IS_Basic_EPS,IS_Basic EPS,0.0012442682519137327,89
+high_weight_2.00,2.0,BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,0.0012381315464682645,90
+high_weight_2.00,2.0,CF_Capital_Expenditure,CF_Capital Expenditure,0.0012139394004594395,91
+high_weight_2.00,2.0,CF_Interest_Received_Direct,CF_Interest Received Direct,0.001211148926562593,92
+high_weight_2.00,2.0,BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,0.0011944820876838426,93
+high_weight_2.00,2.0,CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0011913858206572456,94
+high_weight_2.00,2.0,BS_Accounts_Receivable,BS_Accounts Receivable,0.001176428596544794,95
+high_weight_2.00,2.0,IS_Minority_Interests,IS_Minority Interests,0.0011642504968722375,96
+high_weight_2.00,2.0,CYC_2023,CYC 2023,0.0011545411744636478,97
+high_weight_2.00,2.0,CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,0.0011543738094244899,98
+high_weight_2.00,2.0,lastFiscalYearEnd,lastFiscalYearEnd,0.0011451567929343903,99
+high_weight_2.00,2.0,IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0011448050209928817,100
+high_weight_2.00,2.0,Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),0.0011423619003225313,101
+high_weight_2.00,2.0,CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.001136805092972724,102
+high_weight_2.00,2.0,CF_Sale_Of_PPE,CF_Sale Of PPE,0.001136071633277481,103
+high_weight_2.00,2.0,BS_Accounts_Payable,BS_Accounts Payable,0.0011324858769555428,104
+high_weight_2.00,2.0,regularMarketTime,regularMarketTime,0.001121355666616534,105
+high_weight_2.00,2.0,industryKey,industryKey,0.00111606641125297,106
+high_weight_2.00,2.0,CF_Operating_Cash_Flow,CF_Operating Cash Flow,0.0011129495600844213,107
+high_weight_2.00,2.0,BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,0.0010891353007696839,108
+high_weight_2.00,2.0,BS_Current_Liabilities,BS_Current Liabilities,0.001083951350741923,109
+high_weight_2.00,2.0,CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,0.0010700371807961058,110
+high_weight_2.00,2.0,IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,0.0010666113697323527,111
+high_weight_2.00,2.0,BS_Land_And_Improvements,BS_Land And Improvements,0.0010597444434784066,112
+high_weight_2.00,2.0,CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,0.0010406115813412704,113
+high_weight_2.00,2.0,BS_Other_Properties,BS_Other Properties,0.001002839112701146,114
+high_weight_2.00,2.0,regularMarketPreviousClose,regularMarketPreviousClose,0.001001962995939777,115
+high_weight_2.00,2.0,BS_Tangible_Book_Value,BS_Tangible Book Value,0.0009973018088482058,116
+high_weight_2.00,2.0,CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,0.000994497443198523,117
+high_weight_2.00,2.0,CF_Purchase_Of_Investment,CF_Purchase Of Investment,0.0009923265755576959,118
+high_weight_2.00,2.0,IS_Other_Operating_Expenses,IS_Other Operating Expenses,0.0009894173138241104,119
+high_weight_2.00,2.0,CF_Repayment_Of_Debt,CF_Repayment Of Debt,0.0009805075326057263,120
+high_weight_2.00,2.0,BS_Cash_Financial,BS_Cash Financial,0.0009667967604496728,121
+high_weight_2.00,2.0,BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,0.0009578268215450552,122
+high_weight_2.00,2.0,totalDebt,totalDebt,0.0009457467607857033,123
+high_weight_2.00,2.0,BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,0.0009408996214717135,124
+high_weight_2.00,2.0,BS_Working_Capital,BS_Working Capital,0.0009343337436248314,125
+high_weight_2.00,2.0,CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,0.0009300678106190488,126
+high_weight_2.00,2.0,IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,0.0009110360271616027,127
+high_weight_2.00,2.0,IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,0.0009079135356957555,128
+high_weight_2.00,2.0,BS_Raw_Materials,BS_Raw Materials,0.0008976580145962665,129
+high_weight_2.00,2.0,CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,0.0008932824464580739,130
+high_weight_2.00,2.0,BS_Finished_Goods,BS_Finished Goods,0.0008859989981344778,131
+high_weight_2.00,2.0,CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,0.0008840581046972887,132
+high_weight_2.00,2.0,BS_Inventory,BS_Inventory,0.0008632351403372855,133
+high_weight_2.00,2.0,IS_Selling_General_And_Administration,IS_Selling General And Administration,0.0008618635629076526,134
+high_weight_2.00,2.0,IS_Gross_Profit,IS_Gross Profit,0.0008491997016674876,135
+high_weight_2.00,2.0,BS_Other_Non_Current_Assets,BS_Other Non Current Assets,0.000828230150512984,136
+high_weight_2.00,2.0,CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,0.0008260383848428678,137
+high_weight_2.00,2.0,BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,0.0008067164535836823,138
+high_weight_2.00,2.0,CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,0.0007976562953538277,139
+high_weight_2.00,2.0,IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.0007751794208038454,140
+high_weight_2.00,2.0,IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,0.0007707202548100035,141
+high_weight_2.00,2.0,BS_Other_Receivables,BS_Other Receivables,0.0007636140627540747,142
+high_weight_2.00,2.0,BS_Share_Issued,BS_Share Issued,0.0007531085175059791,143
+high_weight_2.00,2.0,BS_Total_Assets,BS_Total Assets,0.0007466004318791688,144
+high_weight_2.00,2.0,CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,0.0007427404331168903,145
+high_weight_2.00,2.0,BS_Gross_PPE,BS_Gross PPE,0.0007368556340462982,146
+high_weight_2.00,2.0,IS_Other_Special_Charges,IS_Other Special Charges,0.0007101856815746108,147
+high_weight_2.00,2.0,grossMargins,grossMargins,0.0006870234434046945,148
+high_weight_2.00,2.0,CF_Issuance_Of_Debt,CF_Issuance Of Debt,0.0006399280110273369,149
+high_weight_2.00,2.0,BS_Properties,BS_Properties,0.0006026830343127574,150
+high_weight_2.00,2.0,BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,0.0005862875416982484,151
+high_weight_2.00,2.0,BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,0.0005649993332979523,152
+high_weight_2.00,2.0,CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,0.000564346492706974,153
+high_weight_2.00,2.0,IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.0005592130817543262,154
+high_weight_2.00,2.0,IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,0.0005543088569669248,155
+high_weight_2.00,2.0,BS_Other_Short_Term_Investments,BS_Other Short Term Investments,0.0005436752499280909,156
+high_weight_2.00,2.0,CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,0.0005433110636185846,157
+high_weight_2.00,2.0,BS_Other_Intangible_Assets,BS_Other Intangible Assets,0.0005273831235611126,158
+high_weight_2.00,2.0,IS_Write_Off,IS_Write Off,0.00031292069246212963,159
+high_weight_2.00,2.0,CF_Financing_Cash_Flow,CF_Financing Cash Flow,0.0002992243914411712,160
+high_weight_2.00,2.0,CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,0.00028024849362645783,161
+high_weight_2.00,2.0,priceHint,priceHint,1.72121824977834e-05,162
+high_weight_2.00,2.0,CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,0.0,163
+high_weight_2.00,2.0,CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,0.0,163

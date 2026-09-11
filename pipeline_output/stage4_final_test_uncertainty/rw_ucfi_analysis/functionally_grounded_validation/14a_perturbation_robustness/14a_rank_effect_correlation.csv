@@ -1,0 +1,7 @@
+metric,spearman_rw_ucfi_rank_vs_effect,spearman_shap_rank_vs_effect,note
+avg_abs_high_risk_proba_delta,-0.8705129243983469,-0.8697026172919536,More negative correlation means higher-ranked features are associated with stronger perturbation effect.
+avg_abs_predicted_class_proba_delta,-0.8756988898792643,-0.8727817842962483,More negative correlation means higher-ranked features are associated with stronger perturbation effect.
+avg_abs_max_proba_delta,-0.8761850741431002,-0.8735920914026416,More negative correlation means higher-ranked features are associated with stronger perturbation effect.
+avg_abs_margin_delta,-0.8779677497771655,-0.8744023985090349,More negative correlation means higher-ranked features are associated with stronger perturbation effect.
+prediction_flip_rate,-0.8973684893014826,-0.914876132241575,More negative correlation means higher-ranked features are associated with stronger perturbation effect.
+high_risk_decision_flip_rate,-0.856157579604205,-0.8621880218380054,More negative correlation means higher-ranked features are associated with stronger perturbation effect.

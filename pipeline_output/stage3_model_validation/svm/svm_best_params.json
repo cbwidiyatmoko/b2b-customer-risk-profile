@@ -1,0 +1,5 @@
+{
+    "model__kernel": "rbf",
+    "model__gamma": 1e-06,
+    "model__C": 1.0
+}

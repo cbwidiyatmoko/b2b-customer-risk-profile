@@ -1,0 +1,11 @@
+{
+    "final_estimator__subsample": 0.7,
+    "final_estimator__reg_lambda": 20,
+    "final_estimator__reg_alpha": 0.5,
+    "final_estimator__n_estimators": 100,
+    "final_estimator__min_child_weight": 20,
+    "final_estimator__max_depth": 2,
+    "final_estimator__learning_rate": 0.05,
+    "final_estimator__gamma": 0.0,
+    "final_estimator__colsample_bytree": 0.7
+}

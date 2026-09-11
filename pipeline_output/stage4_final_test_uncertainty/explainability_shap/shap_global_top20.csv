@@ -1,0 +1,21 @@
+feature,original_column,mean_abs_shap_global,shap_global_rank
+sectorKey,sectorKey,0.04146607310568801,1
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.03484392004708347,2
+profitMargins,profitMargins,0.020213918687387714,3
+IS_Net_Income,IS_Net Income,0.020145238975631734,4
+IS_EBIT,IS_EBIT,0.01654979354620552,5
+totalRevenue,totalRevenue,0.010391204842670986,6
+enterpriseToRevenue,enterpriseToRevenue,0.010338024899439191,7
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.006419856429424004,8
+ebitdaMargins,ebitdaMargins,0.004090680333490906,9
+BS_Net_Debt,BS_Net Debt,0.003436209346833048,10
+totalCashPerShare,totalCashPerShare,0.003343001013610635,11
+IS_Net_Interest_Income,IS_Net Interest Income,0.0032436190734467887,12
+returnOnEquity,returnOnEquity,0.003006684487488294,13
+BS_Common_Stock,BS_Common Stock,0.002949510922357823,14
+currentRatio,currentRatio,0.0028237309654803523,15
+revenuePerShare,revenuePerShare,0.0026530406400926535,16
+enterpriseToEbitda,enterpriseToEbitda,0.002471787806066041,17
+BS_Total_Tax_Payable,BS_Total Tax Payable,0.002356420226537238,18
+grossProfits,grossProfits,0.0019488897720041749,19
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,0.0019158247677038347,20

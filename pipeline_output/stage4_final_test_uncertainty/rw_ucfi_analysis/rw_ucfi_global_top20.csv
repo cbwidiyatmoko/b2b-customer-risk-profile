@@ -1,0 +1,21 @@
+feature,original_column,rw_ucfi_score_global,rw_ucfi_global_rank
+sectorKey,sectorKey,0.05815269808649699,1
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.04965721972666612,2
+profitMargins,profitMargins,0.03604501371516367,3
+IS_Net_Income,IS_Net Income,0.03274329080609094,4
+IS_EBIT,IS_EBIT,0.024371717330219898,5
+totalRevenue,totalRevenue,0.014600797970342094,6
+enterpriseToRevenue,enterpriseToRevenue,0.011805507343861713,7
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.008644089824622515,8
+ebitdaMargins,ebitdaMargins,0.006639088670284364,9
+returnOnEquity,returnOnEquity,0.0055213877253000275,10
+BS_Net_Debt,BS_Net Debt,0.005284145266025923,11
+IS_Net_Interest_Income,IS_Net Interest Income,0.005137093281285878,12
+currentRatio,currentRatio,0.00426603768019697,13
+revenuePerShare,revenuePerShare,0.004062476605356304,14
+totalCashPerShare,totalCashPerShare,0.0037681727893602124,15
+enterpriseToEbitda,enterpriseToEbitda,0.003766682470319354,16
+BS_Total_Tax_Payable,BS_Total Tax Payable,0.0031586662200403567,17
+fullTimeEmployees,fullTimeEmployees,0.003122342884764907,18
+BS_Common_Stock,BS_Common Stock,0.002868266551055479,19
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.002821632512134844,20

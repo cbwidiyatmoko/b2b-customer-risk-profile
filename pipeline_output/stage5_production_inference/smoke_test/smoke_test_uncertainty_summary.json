@@ -1,0 +1,12 @@
+{
+    "n_rows": 954,
+    "n_uncertain": 21,
+    "n_certain": 933,
+    "uncertain_ratio": 0.0220125786163522,
+    "avg_max_proba": 0.859029233455658,
+    "avg_margin": 0.7715998291969299,
+    "avg_entropy_norm": 0.43693997654714456,
+    "median_max_proba": 0.8797608017921448,
+    "median_margin": 0.8148267269134521,
+    "median_entropy_norm": 0.4059634758314022
+}

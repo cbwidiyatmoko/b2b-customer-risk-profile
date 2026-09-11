@@ -1,0 +1,22 @@
+BAB 4 FIGURE CREATION - MISSING SOURCE REPORT
+============================================================
+
+BASE_DIR: C:\S3\Semhas_New_Pipeline
+FIG_DIR : C:\S3\Semhas_New_Pipeline\output\bab4_figures_new
+
+1. fig_4_6_confusion_matrix_validasi_svm.png
+   Reason       : Source confusion matrix/prediction validasi untuk SVM tidak ditemukan.
+   Needed source: CSV dengan confusion matrix validasi SVM, atau validation prediction CSV berisi y_true/y_pred/model.
+
+2. fig_4_7_confusion_matrix_validasi_randomforest.png
+   Reason       : Source confusion matrix/prediction validasi untuk Random Forest tidak ditemukan.
+   Needed source: CSV dengan confusion matrix validasi Random Forest, atau validation prediction CSV berisi y_true/y_pred/model.
+
+3. fig_4_8_confusion_matrix_validasi_stackedensemble.png
+   Reason       : Source confusion matrix/prediction validasi untuk Stacked Ensemble tidak ditemukan.
+   Needed source: CSV dengan confusion matrix validasi Stacked Ensemble, atau validation prediction CSV berisi y_true/y_pred/model.
+
+
+NOTES
+------------------------------------------------------------
+- Histogram uncertainty dibuat dari source: C:\S3\Semhas_New_Pipeline\output\stage4_final_test_uncertainty\uncertainty_analysis\final_test_predictions_with_uncertainty.csv

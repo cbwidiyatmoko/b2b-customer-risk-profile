@@ -1,0 +1,90 @@
+{
+    "run_timestamp": "20260910_073359",
+    "runtime": {
+        "use_google_colab": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "python_version": "3.13.0"
+    },
+    "paths": {
+        "base_path": "C:\\S3\\Semhas_New_Pipeline",
+        "data_dir": "C:\\S3\\Semhas_New_Pipeline\\data",
+        "output_dir": "C:\\S3\\Semhas_New_Pipeline\\output",
+        "input_file": "C:\\S3\\Semhas_New_Pipeline\\data\\yfinance_bud_merged_labelled.xlsx",
+        "feature_checklist_file": "C:\\S3\\Semhas_New_Pipeline\\data\\features_checklist.xlsx",
+        "mandatory_feature_file": "C:\\S3\\Semhas_New_Pipeline\\data\\mandatory_features.csv",
+        "stage0_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage0_config",
+        "stage1_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage1_data_audit",
+        "stage2_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage2_feature_filtering",
+        "stage3_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage3_model_validation",
+        "stage4_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty",
+        "stage5_dir": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference"
+    },
+    "target": {
+        "target_col_original": "riskLevel",
+        "sheet_name": 0
+    },
+    "random_state": 42,
+    "split": {
+        "train_size": 0.7,
+        "valid_size": 0.15,
+        "test_size": 0.15
+    },
+    "feature_filtering_thresholds": {
+        "high_missing_threshold": 0.8,
+        "near_constant_threshold": 0.995,
+        "high_corr_threshold": 0.95,
+        "max_cat_unique": 20,
+        "max_cat_unique_ratio": 0.3
+    },
+    "mandatory_feature_protection": {
+        "policy": "NEVER_DROP",
+        "n_features": 26,
+        "features_original": [
+            "sectorKey",
+            "industryKey",
+            "marketCap",
+            "enterpriseValue",
+            "currentRatio",
+            "quickRatio",
+            "totalCash",
+            "returnOnAssets",
+            "returnOnEquity",
+            "grossMargins",
+            "operatingMargins",
+            "profitMargins",
+            "totalRevenue",
+            "revenueGrowth",
+            "grossProfits",
+            "ebitda",
+            "totalDebt",
+            "debtToEquity",
+            "operatingCashflow",
+            "freeCashflow",
+            "BS_Current_Assets",
+            "BS_Current_Liabilities",
+            "BS_Total_Assets",
+            "BS_Accounts_Payable",
+            "BS_Accounts_Receivable",
+            "IS_Net_Income"
+        ]
+    },
+    "model_training": {
+        "fast_debug_mode": false,
+        "fast_debug_max_train_rows": 300,
+        "fast_debug_models": [
+            "RandomForest"
+        ],
+        "cv_folds": 5,
+        "n_iter_search": 30,
+        "n_jobs": -1,
+        "scoring": "f1_macro"
+    },
+    "uncertainty_thresholds": {
+        "max_proba_threshold": 0.6,
+        "margin_threshold": 0.15,
+        "entropy_norm_threshold": 0.8
+    },
+    "xgboost_available": true,
+    "seaborn_available": false,
+    "n_checklist_excluded_features": 120
+}

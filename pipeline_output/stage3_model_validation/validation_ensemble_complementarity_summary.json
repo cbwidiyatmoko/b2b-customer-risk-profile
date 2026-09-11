@@ -1,0 +1,17 @@
+{
+    "n_validation": 143,
+    "rf_correct": 106,
+    "svm_correct": 56,
+    "se_correct": 101,
+    "rf_svm_disagreement": 82,
+    "rf_svm_disagreement_rate": 0.5734265734265734,
+    "rf_wrong_svm_correct": 11,
+    "rf_correct_svm_wrong": 61,
+    "se_changed_rf": 13,
+    "se_fixed_rf_error": 3,
+    "se_broke_rf_correct": 8,
+    "se_net_correction_vs_rf": -5,
+    "svm_predict_vs_proba_argmax_mismatch": 101,
+    "svm_unique_probability_vectors_rounded_6dp": 37,
+    "note_svm_probability": "Standalone SVM probability is retained for reporting only. StackedEnsemble uses SVM decision_function instead."
+}

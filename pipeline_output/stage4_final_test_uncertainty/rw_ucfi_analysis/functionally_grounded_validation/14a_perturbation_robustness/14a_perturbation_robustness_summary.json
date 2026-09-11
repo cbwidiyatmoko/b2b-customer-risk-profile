@@ -1,0 +1,31 @@
+{
+    "method": "RW-UCFI perturbation robustness test",
+    "purpose": "Evaluate whether RW-UCFI-prioritized features produce stronger model-output changes when perturbed.",
+    "perturbation_method": "single-feature permutation perturbation",
+    "top_k": 20,
+    "n_repeats": 10,
+    "n_samples": 144,
+    "n_features_perturbed": 42,
+    "high_risk_label": "High Risk",
+    "high_risk_index": 0,
+    "rw_ucfi_topk_mean_high_risk_delta": 0.01590345924400026,
+    "shap_topk_mean_high_risk_delta": 0.015984139811771457,
+    "random_control_mean_high_risk_delta": 0.003404771246136988,
+    "rw_ucfi_topk_mean_prediction_flip_rate": 0.024027777777777773,
+    "shap_topk_mean_prediction_flip_rate": 0.02413194444444444,
+    "random_control_mean_prediction_flip_rate": 0.0019791666666666664,
+    "outputs": {
+        "feature_groups": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_feature_groups.csv",
+        "repeated_results": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_perturbation_repeated_results.csv",
+        "feature_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_perturbation_feature_summary.csv",
+        "group_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_perturbation_group_summary.csv",
+        "stat_tests": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_perturbation_stat_tests.csv",
+        "rank_effect_correlation": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_rank_effect_correlation.csv",
+        "chart": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14a_perturbation_robustness\\14a_perturbation_group_effect_chart.png"
+    },
+    "interpretation_rule": {
+        "supportive_result": "RW-UCFI Top-K features show larger average probability change, larger margin change, or higher flip rate than random-control features and/or SHAP-only features.",
+        "weak_result": "RW-UCFI Top-K features do not produce stronger perturbation effect. Report as a limitation and keep RW-UCFI positioned as prioritization, not causal feature validation."
+    },
+    "important_note": "This perturbation test measures functional sensitivity of model outputs. It does not prove causality and should not be interpreted as causal validation."
+}

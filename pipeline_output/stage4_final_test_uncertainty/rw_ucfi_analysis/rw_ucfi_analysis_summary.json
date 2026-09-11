@@ -1,0 +1,254 @@
+{
+    "method": "Risk-Weighted Uncertainty-Conditioned Feature Importance",
+    "model_name": "StackedEnsemble",
+    "n_explained_samples": 144,
+    "n_features": 164,
+    "n_classes": 3,
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "risk_weight_map": {
+        "High Risk": 1.5,
+        "Low Risk": 0.5,
+        "Medium Risk": 1.0
+    },
+    "uncertainty_alpha": 1.0,
+    "uncertain_flag_bonus": 0.25,
+    "top20_overlap_with_shap": {
+        "top_k": 20,
+        "n_overlap": 18,
+        "overlap_ratio": 0.9,
+        "overlap_features": [
+            "BS_Common_Stock",
+            "BS_Net_Debt",
+            "BS_Total_Tax_Payable",
+            "CF_Classesof_Cash_Payments",
+            "CF_Receiptsfrom_Customers",
+            "IS_EBIT",
+            "IS_Net_Income",
+            "IS_Net_Interest_Income",
+            "currentRatio",
+            "ebitdaMargins",
+            "enterpriseToEbitda",
+            "enterpriseToRevenue",
+            "profitMargins",
+            "returnOnEquity",
+            "revenuePerShare",
+            "sectorKey",
+            "totalCashPerShare",
+            "totalRevenue"
+        ],
+        "shap_only_features": [
+            "CF_Other_Cash_Paymentsfrom_Operating_Activities",
+            "grossProfits"
+        ],
+        "rw_ucfi_only_features": [
+            "CF_Interest_Received_Cfi",
+            "fullTimeEmployees"
+        ]
+    },
+    "top_global_rw_ucfi_features": [
+        {
+            "feature": "sectorKey",
+            "original_column": "sectorKey",
+            "rw_ucfi_score_global": 0.05815269808649699,
+            "rw_ucfi_global_rank": 1
+        },
+        {
+            "feature": "CF_Classesof_Cash_Payments",
+            "original_column": "CF_Classesof Cash Payments",
+            "rw_ucfi_score_global": 0.04965721972666612,
+            "rw_ucfi_global_rank": 2
+        },
+        {
+            "feature": "profitMargins",
+            "original_column": "profitMargins",
+            "rw_ucfi_score_global": 0.03604501371516367,
+            "rw_ucfi_global_rank": 3
+        },
+        {
+            "feature": "IS_Net_Income",
+            "original_column": "IS_Net Income",
+            "rw_ucfi_score_global": 0.03274329080609094,
+            "rw_ucfi_global_rank": 4
+        },
+        {
+            "feature": "IS_EBIT",
+            "original_column": "IS_EBIT",
+            "rw_ucfi_score_global": 0.024371717330219898,
+            "rw_ucfi_global_rank": 5
+        },
+        {
+            "feature": "totalRevenue",
+            "original_column": "totalRevenue",
+            "rw_ucfi_score_global": 0.014600797970342094,
+            "rw_ucfi_global_rank": 6
+        },
+        {
+            "feature": "enterpriseToRevenue",
+            "original_column": "enterpriseToRevenue",
+            "rw_ucfi_score_global": 0.011805507343861713,
+            "rw_ucfi_global_rank": 7
+        },
+        {
+            "feature": "CF_Receiptsfrom_Customers",
+            "original_column": "CF_Receiptsfrom Customers",
+            "rw_ucfi_score_global": 0.008644089824622515,
+            "rw_ucfi_global_rank": 8
+        },
+        {
+            "feature": "ebitdaMargins",
+            "original_column": "ebitdaMargins",
+            "rw_ucfi_score_global": 0.006639088670284364,
+            "rw_ucfi_global_rank": 9
+        },
+        {
+            "feature": "returnOnEquity",
+            "original_column": "returnOnEquity",
+            "rw_ucfi_score_global": 0.0055213877253000275,
+            "rw_ucfi_global_rank": 10
+        },
+        {
+            "feature": "BS_Net_Debt",
+            "original_column": "BS_Net Debt",
+            "rw_ucfi_score_global": 0.005284145266025923,
+            "rw_ucfi_global_rank": 11
+        },
+        {
+            "feature": "IS_Net_Interest_Income",
+            "original_column": "IS_Net Interest Income",
+            "rw_ucfi_score_global": 0.005137093281285878,
+            "rw_ucfi_global_rank": 12
+        },
+        {
+            "feature": "currentRatio",
+            "original_column": "currentRatio",
+            "rw_ucfi_score_global": 0.00426603768019697,
+            "rw_ucfi_global_rank": 13
+        },
+        {
+            "feature": "revenuePerShare",
+            "original_column": "revenuePerShare",
+            "rw_ucfi_score_global": 0.004062476605356304,
+            "rw_ucfi_global_rank": 14
+        },
+        {
+            "feature": "totalCashPerShare",
+            "original_column": "totalCashPerShare",
+            "rw_ucfi_score_global": 0.0037681727893602124,
+            "rw_ucfi_global_rank": 15
+        },
+        {
+            "feature": "enterpriseToEbitda",
+            "original_column": "enterpriseToEbitda",
+            "rw_ucfi_score_global": 0.003766682470319354,
+            "rw_ucfi_global_rank": 16
+        },
+        {
+            "feature": "BS_Total_Tax_Payable",
+            "original_column": "BS_Total Tax Payable",
+            "rw_ucfi_score_global": 0.0031586662200403567,
+            "rw_ucfi_global_rank": 17
+        },
+        {
+            "feature": "fullTimeEmployees",
+            "original_column": "fullTimeEmployees",
+            "rw_ucfi_score_global": 0.003122342884764907,
+            "rw_ucfi_global_rank": 18
+        },
+        {
+            "feature": "BS_Common_Stock",
+            "original_column": "BS_Common Stock",
+            "rw_ucfi_score_global": 0.002868266551055479,
+            "rw_ucfi_global_rank": 19
+        },
+        {
+            "feature": "CF_Interest_Received_Cfi",
+            "original_column": "CF_Interest Received Cfi",
+            "rw_ucfi_score_global": 0.002821632512134844,
+            "rw_ucfi_global_rank": 20
+        }
+    ],
+    "rank_shift_summary": {
+        "avg_abs_rank_shift": 8.658536585365853,
+        "max_abs_rank_shift": 40.0,
+        "n_features_moved_up": 73,
+        "n_features_moved_down": 68,
+        "n_features_unchanged": 23
+    },
+    "governance_path_summary": [
+        {
+            "governance_review_path": "priority_1_high_risk_uncertain_review",
+            "n_cases": 10,
+            "avg_uncertainty_score": 0.7173222896305056,
+            "avg_uncertainty_multiplier": 1.9673222896305056,
+            "avg_sum_rw_ucfi": 0.8349429877861543,
+            "avg_max_rw_ucfi": 0.20353383154170168
+        },
+        {
+            "governance_review_path": "priority_2_high_risk_confirmatory_review",
+            "n_cases": 49,
+            "avg_uncertainty_score": 0.26632610420046066,
+            "avg_uncertainty_multiplier": 1.2663261042004608,
+            "avg_sum_rw_ucfi": 0.7899021175335401,
+            "avg_max_rw_ucfi": 0.1626787823136629
+        },
+        {
+            "governance_review_path": "priority_3_medium_uncertain_boundary_review",
+            "n_cases": 12,
+            "avg_uncertainty_score": 0.7366157467180998,
+            "avg_uncertainty_multiplier": 1.9866157467180996,
+            "avg_sum_rw_ucfi": 0.5707443866355015,
+            "avg_max_rw_ucfi": 0.19851396098070542
+        },
+        {
+            "governance_review_path": "priority_4_overconfident_error_review",
+            "n_cases": 8,
+            "avg_uncertainty_score": 0.4098604591546535,
+            "avg_uncertainty_multiplier": 1.4098604591546535,
+            "avg_sum_rw_ucfi": 0.3603632246158196,
+            "avg_max_rw_ucfi": 0.0842272281399645
+        },
+        {
+            "governance_review_path": "priority_5_general_uncertainty_review",
+            "n_cases": 16,
+            "avg_uncertainty_score": 0.738633429574329,
+            "avg_uncertainty_multiplier": 1.988633429574329,
+            "avg_sum_rw_ucfi": 0.25212711122443915,
+            "avg_max_rw_ucfi": 0.06755823081047994
+        },
+        {
+            "governance_review_path": "priority_6_regular_monitoring",
+            "n_cases": 49,
+            "avg_uncertainty_score": 0.33163167303008034,
+            "avg_uncertainty_multiplier": 1.3316316730300801,
+            "avg_sum_rw_ucfi": 0.46106650985980624,
+            "avg_max_rw_ucfi": 0.15534201041698986
+        }
+    ],
+    "outputs": {
+        "rw_ucfi_config": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_config.json",
+        "explained_sample_uncertainty": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_explained_sample_uncertainty.csv",
+        "rw_ucfi_global": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_global_ranking.csv",
+        "rw_ucfi_class_specific": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_class_specific_ranking.csv",
+        "rw_ucfi_rank_shift": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_vs_shap_rank_shift.csv",
+        "top20_overlap_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_vs_shap_top20_overlap_summary.json",
+        "top20_comparison": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_vs_shap_top20_comparison.csv",
+        "entity_level_top_features": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_entity_level_top_features.csv",
+        "entity_level_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_entity_level_summary.csv",
+        "entity_level_summary_enriched": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_entity_level_summary_enriched.xlsx",
+        "governance_entity_paths": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_governance_review_paths_entity_level.xlsx",
+        "governance_path_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_governance_review_path_summary.csv",
+        "rw_ucfi_global_plot": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_global_importance_top_features.png",
+        "rank_shift_plot": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_vs_shap_rank_shift_top_features.png",
+        "class_specific_plots": {
+            "High Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_class_specific_importance_High_Risk.png",
+            "Low Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_class_specific_importance_Low_Risk.png",
+            "Medium Risk": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_class_specific_importance_Medium_Risk.png"
+        },
+        "rw_ucfi_tensor": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\rw_ucfi_tensor.npz"
+    },
+    "important_note": "RW-UCFI is a post-hoc prioritization layer. It should be interpreted as governance-oriented feature prioritization, not as a replacement for SHAP or as a separate predictive model."
+}

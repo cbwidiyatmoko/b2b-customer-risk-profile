@@ -1,0 +1,11 @@
+{
+    "n_features": 164,
+    "avg_abs_rank_shift": 8.658536585365853,
+    "median_abs_rank_shift": 6.5,
+    "max_abs_rank_shift": 40.0,
+    "n_features_moved_up": 73,
+    "n_features_moved_down": 68,
+    "n_features_unchanged": 23,
+    "spearman_shap_vs_rw_ucfi_rank": 0.9672493300504673,
+    "kendall_shap_vs_rw_ucfi_rank": 0.8520125692054467
+}

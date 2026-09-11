@@ -1,0 +1,233 @@
+column,original_column,median_used_for_temp_imputation,missing_ratio_train
+fullTimeEmployees,fullTimeEmployees,327.0,0.07496251874062969
+maxAge,maxAge,86400.0,0.06296851574212893
+priceHint,priceHint,2.0,0.0
+previousClose,previousClose,222.0,0.06296851574212893
+open,open,224.0,0.06296851574212893
+dayLow,dayLow,220.0,0.06296851574212893
+dayHigh,dayHigh,228.0,0.06296851574212893
+regularMarketPreviousClose,regularMarketPreviousClose,190.0,0.0
+regularMarketOpen,regularMarketOpen,196.0,0.013493253373313344
+regularMarketDayLow,regularMarketDayLow,195.5,0.013493253373313344
+regularMarketDayHigh,regularMarketDayHigh,204.0,0.013493253373313344
+exDividendDate,exDividendDate,1745539200.0,0.36281859070464767
+marketCap,marketCap,807425998848.0,0.008995502248875561
+enterpriseValue,enterpriseValue,1146832617472.0,0.06446776611694154
+profitMargins,profitMargins,0.04018,0.06446776611694154
+lastFiscalYearEnd,lastFiscalYearEnd,1735603200.0,0.06446776611694154
+nextFiscalYearEnd,nextFiscalYearEnd,1767139200.0,0.06446776611694154
+mostRecentQuarter,mostRecentQuarter,1743379200.0,0.06446776611694154
+enterpriseToRevenue,enterpriseToRevenue,1.956,0.06596701649175413
+enterpriseToEbitda,enterpriseToEbitda,9.249,0.15892053973013492
+SandP52WeekChange,SandP52WeekChange,0.12792087,0.06446776611694154
+lastDividendDate,lastDividendDate,1746662400.0,0.3598200899550225
+totalCash,totalCash,46313633792.0,0.06446776611694154
+totalCashPerShare,totalCashPerShare,17.956,0.06446776611694154
+ebitda,ebitda,23996375040.0,0.15892053973013492
+totalDebt,totalDebt,105510731776.0,0.06446776611694154
+quickRatio,quickRatio,0.973,0.12143928035982009
+currentRatio,currentRatio,1.8889999999999998,0.12143928035982009
+totalRevenue,totalRevenue,404579123200.0,0.06596701649175413
+debtToEquity,debtToEquity,26.919,0.2158920539730135
+revenuePerShare,revenuePerShare,130.264,0.06596701649175413
+returnOnAssets,returnOnAssets,0.023459999,0.095952023988006
+returnOnEquity,returnOnEquity,0.04355,0.11094452773613193
+grossProfits,grossProfits,104964308992.0,0.06446776611694154
+freeCashflow,freeCashflow,800051456.0,0.18590704647676162
+operatingCashflow,operatingCashflow,6889209344.0,0.06896551724137931
+earningsGrowth,earningsGrowth,0.039,0.41829085457271364
+revenueGrowth,revenueGrowth,0.023,0.08545727136431784
+grossMargins,grossMargins,0.232895,0.06446776611694154
+ebitdaMargins,ebitdaMargins,0.08529500200000001,0.06446776611694154
+operatingMargins,operatingMargins,0.0607449985,0.06446776611694154
+regularMarketChangePercent,regularMarketChangePercent,0.0,0.0
+regularMarketPrice,regularMarketPrice,193.0,0.0
+Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),7.0,0.06146926536731634
+Revenue_2023,Revenue 2023,783214204.2801296,0.06146926536731634
+CYC_2023,CYC 2023,0.8771173438137292,0.06146926536731634
+CR_2023,CR 2023,0.7712263528257852,0.06146926536731634
+Revenue_2024,Revenue 2024,759148978.741429,0.0704647676161919
+CYC_2024,CYC 2024,0.42286498974201,0.06146926536731634
+CR_2024,CR 2024,0.4331520052780995,0.06146926536731634
+regularMarketTime,regularMarketTime,1751618910.0,0.0
+BS_Ordinary_Shares_Number,BS_Ordinary Shares Number,6367664717.0,0.38980509745127434
+BS_Share_Issued,BS_Share Issued,6443379509.0,0.38980509745127434
+BS_Net_Debt,BS_Net Debt,401824954905.0,0.6446776611694153
+BS_Total_Debt,BS_Total Debt,343083581473.5,0.41529235382308843
+BS_Tangible_Book_Value,BS_Tangible Book Value,1078723651500.0,0.38830584707646176
+BS_Invested_Capital,BS_Invested Capital,1581971436906.5,0.40929535232383807
+BS_Working_Capital,BS_Working Capital,174839160389.0,0.4617691154422789
+BS_Net_Tangible_Assets,BS_Net Tangible Assets,1078723651500.0,0.38830584707646176
+BS_Common_Stock_Equity,BS_Common Stock Equity,1176080236090.5,0.38830584707646176
+BS_Total_Capitalization,BS_Total Capitalization,1239659111633.0,0.40929535232383807
+BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,1239784580500.0,0.38830584707646176
+BS_Minority_Interest,BS_Minority Interest,2919857049.5,0.5172413793103449
+BS_Stockholders_Equity,BS_Stockholders Equity,1176080236090.5,0.38830584707646176
+BS_Other_Equity_Interest,BS_Other Equity Interest,425000000.0,0.6926536731634183
+BS_Retained_Earnings,BS_Retained Earnings,251462831963.0,0.38830584707646176
+BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,174181212208.0,0.38980509745127434
+BS_Capital_Stock,BS_Capital Stock,306726571900.0,0.38830584707646176
+BS_Common_Stock,BS_Common Stock,306726571900.0,0.38830584707646176
+BS_Total_Liabilities_Net_Minority_Interest,BS_Total Liabilities Net Minority Interest,1021342023019.5,0.38830584707646176
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,140666013611.0,0.4617691154422789
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,20828894142.0,0.4497751124437781
+BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,12022644500.0,0.7481259370314842
+BS_Long_Term_Debt_And_Capital_Lease_Obligation,BS_Long Term Debt And Capital Lease Obligation,98658100557.0,0.44377811094452774
+BS_Long_Term_Debt,BS_Long Term Debt,135561850000.0,0.6011994002998501
+BS_Current_Liabilities,BS_Current Liabilities,491713674391.0,0.4617691154422789
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,100012500000.0,0.48425787106446777
+BS_Current_Debt,BS_Current Debt,137367000000.0,0.545727136431784
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,7853105344.0,0.7451274362818591
+BS_Payables,BS_Payables,154860500000.0,0.38830584707646176
+BS_Other_Payable,BS_Other Payable,16787942186.0,0.4527736131934033
+BS_Total_Tax_Payable,BS_Total Tax Payable,12750536189.5,0.38830584707646176
+BS_Accounts_Payable,BS_Accounts Payable,94279365757.0,0.4017991004497751
+BS_Total_Assets,BS_Total Assets,2650895000000.0,0.38830584707646176
+BS_Total_Non_Current_Assets,BS_Total Non Current Assets,849680806000.0,0.4617691154422789
+BS_Other_Non_Current_Assets,BS_Other Non Current Assets,3370644084.0,0.6371814092953523
+BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,10728196280.0,0.5547226386806596
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,41873695187.5,0.7481259370314842
+BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,15940497783.5,0.6011994002998501
+BS_Net_PPE,BS_Net PPE,412204022109.0,0.38980509745127434
+BS_Accumulated_Depreciation,BS_Accumulated Depreciation,-274968833580.0,0.39280359820089955
+BS_Gross_PPE,BS_Gross PPE,732675975000.0,0.38980509745127434
+BS_Construction_In_Progress,BS_Construction In Progress,23183500000.0,0.5112443778110944
+BS_Other_Properties,BS_Other Properties,58314738000.0,0.5427286356821589
+BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,181223180266.5,0.39430284857571213
+BS_Buildings_And_Improvements,BS_Buildings And Improvements,149595427000.0,0.4077961019490255
+BS_Land_And_Improvements,BS_Land And Improvements,127316145142.0,0.5157421289355323
+BS_Properties,BS_Properties,0.0,0.4767616191904048
+BS_Current_Assets,BS_Current Assets,761026184698.0,0.4617691154422789
+BS_Prepaid_Assets,BS_Prepaid Assets,38603500000.0,0.4002998500749625
+BS_Inventory,BS_Inventory,152619787600.0,0.512743628185907
+BS_Other_Inventories,BS_Other Inventories,5278320141.0,0.7856071964017991
+BS_Finished_Goods,BS_Finished Goods,119920449000.0,0.6191904047976012
+BS_Raw_Materials,BS_Raw Materials,47131532597.0,0.6446776611694153
+BS_Other_Receivables,BS_Other Receivables,7237215166.0,0.512743628185907
+BS_Accounts_Receivable,BS_Accounts Receivable,134655466158.5,0.46326836581709147
+BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,-5088000000.0,0.5817091454272864
+BS_Gross_Accounts_Receivable,BS_Gross Accounts Receivable,160425324526.5,0.5652173913043478
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,143839901566.0,0.44677661169415295
+BS_Cash_And_Cash_Equivalents,BS_Cash And Cash Equivalents,149722389326.5,0.38830584707646176
+BS_Cash_Equivalents,BS_Cash Equivalents,44282540280.0,0.5892053973013494
+BS_Cash_Financial,BS_Cash Financial,67873113085.5,0.4032983508245877
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,0.0,0.38830584707646176
+IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,0.2194355,0.38830584707646176
+IS_Normalized_EBITDA,IS_Normalized EBITDA,106753408879.0,0.4617691154422789
+IS_Total_Unusual_Items,IS_Total Unusual Items,209702.0,0.5037481259370314
+IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,44000.0,0.5037481259370314
+IS_Net_Income_From_Continuing_Operation_Net_Minority_Interest,IS_Net Income From Continuing Operation Net Minority Interest,51464333500.0,0.38830584707646176
+IS_Reconciled_Depreciation,IS_Reconciled Depreciation,11014740124.0,0.42278860569715143
+IS_Reconciled_Cost_Of_Revenue,IS_Reconciled Cost Of Revenue,689913896871.0,0.4617691154422789
+IS_EBITDA,IS_EBITDA,96211820823.0,0.4617691154422789
+IS_EBIT,IS_EBIT,74390301694.0,0.4542728635682159
+IS_Net_Interest_Income,IS_Net Interest Income,-2249000000.0,0.39280359820089955
+IS_Interest_Expense,IS_Interest Expense,25965669234.0,0.41529235382308843
+IS_Interest_Income,IS_Interest Income,6198531741.0,0.4272863568215892
+IS_Normalized_Income,IS_Normalized Income,48785402742.30524,0.38830584707646176
+IS_Net_Income_From_Continuing_And_Discontinued_Operation,IS_Net Income From Continuing And Discontinued Operation,51464333500.0,0.38830584707646176
+IS_Total_Expenses,IS_Total Expenses,988171242925.0,0.44677661169415295
+IS_Diluted_Average_Shares,IS_Diluted Average Shares,7298500000.0,0.656671664167916
+IS_Basic_Average_Shares,IS_Basic Average Shares,7298500000.0,0.6596701649175413
+IS_Diluted_EPS,IS_Diluted EPS,12.0,0.6596701649175413
+IS_Basic_EPS,IS_Basic EPS,12.0,0.6596701649175413
+IS_Diluted_NI_Availto_Com_Stockholders,IS_Diluted NI Availto Com Stockholders,51464333500.0,0.38830584707646176
+IS_Net_Income_Common_Stockholders,IS_Net Income Common Stockholders,51464333500.0,0.38830584707646176
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,0.0,0.4617691154422789
+IS_Net_Income,IS_Net Income,51464333500.0,0.38830584707646176
+IS_Minority_Interests,IS_Minority Interests,-2607878.0,0.5172413793103449
+IS_Net_Income_Including_Noncontrolling_Interests,IS_Net Income Including Noncontrolling Interests,52754327006.0,0.38830584707646176
+IS_Net_Income_Continuous_Operations,IS_Net Income Continuous Operations,52754327006.0,0.38830584707646176
+IS_Tax_Provision,IS_Tax Provision,15901706075.0,0.38830584707646176
+IS_Pretax_Income,IS_Pretax Income,68737003327.0,0.38830584707646176
+IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,54658000.0,0.4827586206896552
+IS_Special_Income_Charges,IS_Special Income Charges,16515.0,0.5232383808095952
+IS_Other_Special_Charges,IS_Other Special Charges,-300190573.0,0.6221889055472264
+IS_Write_Off,IS_Write Off,479464212.0,0.7556221889055472
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,-5004249667.0,0.44677661169415295
+IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,1083598143.0,0.656671664167916
+IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,17523482293.0,0.46776611694152925
+IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,3143839335.5,0.49025487256371814
+IS_Operating_Income,IS_Operating Income,68709771612.0,0.4617691154422789
+IS_Operating_Expense,IS_Operating Expense,186581906378.5,0.4032983508245877
+IS_Other_Operating_Expenses,IS_Other Operating Expenses,10257872226.5,0.42128935532233885
+IS_Depreciation_And_Amortization_In_Income_Statement,IS_Depreciation And Amortization In Income Statement,11014740124.0,0.42278860569715143
+IS_Depreciation_Income_Statement,IS_Depreciation Income Statement,10288023542.5,0.424287856071964
+IS_Selling_General_And_Administration,IS_Selling General And Administration,60915203699.0,0.38980509745127434
+IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,22914043412.0,0.46476761619190404
+IS_General_And_Administrative_Expense,IS_General And Administrative Expense,29400714293.0,0.38980509745127434
+IS_Gross_Profit,IS_Gross Profit,272584000000.0,0.4617691154422789
+IS_Cost_Of_Revenue,IS_Cost Of Revenue,689913896871.0,0.4617691154422789
+IS_Total_Revenue,IS_Total Revenue,1176038412793.5,0.38830584707646176
+IS_Operating_Revenue,IS_Operating Revenue,1176038412793.5,0.38830584707646176
+CF_Free_Cash_Flow,CF_Free Cash Flow,3752148217.0,0.0
+CF_Repayment_Of_Debt,CF_Repayment Of Debt,-148655251000.0,0.0
+CF_Issuance_Of_Debt,CF_Issuance Of Debt,311765721272.0,0.0
+CF_Capital_Expenditure,CF_Capital Expenditure,-27878152576.0,0.0
+CF_End_Cash_Position,CF_End Cash Position,150885247394.0,0.0
+CF_Beginning_Cash_Position,CF_Beginning Cash Position,163409031781.5,0.0
+CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,277334000.0,0.0
+CF_Changes_In_Cash,CF_Changes In Cash,2683130.0,0.0
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,-4881342152.0,0.0
+CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,8477980.0,0.0
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,-20220555789.5,0.0
+CF_Cash_Dividends_Paid,CF_Cash Dividends Paid,-89816483444.0,0.0
+CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,-72025000000.0,0.0
+CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,0.0,0.0
+CF_Net_Long_Term_Debt_Issuance,CF_Net Long Term Debt Issuance,-5495047.0,0.0
+CF_Long_Term_Debt_Payments,CF_Long Term Debt Payments,-58655249856.5,0.0
+CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,105000000000.0,0.0
+CF_Investing_Cash_Flow,CF_Investing Cash Flow,-34650308675.0,0.0
+CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,-5470556.0,0.0
+CF_Net_PPE_Purchase_And_Sale,CF_Net PPE Purchase And Sale,-23218636714.5,0.0
+CF_Purchase_Of_PPE,CF_Purchase Of PPE,-27878152576.0,0.0
+CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,-25376372020.0,0.0
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,48954943510.5,0.0
+CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,-18037578390.0,0.0
+CF_Interest_Received_Direct,CF_Interest Received Direct,4126723070.5,0.0
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,-1241039390000.0,0.0
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,-84931203963.5,0.0
+CF_Paymentsto_Suppliersfor_Goodsand_Services,CF_Paymentsto Suppliersfor Goodsand Services,-773578583305.5,0.0
+CF_Classesof_Cash_Receiptsfrom_Operating_Activities,CF_Classesof Cash Receiptsfrom Operating Activities,1437496830353.0,0.0
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,1112853000000.0,0.0
+hasRiskOfficer,hasRiskOfficer,0.0,0.0
+BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,5639602000.0,0.5742128935532234
+BS_Long_Term_Capital_Lease_Obligation,BS_Long Term Capital Lease Obligation,3392023000.0,0.6041979010494752
+BS_Current_Capital_Lease_Obligation,BS_Current Capital Lease Obligation,2578023500.0,0.5862068965517241
+BS_Investmentin_Financial_Assets,BS_Investmentin Financial Assets,102456207361.0,0.7376311844077961
+BS_Available_For_Sale_Securities,BS_Available For Sale Securities,102421571139.0,0.7886056971514243
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,16021000000.0,0.6926536731634183
+BS_Other_Short_Term_Investments,BS_Other Short Term Investments,50000000000.0,0.7991004497751124
+IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,4545881000.0,0.6086956521739131
+IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,3612004000.0,0.6026986506746627
+CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,33609250.0,0.0
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,-1.0,0.0
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,47107.0,0.0
+CF_Common_Stock_Issuance,CF_Common Stock Issuance,33609250.0,0.0
+CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,0.0,0.0
+CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,-205954159119.5,0.0
+CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,233336394357.5,0.0
+CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,7671008151.0,0.0
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,-3590500000.0,0.0
+CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,27300000.0,0.0
+CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,-1223416.0,0.0
+CF_Sale_Of_Business,CF_Sale Of Business,638308.0,0.0
+CF_Purchase_Of_Business,CF_Purchase Of Business,-5624500000.0,0.0
+CF_Net_Intangibles_Purchase_And_Sale,CF_Net Intangibles Purchase And Sale,-1904871395.0,0.0
+CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,-1838571319.0,0.0
+CF_Sale_Of_PPE,CF_Sale Of PPE,1102715159.0,0.0
+CF_Interest_Paid_Direct,CF_Interest Paid Direct,-19333839517.0,0.0
+CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,-137502344126.0,0.0
+CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,11008458666.5,0.0
+CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,-5239250.5,0.0
+CF_Sale_Of_Investment,CF_Sale Of Investment,24110000000.0,0.0
+CF_Purchase_Of_Investment,CF_Purchase Of Investment,-33672694000.0,0.0
+BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,4918054467.5,0.6911544227886057
+IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,64671048209.5,0.6521739130434783
+CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,-8608855906.5,0.0
+CF_Common_Stock_Payments,CF_Common Stock Payments,-8608855906.5,0.0
+CF_Purchase_Of_Investment_Properties,CF_Purchase Of Investment Properties,-5799000000.0,0.0
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,15774227000.0,0.0
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,1000000000.0,0.0
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,192271500000.0,0.0
+CF_Dividends_Received_Direct,CF_Dividends Received Direct,324228464000.0,0.0

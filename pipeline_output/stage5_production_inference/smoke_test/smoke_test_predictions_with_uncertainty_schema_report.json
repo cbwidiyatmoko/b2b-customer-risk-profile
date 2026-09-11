@@ -1,0 +1,532 @@
+{
+    "n_input_rows": 954,
+    "n_input_columns_raw": 484,
+    "n_input_columns_clean": 484,
+    "n_selected_features_expected": 164,
+    "n_selected_features_available": 164,
+    "n_selected_features_missing": 0,
+    "missing_selected_features": [],
+    "n_extra_clean_columns": 320,
+    "extra_clean_columns_sample": [
+        "IDXCode",
+        "Company_Name",
+        "address1",
+        "address2",
+        "city",
+        "zip",
+        "country",
+        "phone",
+        "fax",
+        "website",
+        "industry",
+        "industryDisp",
+        "sector",
+        "sectorDisp",
+        "longBusinessSummary",
+        "executiveTeam",
+        "previousClose",
+        "open",
+        "dayLow",
+        "dayHigh",
+        "regularMarketOpen",
+        "regularMarketDayLow",
+        "regularMarketDayHigh",
+        "dividendRate",
+        "dividendYield",
+        "exDividendDate",
+        "payoutRatio",
+        "fiveYearAvgDividendYield",
+        "beta",
+        "trailingPE",
+        "forwardPE",
+        "volume",
+        "regularMarketVolume",
+        "averageVolume",
+        "averageVolume10days",
+        "averageDailyVolume10Day",
+        "bid",
+        "ask",
+        "bidSize",
+        "askSize",
+        "fiftyTwoWeekLow",
+        "fiftyTwoWeekHigh",
+        "priceToSalesTrailing12Months",
+        "fiftyDayAverage",
+        "twoHundredDayAverage",
+        "trailingAnnualDividendRate",
+        "trailingAnnualDividendYield",
+        "currency",
+        "tradeable",
+        "floatShares"
+    ],
+    "selected_feature_missing_ratio_sample": {
+        "BS_Accounts_Payable": 0.389937106918239,
+        "BS_Accounts_Receivable": 0.44549266247379454,
+        "BS_Additional_Paid_In_Capital": 0.37735849056603776,
+        "BS_Allowance_For_Doubtful_Accounts_Receivable": 0.5681341719077568,
+        "BS_Buildings_And_Improvements": 0.40146750524109015,
+        "BS_Capital_Lease_Obligations": 0.560796645702306,
+        "BS_Cash_Cash_Equivalents_And_Short_Term_Investments": 0.4308176100628931,
+        "BS_Cash_Equivalents": 0.5880503144654088,
+        "BS_Cash_Financial": 0.3941299790356394,
+        "BS_Common_Stock": 0.37631027253668764,
+        "BS_Construction_In_Progress": 0.49580712788259956,
+        "BS_Current_Assets": 0.44549266247379454,
+        "BS_Current_Debt_And_Capital_Lease_Obligation": 0.469601677148847,
+        "BS_Current_Liabilities": 0.44549266247379454,
+        "BS_Finished_Goods": 0.6111111111111112,
+        "BS_Goodwill_And_Other_Intangible_Assets": 0.5859538784067087,
+        "BS_Gross_PPE": 0.37735849056603776,
+        "BS_Inventory": 0.4979035639412998,
+        "BS_Land_And_Improvements": 0.5041928721174004,
+        "BS_Long_Term_Equity_Investment": 0.7232704402515723,
+        "BS_Machinery_Furniture_Equipment": 0.38155136268343814,
+        "BS_Minority_Interest": 0.5073375262054507,
+        "BS_Net_Debt": 0.6320754716981132,
+        "BS_Non_Current_Deferred_Taxes_Assets": 0.5324947589098532,
+        "BS_Non_Current_Deferred_Taxes_Liabilities": 0.7327044025157232,
+        "BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans": 0.4360587002096436,
+        "BS_Non_Current_Prepaid_Assets": 0.6687631027253669,
+        "BS_Other_Equity_Interest": 0.6781970649895178,
+        "BS_Other_Intangible_Assets": 0.6771488469601677,
+        "BS_Other_Inventories": 0.7767295597484277,
+        "BS_Other_Non_Current_Assets": 0.6362683438155137,
+        "BS_Other_Payable": 0.4371069182389937,
+        "BS_Other_Properties": 0.5377358490566038,
+        "BS_Other_Receivables": 0.4937106918238994,
+        "BS_Other_Short_Term_Investments": 0.7945492662473794,
+        "BS_Payables": 0.37631027253668764,
+        "BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current": 0.750524109014675,
+        "BS_Prepaid_Assets": 0.38784067085953877,
+        "BS_Properties": 0.46226415094339623,
+        "BS_Raw_Materials": 0.6341719077568134,
+        "BS_Retained_Earnings": 0.37631027253668764,
+        "BS_Share_Issued": 0.37735849056603776,
+        "BS_Tangible_Book_Value": 0.37631027253668764,
+        "BS_Total_Assets": 0.37631027253668764,
+        "BS_Total_Equity_Gross_Minority_Interest": 0.37631027253668764,
+        "BS_Total_Non_Current_Assets": 0.44549266247379454,
+        "BS_Total_Non_Current_Liabilities_Net_Minority_Interest": 0.44549266247379454,
+        "BS_Total_Tax_Payable": 0.37631027253668764,
+        "BS_Working_Capital": 0.44549266247379454,
+        "CF_Capital_Expenditure": 0.0
+    },
+    "schema_status": "PASS",
+    "note": "Missing selected features are created and filled with NaN. The trained preprocessing pipeline handles imputation.",
+    "new_column_mapping": [
+        {
+            "original_column": "IDXCode",
+            "clean_column": "IDXCode"
+        },
+        {
+            "original_column": "Company Name",
+            "clean_column": "Company_Name"
+        },
+        {
+            "original_column": "address1",
+            "clean_column": "address1"
+        },
+        {
+            "original_column": "address2",
+            "clean_column": "address2"
+        },
+        {
+            "original_column": "city",
+            "clean_column": "city"
+        },
+        {
+            "original_column": "zip",
+            "clean_column": "zip"
+        },
+        {
+            "original_column": "country",
+            "clean_column": "country"
+        },
+        {
+            "original_column": "phone",
+            "clean_column": "phone"
+        },
+        {
+            "original_column": "fax",
+            "clean_column": "fax"
+        },
+        {
+            "original_column": "website",
+            "clean_column": "website"
+        },
+        {
+            "original_column": "industry",
+            "clean_column": "industry"
+        },
+        {
+            "original_column": "industryKey",
+            "clean_column": "industryKey"
+        },
+        {
+            "original_column": "industryDisp",
+            "clean_column": "industryDisp"
+        },
+        {
+            "original_column": "sector",
+            "clean_column": "sector"
+        },
+        {
+            "original_column": "sectorKey",
+            "clean_column": "sectorKey"
+        },
+        {
+            "original_column": "sectorDisp",
+            "clean_column": "sectorDisp"
+        },
+        {
+            "original_column": "longBusinessSummary",
+            "clean_column": "longBusinessSummary"
+        },
+        {
+            "original_column": "fullTimeEmployees",
+            "clean_column": "fullTimeEmployees"
+        },
+        {
+            "original_column": "executiveTeam",
+            "clean_column": "executiveTeam"
+        },
+        {
+            "original_column": "maxAge",
+            "clean_column": "maxAge"
+        },
+        {
+            "original_column": "priceHint",
+            "clean_column": "priceHint"
+        },
+        {
+            "original_column": "previousClose",
+            "clean_column": "previousClose"
+        },
+        {
+            "original_column": "open",
+            "clean_column": "open"
+        },
+        {
+            "original_column": "dayLow",
+            "clean_column": "dayLow"
+        },
+        {
+            "original_column": "dayHigh",
+            "clean_column": "dayHigh"
+        },
+        {
+            "original_column": "regularMarketPreviousClose",
+            "clean_column": "regularMarketPreviousClose"
+        },
+        {
+            "original_column": "regularMarketOpen",
+            "clean_column": "regularMarketOpen"
+        },
+        {
+            "original_column": "regularMarketDayLow",
+            "clean_column": "regularMarketDayLow"
+        },
+        {
+            "original_column": "regularMarketDayHigh",
+            "clean_column": "regularMarketDayHigh"
+        },
+        {
+            "original_column": "dividendRate",
+            "clean_column": "dividendRate"
+        },
+        {
+            "original_column": "dividendYield",
+            "clean_column": "dividendYield"
+        },
+        {
+            "original_column": "exDividendDate",
+            "clean_column": "exDividendDate"
+        },
+        {
+            "original_column": "payoutRatio",
+            "clean_column": "payoutRatio"
+        },
+        {
+            "original_column": "fiveYearAvgDividendYield",
+            "clean_column": "fiveYearAvgDividendYield"
+        },
+        {
+            "original_column": "beta",
+            "clean_column": "beta"
+        },
+        {
+            "original_column": "trailingPE",
+            "clean_column": "trailingPE"
+        },
+        {
+            "original_column": "forwardPE",
+            "clean_column": "forwardPE"
+        },
+        {
+            "original_column": "volume",
+            "clean_column": "volume"
+        },
+        {
+            "original_column": "regularMarketVolume",
+            "clean_column": "regularMarketVolume"
+        },
+        {
+            "original_column": "averageVolume",
+            "clean_column": "averageVolume"
+        },
+        {
+            "original_column": "averageVolume10days",
+            "clean_column": "averageVolume10days"
+        },
+        {
+            "original_column": "averageDailyVolume10Day",
+            "clean_column": "averageDailyVolume10Day"
+        },
+        {
+            "original_column": "bid",
+            "clean_column": "bid"
+        },
+        {
+            "original_column": "ask",
+            "clean_column": "ask"
+        },
+        {
+            "original_column": "bidSize",
+            "clean_column": "bidSize"
+        },
+        {
+            "original_column": "askSize",
+            "clean_column": "askSize"
+        },
+        {
+            "original_column": "marketCap",
+            "clean_column": "marketCap"
+        },
+        {
+            "original_column": "fiftyTwoWeekLow",
+            "clean_column": "fiftyTwoWeekLow"
+        },
+        {
+            "original_column": "fiftyTwoWeekHigh",
+            "clean_column": "fiftyTwoWeekHigh"
+        },
+        {
+            "original_column": "priceToSalesTrailing12Months",
+            "clean_column": "priceToSalesTrailing12Months"
+        },
+        {
+            "original_column": "fiftyDayAverage",
+            "clean_column": "fiftyDayAverage"
+        },
+        {
+            "original_column": "twoHundredDayAverage",
+            "clean_column": "twoHundredDayAverage"
+        },
+        {
+            "original_column": "trailingAnnualDividendRate",
+            "clean_column": "trailingAnnualDividendRate"
+        },
+        {
+            "original_column": "trailingAnnualDividendYield",
+            "clean_column": "trailingAnnualDividendYield"
+        },
+        {
+            "original_column": "currency",
+            "clean_column": "currency"
+        },
+        {
+            "original_column": "tradeable",
+            "clean_column": "tradeable"
+        },
+        {
+            "original_column": "enterpriseValue",
+            "clean_column": "enterpriseValue"
+        },
+        {
+            "original_column": "profitMargins",
+            "clean_column": "profitMargins"
+        },
+        {
+            "original_column": "floatShares",
+            "clean_column": "floatShares"
+        },
+        {
+            "original_column": "sharesOutstanding",
+            "clean_column": "sharesOutstanding"
+        },
+        {
+            "original_column": "heldPercentInsiders",
+            "clean_column": "heldPercentInsiders"
+        },
+        {
+            "original_column": "heldPercentInstitutions",
+            "clean_column": "heldPercentInstitutions"
+        },
+        {
+            "original_column": "impliedSharesOutstanding",
+            "clean_column": "impliedSharesOutstanding"
+        },
+        {
+            "original_column": "bookValue",
+            "clean_column": "bookValue"
+        },
+        {
+            "original_column": "priceToBook",
+            "clean_column": "priceToBook"
+        },
+        {
+            "original_column": "lastFiscalYearEnd",
+            "clean_column": "lastFiscalYearEnd"
+        },
+        {
+            "original_column": "nextFiscalYearEnd",
+            "clean_column": "nextFiscalYearEnd"
+        },
+        {
+            "original_column": "mostRecentQuarter",
+            "clean_column": "mostRecentQuarter"
+        },
+        {
+            "original_column": "earningsQuarterlyGrowth",
+            "clean_column": "earningsQuarterlyGrowth"
+        },
+        {
+            "original_column": "netIncomeToCommon",
+            "clean_column": "netIncomeToCommon"
+        },
+        {
+            "original_column": "trailingEps",
+            "clean_column": "trailingEps"
+        },
+        {
+            "original_column": "forwardEps",
+            "clean_column": "forwardEps"
+        },
+        {
+            "original_column": "enterpriseToRevenue",
+            "clean_column": "enterpriseToRevenue"
+        },
+        {
+            "original_column": "enterpriseToEbitda",
+            "clean_column": "enterpriseToEbitda"
+        },
+        {
+            "original_column": "52WeekChange",
+            "clean_column": "col_52WeekChange"
+        },
+        {
+            "original_column": "SandP52WeekChange",
+            "clean_column": "SandP52WeekChange"
+        },
+        {
+            "original_column": "lastDividendValue",
+            "clean_column": "lastDividendValue"
+        },
+        {
+            "original_column": "lastDividendDate",
+            "clean_column": "lastDividendDate"
+        },
+        {
+            "original_column": "quoteType",
+            "clean_column": "quoteType"
+        },
+        {
+            "original_column": "currentPrice",
+            "clean_column": "currentPrice"
+        },
+        {
+            "original_column": "targetHighPrice",
+            "clean_column": "targetHighPrice"
+        },
+        {
+            "original_column": "targetLowPrice",
+            "clean_column": "targetLowPrice"
+        },
+        {
+            "original_column": "targetMeanPrice",
+            "clean_column": "targetMeanPrice"
+        },
+        {
+            "original_column": "targetMedianPrice",
+            "clean_column": "targetMedianPrice"
+        },
+        {
+            "original_column": "recommendationMean",
+            "clean_column": "recommendationMean"
+        },
+        {
+            "original_column": "recommendationKey",
+            "clean_column": "recommendationKey"
+        },
+        {
+            "original_column": "numberOfAnalystOpinions",
+            "clean_column": "numberOfAnalystOpinions"
+        },
+        {
+            "original_column": "totalCash",
+            "clean_column": "totalCash"
+        },
+        {
+            "original_column": "totalCashPerShare",
+            "clean_column": "totalCashPerShare"
+        },
+        {
+            "original_column": "ebitda",
+            "clean_column": "ebitda"
+        },
+        {
+            "original_column": "totalDebt",
+            "clean_column": "totalDebt"
+        },
+        {
+            "original_column": "quickRatio",
+            "clean_column": "quickRatio"
+        },
+        {
+            "original_column": "currentRatio",
+            "clean_column": "currentRatio"
+        },
+        {
+            "original_column": "totalRevenue",
+            "clean_column": "totalRevenue"
+        },
+        {
+            "original_column": "debtToEquity",
+            "clean_column": "debtToEquity"
+        },
+        {
+            "original_column": "revenuePerShare",
+            "clean_column": "revenuePerShare"
+        },
+        {
+            "original_column": "returnOnAssets",
+            "clean_column": "returnOnAssets"
+        },
+        {
+            "original_column": "returnOnEquity",
+            "clean_column": "returnOnEquity"
+        },
+        {
+            "original_column": "grossProfits",
+            "clean_column": "grossProfits"
+        },
+        {
+            "original_column": "freeCashflow",
+            "clean_column": "freeCashflow"
+        }
+    ],
+    "feature_order_enforced": true,
+    "prediction_completed": true,
+    "model_name": "StackedEnsemble",
+    "pipeline": "single_final_feature_set_pipeline",
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "probability_available": true,
+    "n_output_rows": 954,
+    "n_output_columns": 496,
+    "bundle_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_model_bundle.joblib",
+    "input_path": "C:\\S3\\Semhas_New_Pipeline\\data\\yfinance_bud_merged_labelled.xlsx"
+}

@@ -1,0 +1,44 @@
+{
+    "architecture": "Tuned SVM RBF + Tuned RandomForest -> Regularized XGBoost meta learner",
+    "pipeline_status": "FINAL_LOCKED",
+    "svm_best_params": {
+        "model__kernel": "rbf",
+        "model__gamma": 1e-06,
+        "model__C": 1.0
+    },
+    "rf_best_params": {
+        "model__n_estimators": 300,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_features": 0.5,
+        "model__max_depth": 15
+    },
+    "meta_best_params": {
+        "final_estimator__subsample": 0.7,
+        "final_estimator__reg_lambda": 20,
+        "final_estimator__reg_alpha": 0.5,
+        "final_estimator__n_estimators": 100,
+        "final_estimator__min_child_weight": 20,
+        "final_estimator__max_depth": 2,
+        "final_estimator__learning_rate": 0.05,
+        "final_estimator__gamma": 0.0,
+        "final_estimator__colsample_bytree": 0.7
+    },
+    "final_meta_high_risk_weight": 1.0,
+    "meta_weighting": "unweighted",
+    "svm_stack_signal": "decision_function",
+    "rf_stack_signal": "predict_proba",
+    "stack_method": "OOF_custom_unweighted",
+    "passthrough": false,
+    "meta_training_features": [
+        "svm_decision_High Risk",
+        "svm_decision_Low Risk",
+        "svm_decision_Medium Risk",
+        "rf_proba_High Risk",
+        "rf_proba_Low Risk",
+        "rf_proba_Medium Risk"
+    ],
+    "meta_training_source": "out_of_fold_predictions_on_training_partition",
+    "validation_used_for_hyperparameter_tuning": false,
+    "test_used_for_hyperparameter_tuning": false
+}

@@ -1,0 +1,33 @@
+{
+    "top_k": 20,
+    "n_overlap": 18,
+    "overlap_ratio": 0.9,
+    "overlap_features": [
+        "BS_Common_Stock",
+        "BS_Net_Debt",
+        "BS_Total_Tax_Payable",
+        "CF_Classesof_Cash_Payments",
+        "CF_Receiptsfrom_Customers",
+        "IS_EBIT",
+        "IS_Net_Income",
+        "IS_Net_Interest_Income",
+        "currentRatio",
+        "ebitdaMargins",
+        "enterpriseToEbitda",
+        "enterpriseToRevenue",
+        "profitMargins",
+        "returnOnEquity",
+        "revenuePerShare",
+        "sectorKey",
+        "totalCashPerShare",
+        "totalRevenue"
+    ],
+    "shap_only_features": [
+        "CF_Other_Cash_Paymentsfrom_Operating_Activities",
+        "grossProfits"
+    ],
+    "rw_ucfi_only_features": [
+        "CF_Interest_Received_Cfi",
+        "fullTimeEmployees"
+    ]
+}

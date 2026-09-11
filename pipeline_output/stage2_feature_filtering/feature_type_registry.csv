@@ -1,0 +1,239 @@
+column,original_column,dtype_train,feature_type
+address2,address2,str,categorical
+industry,industry,str,categorical
+industryKey,industryKey,str,categorical
+industryDisp,industryDisp,str,categorical
+sectorKey,sectorKey,str,categorical
+fullTimeEmployees,fullTimeEmployees,float64,numeric
+maxAge,maxAge,float64,numeric
+priceHint,priceHint,float64,numeric
+previousClose,previousClose,float64,numeric
+open,open,float64,numeric
+dayLow,dayLow,float64,numeric
+dayHigh,dayHigh,float64,numeric
+regularMarketPreviousClose,regularMarketPreviousClose,float64,numeric
+regularMarketOpen,regularMarketOpen,float64,numeric
+regularMarketDayLow,regularMarketDayLow,float64,numeric
+regularMarketDayHigh,regularMarketDayHigh,float64,numeric
+exDividendDate,exDividendDate,float64,numeric
+marketCap,marketCap,float64,numeric
+enterpriseValue,enterpriseValue,float64,numeric
+profitMargins,profitMargins,float64,numeric
+lastFiscalYearEnd,lastFiscalYearEnd,float64,numeric
+nextFiscalYearEnd,nextFiscalYearEnd,float64,numeric
+mostRecentQuarter,mostRecentQuarter,float64,numeric
+enterpriseToRevenue,enterpriseToRevenue,float64,numeric
+enterpriseToEbitda,enterpriseToEbitda,float64,numeric
+SandP52WeekChange,SandP52WeekChange,float64,numeric
+lastDividendDate,lastDividendDate,float64,numeric
+totalCash,totalCash,float64,numeric
+totalCashPerShare,totalCashPerShare,float64,numeric
+ebitda,ebitda,float64,numeric
+totalDebt,totalDebt,float64,numeric
+quickRatio,quickRatio,float64,numeric
+currentRatio,currentRatio,float64,numeric
+totalRevenue,totalRevenue,float64,numeric
+debtToEquity,debtToEquity,float64,numeric
+revenuePerShare,revenuePerShare,float64,numeric
+returnOnAssets,returnOnAssets,float64,numeric
+returnOnEquity,returnOnEquity,float64,numeric
+grossProfits,grossProfits,float64,numeric
+freeCashflow,freeCashflow,float64,numeric
+operatingCashflow,operatingCashflow,float64,numeric
+earningsGrowth,earningsGrowth,float64,numeric
+revenueGrowth,revenueGrowth,float64,numeric
+grossMargins,grossMargins,float64,numeric
+ebitdaMargins,ebitdaMargins,float64,numeric
+operatingMargins,operatingMargins,float64,numeric
+messageBoardId,messageBoardId,str,categorical
+regularMarketChangePercent,regularMarketChangePercent,float64,numeric
+regularMarketPrice,regularMarketPrice,float64,numeric
+Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),float64,numeric
+Revenue_2023,Revenue 2023,float64,numeric
+CYC_2023,CYC 2023,float64,numeric
+CR_2023,CR 2023,float64,numeric
+Revenue_2024,Revenue 2024,float64,numeric
+CYC_2024,CYC 2024,float64,numeric
+CR_2024,CR 2024,float64,numeric
+regularMarketTime,regularMarketTime,float64,numeric
+BS_Ordinary_Shares_Number,BS_Ordinary Shares Number,float64,numeric
+BS_Share_Issued,BS_Share Issued,float64,numeric
+BS_Net_Debt,BS_Net Debt,float64,numeric
+BS_Total_Debt,BS_Total Debt,float64,numeric
+BS_Tangible_Book_Value,BS_Tangible Book Value,float64,numeric
+BS_Invested_Capital,BS_Invested Capital,float64,numeric
+BS_Working_Capital,BS_Working Capital,float64,numeric
+BS_Net_Tangible_Assets,BS_Net Tangible Assets,float64,numeric
+BS_Common_Stock_Equity,BS_Common Stock Equity,float64,numeric
+BS_Total_Capitalization,BS_Total Capitalization,float64,numeric
+BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,float64,numeric
+BS_Minority_Interest,BS_Minority Interest,float64,numeric
+BS_Stockholders_Equity,BS_Stockholders Equity,float64,numeric
+BS_Other_Equity_Interest,BS_Other Equity Interest,float64,numeric
+BS_Retained_Earnings,BS_Retained Earnings,float64,numeric
+BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,float64,numeric
+BS_Capital_Stock,BS_Capital Stock,float64,numeric
+BS_Common_Stock,BS_Common Stock,float64,numeric
+BS_Total_Liabilities_Net_Minority_Interest,BS_Total Liabilities Net Minority Interest,float64,numeric
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,float64,numeric
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,float64,numeric
+BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,float64,numeric
+BS_Long_Term_Debt_And_Capital_Lease_Obligation,BS_Long Term Debt And Capital Lease Obligation,float64,numeric
+BS_Long_Term_Debt,BS_Long Term Debt,float64,numeric
+BS_Current_Liabilities,BS_Current Liabilities,float64,numeric
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,float64,numeric
+BS_Current_Debt,BS_Current Debt,float64,numeric
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,float64,numeric
+BS_Payables,BS_Payables,float64,numeric
+BS_Other_Payable,BS_Other Payable,float64,numeric
+BS_Total_Tax_Payable,BS_Total Tax Payable,float64,numeric
+BS_Accounts_Payable,BS_Accounts Payable,float64,numeric
+BS_Total_Assets,BS_Total Assets,float64,numeric
+BS_Total_Non_Current_Assets,BS_Total Non Current Assets,float64,numeric
+BS_Other_Non_Current_Assets,BS_Other Non Current Assets,float64,numeric
+BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,float64,numeric
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,float64,numeric
+BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,float64,numeric
+BS_Net_PPE,BS_Net PPE,float64,numeric
+BS_Accumulated_Depreciation,BS_Accumulated Depreciation,float64,numeric
+BS_Gross_PPE,BS_Gross PPE,float64,numeric
+BS_Construction_In_Progress,BS_Construction In Progress,float64,numeric
+BS_Other_Properties,BS_Other Properties,float64,numeric
+BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,float64,numeric
+BS_Buildings_And_Improvements,BS_Buildings And Improvements,float64,numeric
+BS_Land_And_Improvements,BS_Land And Improvements,float64,numeric
+BS_Properties,BS_Properties,float64,numeric
+BS_Current_Assets,BS_Current Assets,float64,numeric
+BS_Prepaid_Assets,BS_Prepaid Assets,float64,numeric
+BS_Inventory,BS_Inventory,float64,numeric
+BS_Other_Inventories,BS_Other Inventories,float64,numeric
+BS_Finished_Goods,BS_Finished Goods,float64,numeric
+BS_Raw_Materials,BS_Raw Materials,float64,numeric
+BS_Other_Receivables,BS_Other Receivables,float64,numeric
+BS_Accounts_Receivable,BS_Accounts Receivable,float64,numeric
+BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,float64,numeric
+BS_Gross_Accounts_Receivable,BS_Gross Accounts Receivable,float64,numeric
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,float64,numeric
+BS_Cash_And_Cash_Equivalents,BS_Cash And Cash Equivalents,float64,numeric
+BS_Cash_Equivalents,BS_Cash Equivalents,float64,numeric
+BS_Cash_Financial,BS_Cash Financial,float64,numeric
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,float64,numeric
+IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,float64,numeric
+IS_Normalized_EBITDA,IS_Normalized EBITDA,float64,numeric
+IS_Total_Unusual_Items,IS_Total Unusual Items,float64,numeric
+IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,float64,numeric
+IS_Net_Income_From_Continuing_Operation_Net_Minority_Interest,IS_Net Income From Continuing Operation Net Minority Interest,float64,numeric
+IS_Reconciled_Depreciation,IS_Reconciled Depreciation,float64,numeric
+IS_Reconciled_Cost_Of_Revenue,IS_Reconciled Cost Of Revenue,float64,numeric
+IS_EBITDA,IS_EBITDA,float64,numeric
+IS_EBIT,IS_EBIT,float64,numeric
+IS_Net_Interest_Income,IS_Net Interest Income,float64,numeric
+IS_Interest_Expense,IS_Interest Expense,float64,numeric
+IS_Interest_Income,IS_Interest Income,float64,numeric
+IS_Normalized_Income,IS_Normalized Income,float64,numeric
+IS_Net_Income_From_Continuing_And_Discontinued_Operation,IS_Net Income From Continuing And Discontinued Operation,float64,numeric
+IS_Total_Expenses,IS_Total Expenses,float64,numeric
+IS_Diluted_Average_Shares,IS_Diluted Average Shares,float64,numeric
+IS_Basic_Average_Shares,IS_Basic Average Shares,float64,numeric
+IS_Diluted_EPS,IS_Diluted EPS,float64,numeric
+IS_Basic_EPS,IS_Basic EPS,float64,numeric
+IS_Diluted_NI_Availto_Com_Stockholders,IS_Diluted NI Availto Com Stockholders,float64,numeric
+IS_Net_Income_Common_Stockholders,IS_Net Income Common Stockholders,float64,numeric
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,float64,numeric
+IS_Net_Income,IS_Net Income,float64,numeric
+IS_Minority_Interests,IS_Minority Interests,float64,numeric
+IS_Net_Income_Including_Noncontrolling_Interests,IS_Net Income Including Noncontrolling Interests,float64,numeric
+IS_Net_Income_Continuous_Operations,IS_Net Income Continuous Operations,float64,numeric
+IS_Tax_Provision,IS_Tax Provision,float64,numeric
+IS_Pretax_Income,IS_Pretax Income,float64,numeric
+IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,float64,numeric
+IS_Special_Income_Charges,IS_Special Income Charges,float64,numeric
+IS_Other_Special_Charges,IS_Other Special Charges,float64,numeric
+IS_Write_Off,IS_Write Off,float64,numeric
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,float64,numeric
+IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,float64,numeric
+IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,float64,numeric
+IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,float64,numeric
+IS_Operating_Income,IS_Operating Income,float64,numeric
+IS_Operating_Expense,IS_Operating Expense,float64,numeric
+IS_Other_Operating_Expenses,IS_Other Operating Expenses,float64,numeric
+IS_Depreciation_And_Amortization_In_Income_Statement,IS_Depreciation And Amortization In Income Statement,float64,numeric
+IS_Depreciation_Income_Statement,IS_Depreciation Income Statement,float64,numeric
+IS_Selling_General_And_Administration,IS_Selling General And Administration,float64,numeric
+IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,float64,numeric
+IS_General_And_Administrative_Expense,IS_General And Administrative Expense,float64,numeric
+IS_Gross_Profit,IS_Gross Profit,float64,numeric
+IS_Cost_Of_Revenue,IS_Cost Of Revenue,float64,numeric
+IS_Total_Revenue,IS_Total Revenue,float64,numeric
+IS_Operating_Revenue,IS_Operating Revenue,float64,numeric
+CF_Free_Cash_Flow,CF_Free Cash Flow,float64,numeric
+CF_Repayment_Of_Debt,CF_Repayment Of Debt,float64,numeric
+CF_Issuance_Of_Debt,CF_Issuance Of Debt,float64,numeric
+CF_Capital_Expenditure,CF_Capital Expenditure,float64,numeric
+CF_End_Cash_Position,CF_End Cash Position,float64,numeric
+CF_Beginning_Cash_Position,CF_Beginning Cash Position,float64,numeric
+CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,float64,numeric
+CF_Changes_In_Cash,CF_Changes In Cash,float64,numeric
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,float64,numeric
+CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,float64,numeric
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,float64,numeric
+CF_Cash_Dividends_Paid,CF_Cash Dividends Paid,float64,numeric
+CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,float64,numeric
+CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,float64,numeric
+CF_Net_Long_Term_Debt_Issuance,CF_Net Long Term Debt Issuance,float64,numeric
+CF_Long_Term_Debt_Payments,CF_Long Term Debt Payments,float64,numeric
+CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,float64,numeric
+CF_Investing_Cash_Flow,CF_Investing Cash Flow,float64,numeric
+CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,float64,numeric
+CF_Net_PPE_Purchase_And_Sale,CF_Net PPE Purchase And Sale,float64,numeric
+CF_Purchase_Of_PPE,CF_Purchase Of PPE,float64,numeric
+CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,int64,numeric
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,float64,numeric
+CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,float64,numeric
+CF_Interest_Received_Direct,CF_Interest Received Direct,float64,numeric
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,float64,numeric
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,float64,numeric
+CF_Paymentsto_Suppliersfor_Goodsand_Services,CF_Paymentsto Suppliersfor Goodsand Services,float64,numeric
+CF_Classesof_Cash_Receiptsfrom_Operating_Activities,CF_Classesof Cash Receiptsfrom Operating Activities,float64,numeric
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,float64,numeric
+hasRiskOfficer,hasRiskOfficer,int64,numeric
+BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,float64,numeric
+BS_Long_Term_Capital_Lease_Obligation,BS_Long Term Capital Lease Obligation,float64,numeric
+BS_Current_Capital_Lease_Obligation,BS_Current Capital Lease Obligation,float64,numeric
+BS_Investmentin_Financial_Assets,BS_Investmentin Financial Assets,float64,numeric
+BS_Available_For_Sale_Securities,BS_Available For Sale Securities,float64,numeric
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,float64,numeric
+BS_Other_Short_Term_Investments,BS_Other Short Term Investments,float64,numeric
+IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,float64,numeric
+IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,float64,numeric
+CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,float64,numeric
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,float64,numeric
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,float64,numeric
+CF_Common_Stock_Issuance,CF_Common Stock Issuance,float64,numeric
+CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,float64,numeric
+CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,float64,numeric
+CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,float64,numeric
+CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,float64,numeric
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,float64,numeric
+CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,float64,numeric
+CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,float64,numeric
+CF_Sale_Of_Business,CF_Sale Of Business,float64,numeric
+CF_Purchase_Of_Business,CF_Purchase Of Business,float64,numeric
+CF_Net_Intangibles_Purchase_And_Sale,CF_Net Intangibles Purchase And Sale,float64,numeric
+CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,float64,numeric
+CF_Sale_Of_PPE,CF_Sale Of PPE,float64,numeric
+CF_Interest_Paid_Direct,CF_Interest Paid Direct,float64,numeric
+CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,float64,numeric
+CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,float64,numeric
+CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,float64,numeric
+CF_Sale_Of_Investment,CF_Sale Of Investment,float64,numeric
+CF_Purchase_Of_Investment,CF_Purchase Of Investment,float64,numeric
+BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,float64,numeric
+IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,float64,numeric
+CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,float64,numeric
+CF_Common_Stock_Payments,CF_Common Stock Payments,float64,numeric
+CF_Purchase_Of_Investment_Properties,CF_Purchase Of Investment Properties,float64,numeric
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,float64,numeric
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,int64,numeric
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,int64,numeric
+CF_Dividends_Received_Direct,CF_Dividends Received Direct,float64,numeric

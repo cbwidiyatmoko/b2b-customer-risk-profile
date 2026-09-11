@@ -1,0 +1,67 @@
+{
+    "purpose": "This smoke test verifies that the saved production bundle and reusable inference functions can load data, align schema, generate predictions, produce probabilities, uncertainty indicators, and export outputs.",
+    "important_note": "This is not model performance evaluation. The production model was trained on the full dataset.",
+    "input_file": "C:\\S3\\Semhas_New_Pipeline\\data\\yfinance_bud_merged_labelled.xlsx",
+    "bundle_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_model_bundle.joblib",
+    "smoke_test_passed": true,
+    "file_based": {
+        "expected_rows": 954,
+        "actual_rows": 954,
+        "schema_status": "PASS",
+        "n_missing_selected_features": 0,
+        "prediction_completed": true,
+        "labels_valid": true,
+        "probability_range_valid": true
+    },
+    "dataframe_based": {
+        "expected_rows": 10,
+        "actual_rows": 10,
+        "schema_status": "PASS",
+        "n_missing_selected_features": 0,
+        "prediction_completed": true,
+        "labels_valid": true,
+        "probability_range_valid": true
+    },
+    "prediction_distribution": [
+        {
+            "predicted_riskLevel": "High Risk",
+            "count": 405,
+            "proportion": 0.42452830188679247
+        },
+        {
+            "predicted_riskLevel": "Low Risk",
+            "count": 320,
+            "proportion": 0.33542976939203356
+        },
+        {
+            "predicted_riskLevel": "Medium Risk",
+            "count": 229,
+            "proportion": 0.240041928721174
+        }
+    ],
+    "uncertainty_summary": {
+        "n_rows": 954,
+        "n_uncertain": 21,
+        "n_certain": 933,
+        "uncertain_ratio": 0.0220125786163522,
+        "avg_max_proba": 0.859029233455658,
+        "avg_margin": 0.7715998291969299,
+        "avg_entropy_norm": 0.43693997654714456,
+        "median_max_proba": 0.8797608017921448,
+        "median_margin": 0.8148267269134521,
+        "median_entropy_norm": 0.4059634758314022
+    },
+    "n_high_risk_preview": 405,
+    "outputs": {
+        "file_based_csv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_predictions_with_uncertainty.csv",
+        "file_based_xlsx": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_predictions_with_uncertainty.xlsx",
+        "file_based_schema_report": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_predictions_with_uncertainty_schema_report.json",
+        "dataframe_based_csv": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_dataframe_predictions.csv",
+        "dataframe_based_xlsx": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_dataframe_predictions.xlsx",
+        "dataframe_based_schema_report": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_dataframe_predictions_schema_report.json",
+        "checks": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_checks.json",
+        "prediction_distribution": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_prediction_distribution.csv",
+        "uncertainty_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_uncertainty_summary.json",
+        "high_risk_preview": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\smoke_test\\smoke_test_high_risk_preview.xlsx"
+    }
+}

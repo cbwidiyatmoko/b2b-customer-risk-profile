@@ -1,0 +1,5 @@
+case_type,full_rw_ucfi,shap_only
+high_risk_under_detection,0.0,0.0
+medium_high_boundary_case,1.2342857142857142,0.0
+prediction_error,0.48,0.24
+true_high_risk,2.0065573770491802,0.0

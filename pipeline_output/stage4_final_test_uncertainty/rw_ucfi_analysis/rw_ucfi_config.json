@@ -1,0 +1,15 @@
+{
+    "method": "Risk-Weighted Uncertainty-Conditioned Feature Importance",
+    "risk_weight_map": {
+        "High Risk": 1.5,
+        "Low Risk": 0.5,
+        "Medium Risk": 1.0
+    },
+    "uncertainty_score_formula": "uncertainty_score = mean(1 - max_proba, 1 - margin, entropy_norm)",
+    "uncertainty_multiplier_formula": "uncertainty_multiplier = 1 + alpha * uncertainty_score + uncertain_flag_bonus",
+    "alpha": 1.0,
+    "uncertain_flag_bonus": 0.25,
+    "entity_top_n": 15,
+    "global_top_n": 30,
+    "note": "RW-UCFI combines absolute SHAP contribution with risk-class weighting and uncertainty conditioning. It is not a new classifier; it is a post-hoc prioritization layer for governance-oriented interpretation."
+}

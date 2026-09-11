@@ -1,0 +1,25 @@
+{
+    "pipeline": "single_final_feature_set_pipeline",
+    "best_model_name": "StackedEnsemble",
+    "production_training_data": "full_dataset",
+    "n_full_rows": 954,
+    "n_selected_features": 164,
+    "n_classes": 3,
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "high_risk_class_label": "High Risk",
+    "probability_available": true,
+    "rw_ucfi_metadata_available": true,
+    "production_bundle_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_model_bundle.joblib",
+    "production_prediction_csv_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_output.csv",
+    "production_prediction_xlsx_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_output.xlsx",
+    "production_prediction_distribution_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_prediction_distribution.csv",
+    "production_uncertainty_summary_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_uncertainty_summary.json",
+    "production_uncertain_cases_csv_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_uncertain_cases.csv",
+    "production_high_risk_candidates_csv_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_high_risk_review_candidates.csv",
+    "production_selected_features_path": "C:\\S3\\Semhas_New_Pipeline\\output\\stage5_production_inference\\production_selected_features.csv",
+    "note": "This production model is trained on all available data. The all-row prediction file is intended for operational review and inference validation, not for estimating out-of-sample model performance."
+}

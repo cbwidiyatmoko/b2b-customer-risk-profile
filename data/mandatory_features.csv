@@ -1,0 +1,27 @@
+﻿feature,active,dimension,description
+sectorKey,1,Profil/Sektor,Konteks sektor ekonomi perusahaan
+industryKey,1,Profil/Industri,Konteks industri perusahaan
+marketCap,1,Pasar/Ukuran,Ukuran perusahaan sebagai entitas publik
+enterpriseValue,1,Pasar/Valuasi,Valuasi perusahaan
+currentRatio,1,Likuiditas,Kemampuan memenuhi kewajiban jangka pendek
+quickRatio,1,Likuiditas,Likuiditas konservatif
+totalCash,1,Likuiditas/Kas,Ketersediaan kas
+returnOnAssets,1,Profitabilitas,Efektivitas aset menghasilkan laba
+returnOnEquity,1,Profitabilitas,Efektivitas ekuitas menghasilkan laba
+grossMargins,1,Profitabilitas,Margin laba kotor
+operatingMargins,1,Profitabilitas Operasi,Margin operasi
+profitMargins,1,Profitabilitas,Margin laba bersih
+totalRevenue,1,Pendapatan,Skala pendapatan perusahaan
+revenueGrowth,1,Pertumbuhan,Arah pertumbuhan pendapatan
+grossProfits,1,Profitabilitas,Besaran laba kotor
+ebitda,1,Kinerja Operasi,"Kinerja operasi sebelum bunga, pajak, depresiasi, amortisasi"
+totalDebt,1,Leverage/Solvabilitas,Eksposur utang
+debtToEquity,1,Leverage/Solvabilitas,Struktur utang terhadap ekuitas
+operatingCashflow,1,Arus Kas,Kas dari aktivitas operasi
+freeCashflow,1,Arus Kas,Kas bebas setelah kebutuhan investasi
+BS_Current_Assets,1,Balance Sheet/Likuiditas,Aset lancar
+BS_Current_Liabilities,1,Balance Sheet/Likuiditas,Liabilitas lancar
+BS_Total_Assets,1,Balance Sheet,Total aset
+BS_Accounts_Payable,1,Balance Sheet/Solvabilitas,
+BS_Accounts_Receivable,1,Balance Sheet/Solvabilitas,
+IS_Net_Income,1,Income Statement,

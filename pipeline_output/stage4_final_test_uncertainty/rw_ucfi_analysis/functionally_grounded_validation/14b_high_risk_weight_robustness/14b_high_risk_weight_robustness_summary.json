@@ -1,0 +1,43 @@
+{
+    "method": "RW-UCFI High Risk weight robustness test",
+    "purpose": "Evaluate whether RW-UCFI ranking and perturbation effects are overly dependent on the selected High Risk weight of 1.50.",
+    "high_risk_weight_grid": [
+        1.25,
+        1.5,
+        1.75,
+        2.0
+    ],
+    "baseline_high_risk_weight": 1.5,
+    "fixed_class_weights": {
+        "low_risk": 0.5,
+        "medium_risk": 1.0,
+        "high_risk": "varied"
+    },
+    "top_k": 20,
+    "n_repeats": 10,
+    "n_samples": 144,
+    "n_unique_topk_features_across_scenarios": 21,
+    "n_random_control_features": 20,
+    "uncertainty_multiplier_source": {
+        "source": "derived_from_predict_proba",
+        "formula": "1 + mean(1-pmax, 1-margin, normalized_entropy)"
+    },
+    "key_outputs": {
+        "weight_rankings": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_weight_scenario_global_rankings.csv",
+        "rank_stability": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_rank_stability_vs_weight_1_50.csv",
+        "topk_membership": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_topk_membership_by_weight.csv",
+        "topk_frequency": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_topk_frequency_by_feature.csv",
+        "feature_universe": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_perturbation_feature_universe.csv",
+        "perturbation_repeated_results": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_perturbation_repeated_results.csv",
+        "feature_level_effects": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_feature_level_perturbation_effects.csv",
+        "scenario_perturbation_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_scenario_perturbation_summary.csv",
+        "combined_summary": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_combined_weight_robustness_summary.csv",
+        "chart_high_risk_delta": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_high_risk_delta_by_weight.png",
+        "chart_topk_overlap": "C:\\S3\\Semhas_New_Pipeline\\output\\stage4_final_test_uncertainty\\rw_ucfi_analysis\\functionally_grounded_validation\\14b_high_risk_weight_robustness\\14b_topk_overlap_by_weight.png"
+    },
+    "interpretation_rule": {
+        "robust_result": "If top-k overlap, Spearman/Kendall correlations, and perturbation effect ratios remain high across weights 1.25-2.00, RW-UCFI is not overly dependent on the single baseline weight 1.50.",
+        "weight_sensitive_result": "If rankings or perturbation effects change sharply when High Risk weight changes, RW-UCFI should be reported as sensitive to risk-weight configuration."
+    },
+    "important_note": "The model probabilities are not multiplied by the High Risk weight. The weight changes feature prioritization, and perturbation then tests whether selected features functionally affect model outputs."
+}

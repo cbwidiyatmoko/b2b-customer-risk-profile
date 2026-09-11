@@ -1,0 +1,26 @@
+BAB IV COLOR + CONFUSION MATRIX PATCH REPORT
+================================================================
+
+BASE_DIR : C:\S3\Semhas_New_Pipeline
+FIG_DIR  : C:\S3\Semhas_New_Pipeline\output\bab4_figures_new
+
+Critical fixes applied:
+1. Risk order fixed to Low Risk -> Medium Risk -> High Risk.
+2. Validation confusion matrices regenerated from model-specific prediction CSVs.
+3. Generic validation_confusion_matrix.png is NOT copied.
+4. Ambiguous aliases such as 'se' and 'rf' are not used.
+5. Final-test figure title changed from 'model terpilih' to Stacked Ensemble.
+6. Consistent risk, model, and uncertainty color coding applied.
+
+Risk colors:
+- Low Risk: #A9D18E
+- Medium Risk: #FFD966
+- High Risk: #E06666
+
+Model colors:
+- SVM: #4472C4
+- Random Forest: #2A9D8F
+- Stacked Ensemble: #7030A0
+
+Backup directory:
+C:\S3\Semhas_New_Pipeline\output\bab4_figures_new\backup_before_color_patch

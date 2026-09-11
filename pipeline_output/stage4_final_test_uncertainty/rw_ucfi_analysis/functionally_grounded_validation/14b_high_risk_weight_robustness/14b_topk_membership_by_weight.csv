@@ -1,0 +1,81 @@
+scenario,high_risk_weight,feature,original_column,rw_ucfi_score,rw_ucfi_rank,is_topk
+high_weight_1.25,1.25,sectorKey,sectorKey,0.05283350154245328,1,True
+high_weight_1.25,1.25,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.042558815812290304,2,True
+high_weight_1.25,1.25,profitMargins,profitMargins,0.030729964201504482,3,True
+high_weight_1.25,1.25,IS_Net_Income,IS_Net Income,0.028498755604343368,4,True
+high_weight_1.25,1.25,IS_EBIT,IS_EBIT,0.022193958978790417,5,True
+high_weight_1.25,1.25,totalRevenue,totalRevenue,0.012635828192291336,6,True
+high_weight_1.25,1.25,enterpriseToRevenue,enterpriseToRevenue,0.010742935306237473,7,True
+high_weight_1.25,1.25,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.007492113853352331,8,True
+high_weight_1.25,1.25,ebitdaMargins,ebitdaMargins,0.00542948935159105,9,True
+high_weight_1.25,1.25,returnOnEquity,returnOnEquity,0.004640694196758386,10,True
+high_weight_1.25,1.25,BS_Net_Debt,BS_Net Debt,0.004405554478905099,11,True
+high_weight_1.25,1.25,IS_Net_Interest_Income,IS_Net Interest Income,0.00440518350228137,12,True
+high_weight_1.25,1.25,currentRatio,currentRatio,0.0036988308337928618,13,True
+high_weight_1.25,1.25,revenuePerShare,revenuePerShare,0.003519661886608724,14,True
+high_weight_1.25,1.25,totalCashPerShare,totalCashPerShare,0.003456747211928169,15,True
+high_weight_1.25,1.25,enterpriseToEbitda,enterpriseToEbitda,0.0032609901970107285,16,True
+high_weight_1.25,1.25,BS_Total_Tax_Payable,BS_Total Tax Payable,0.002796102395877282,17,True
+high_weight_1.25,1.25,BS_Common_Stock,BS_Common Stock,0.0026982837761570237,18,True
+high_weight_1.25,1.25,fullTimeEmployees,fullTimeEmployees,0.00269433713978533,19,True
+high_weight_1.25,1.25,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.0024788605324226145,20,True
+high_weight_1.50,1.5,sectorKey,sectorKey,0.0565838849818675,1,True
+high_weight_1.50,1.5,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.048042942685850895,2,True
+high_weight_1.50,1.5,profitMargins,profitMargins,0.03423082664066184,3,True
+high_weight_1.50,1.5,IS_Net_Income,IS_Net Income,0.031546162945949356,4,True
+high_weight_1.50,1.5,IS_EBIT,IS_EBIT,0.02305812230269702,5,True
+high_weight_1.50,1.5,totalRevenue,totalRevenue,0.014333770007981198,6,True
+high_weight_1.50,1.5,enterpriseToRevenue,enterpriseToRevenue,0.011773995310007997,7,True
+high_weight_1.50,1.5,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.008450316916839142,8,True
+high_weight_1.50,1.5,ebitdaMargins,ebitdaMargins,0.006146535498665497,9,True
+high_weight_1.50,1.5,returnOnEquity,returnOnEquity,0.005204506126662243,10,True
+high_weight_1.50,1.5,IS_Net_Interest_Income,IS_Net Interest Income,0.004981661607370221,11,True
+high_weight_1.50,1.5,BS_Net_Debt,BS_Net Debt,0.004943689840900715,12,True
+high_weight_1.50,1.5,currentRatio,currentRatio,0.004160127895880598,13,True
+high_weight_1.50,1.5,revenuePerShare,revenuePerShare,0.00395126874672076,14,True
+high_weight_1.50,1.5,totalCashPerShare,totalCashPerShare,0.0036986146533022676,15,True
+high_weight_1.50,1.5,enterpriseToEbitda,enterpriseToEbitda,0.0036346226384270184,16,True
+high_weight_1.50,1.5,BS_Total_Tax_Payable,BS_Total Tax Payable,0.003121219986709129,17,True
+high_weight_1.50,1.5,fullTimeEmployees,fullTimeEmployees,0.0029751184734760146,18,True
+high_weight_1.50,1.5,BS_Common_Stock,BS_Common Stock,0.002844057035022072,19,True
+high_weight_1.50,1.5,CF_Interest_Received_Cfi,CF_Interest Received Cfi,0.002692939818025617,20,True
+high_weight_1.75,1.75,sectorKey,sectorKey,0.06033426842128174,1,True
+high_weight_1.75,1.75,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.05352706955941153,2,True
+high_weight_1.75,1.75,profitMargins,profitMargins,0.037731689079819226,3,True
+high_weight_1.75,1.75,IS_Net_Income,IS_Net Income,0.03459357028755532,4,True
+high_weight_1.75,1.75,IS_EBIT,IS_EBIT,0.02392228562660362,5,True
+high_weight_1.75,1.75,totalRevenue,totalRevenue,0.016031711823671066,6,True
+high_weight_1.75,1.75,enterpriseToRevenue,enterpriseToRevenue,0.012805055313778527,7,True
+high_weight_1.75,1.75,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.00940851998032596,8,True
+high_weight_1.75,1.75,ebitdaMargins,ebitdaMargins,0.006863581645739945,9,True
+high_weight_1.75,1.75,returnOnEquity,returnOnEquity,0.005768318056566101,10,True
+high_weight_1.75,1.75,IS_Net_Interest_Income,IS_Net Interest Income,0.005558139712459072,11,True
+high_weight_1.75,1.75,BS_Net_Debt,BS_Net Debt,0.00548182520289633,12,True
+high_weight_1.75,1.75,currentRatio,currentRatio,0.004621424957968333,13,True
+high_weight_1.75,1.75,revenuePerShare,revenuePerShare,0.004382875606832796,14,True
+high_weight_1.75,1.75,enterpriseToEbitda,enterpriseToEbitda,0.004008255079843309,15,True
+high_weight_1.75,1.75,totalCashPerShare,totalCashPerShare,0.003940482094676366,16,True
+high_weight_1.75,1.75,BS_Total_Tax_Payable,BS_Total Tax Payable,0.003446337577540977,17,True
+high_weight_1.75,1.75,fullTimeEmployees,fullTimeEmployees,0.003255899807166699,18,True
+high_weight_1.75,1.75,BS_Common_Stock,BS_Common Stock,0.002989830293887121,19,True
+high_weight_1.75,1.75,grossProfits,grossProfits,0.0029294949142605574,20,True
+high_weight_2.00,2.0,sectorKey,sectorKey,0.064084651860696,1,True
+high_weight_2.00,2.0,CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,0.05901119643297209,2,True
+high_weight_2.00,2.0,profitMargins,profitMargins,0.041232551518976604,3,True
+high_weight_2.00,2.0,IS_Net_Income,IS_Net Income,0.03764097762916131,4,True
+high_weight_2.00,2.0,IS_EBIT,IS_EBIT,0.02478644895051023,5,True
+high_weight_2.00,2.0,totalRevenue,totalRevenue,0.017729653639360937,6,True
+high_weight_2.00,2.0,enterpriseToRevenue,enterpriseToRevenue,0.01383611531754905,7,True
+high_weight_2.00,2.0,CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,0.010366723043812772,8,True
+high_weight_2.00,2.0,ebitdaMargins,ebitdaMargins,0.007580627792814391,9,True
+high_weight_2.00,2.0,returnOnEquity,returnOnEquity,0.006332129986469958,10,True
+high_weight_2.00,2.0,IS_Net_Interest_Income,IS_Net Interest Income,0.006134617817547925,11,True
+high_weight_2.00,2.0,BS_Net_Debt,BS_Net Debt,0.006019960564891945,12,True
+high_weight_2.00,2.0,currentRatio,currentRatio,0.005082722020056069,13,True
+high_weight_2.00,2.0,revenuePerShare,revenuePerShare,0.004814482466944833,14,True
+high_weight_2.00,2.0,enterpriseToEbitda,enterpriseToEbitda,0.004381887521259599,15,True
+high_weight_2.00,2.0,totalCashPerShare,totalCashPerShare,0.004182349536050464,16,True
+high_weight_2.00,2.0,BS_Total_Tax_Payable,BS_Total Tax Payable,0.0037714551683728234,17,True
+high_weight_2.00,2.0,fullTimeEmployees,fullTimeEmployees,0.003536681140857383,18,True
+high_weight_2.00,2.0,grossProfits,grossProfits,0.003184766155044763,19,True
+high_weight_2.00,2.0,BS_Common_Stock,BS_Common Stock,0.0031356035527521694,20,True

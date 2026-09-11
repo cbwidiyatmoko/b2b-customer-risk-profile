@@ -1,0 +1,9 @@
+{
+    "threshold_mode": "fixed_threshold_from_config",
+    "max_proba_threshold": 0.6,
+    "margin_threshold": 0.15,
+    "entropy_norm_threshold": 0.8,
+    "uncertainty_rule": "is_uncertain = max_proba < threshold OR margin < threshold OR entropy_norm > threshold",
+    "best_model_name": "StackedEnsemble",
+    "dataset": "final_test"
+}

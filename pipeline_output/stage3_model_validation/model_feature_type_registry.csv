@@ -1,0 +1,165 @@
+feature,original_column,feature_type,dtype_train,missing_ratio_train,n_unique_train_dropna
+BS_Accounts_Payable,BS_Accounts Payable,numeric,float64,0.4017991004497751,397
+BS_Accounts_Receivable,BS_Accounts Receivable,numeric,float64,0.46326836581709147,355
+BS_Additional_Paid_In_Capital,BS_Additional Paid In Capital,numeric,float64,0.38980509745127434,407
+BS_Allowance_For_Doubtful_Accounts_Receivable,BS_Allowance For Doubtful Accounts Receivable,numeric,float64,0.5817091454272864,270
+BS_Buildings_And_Improvements,BS_Buildings And Improvements,numeric,float64,0.4077961019490255,394
+BS_Capital_Lease_Obligations,BS_Capital Lease Obligations,numeric,float64,0.5742128935532234,265
+BS_Cash_Cash_Equivalents_And_Short_Term_Investments,BS_Cash Cash Equivalents And Short Term Investments,numeric,float64,0.44677661169415295,369
+BS_Cash_Equivalents,BS_Cash Equivalents,numeric,float64,0.5892053973013494,247
+BS_Cash_Financial,BS_Cash Financial,numeric,float64,0.4032983508245877,398
+BS_Common_Stock,BS_Common Stock,numeric,float64,0.38830584707646176,400
+BS_Construction_In_Progress,BS_Construction In Progress,numeric,float64,0.5112443778110944,306
+BS_Current_Assets,BS_Current Assets,numeric,float64,0.4617691154422789,359
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,numeric,float64,0.48425787106446777,340
+BS_Current_Liabilities,BS_Current Liabilities,numeric,float64,0.4617691154422789,359
+BS_Finished_Goods,BS_Finished Goods,numeric,float64,0.6191904047976012,254
+BS_Goodwill_And_Other_Intangible_Assets,BS_Goodwill And Other Intangible Assets,numeric,float64,0.6011994002998501,259
+BS_Gross_PPE,BS_Gross PPE,numeric,float64,0.38980509745127434,407
+BS_Inventory,BS_Inventory,numeric,float64,0.512743628185907,325
+BS_Land_And_Improvements,BS_Land And Improvements,numeric,float64,0.5157421289355323,323
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,numeric,float64,0.7481259370314842,154
+BS_Machinery_Furniture_Equipment,BS_Machinery Furniture Equipment,numeric,float64,0.39430284857571213,404
+BS_Minority_Interest,BS_Minority Interest,numeric,float64,0.5172413793103449,312
+BS_Net_Debt,BS_Net Debt,numeric,float64,0.6446776611694153,237
+BS_Non_Current_Deferred_Taxes_Assets,BS_Non Current Deferred Taxes Assets,numeric,float64,0.5547226386806596,291
+BS_Non_Current_Deferred_Taxes_Liabilities,BS_Non Current Deferred Taxes Liabilities,numeric,float64,0.7481259370314842,164
+BS_Non_Current_Pension_And_Other_Postretirement_Benefit_Plans,BS_Non Current Pension And Other Postretirement Benefit Plans,numeric,float64,0.4497751124437781,365
+BS_Non_Current_Prepaid_Assets,BS_Non Current Prepaid Assets,numeric,float64,0.6911544227886057,204
+BS_Other_Equity_Interest,BS_Other Equity Interest,numeric,float64,0.6926536731634183,204
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,numeric,float64,0.6926536731634183,205
+BS_Other_Inventories,BS_Other Inventories,numeric,float64,0.7856071964017991,143
+BS_Other_Non_Current_Assets,BS_Other Non Current Assets,numeric,float64,0.6371814092953523,238
+BS_Other_Payable,BS_Other Payable,numeric,float64,0.4527736131934033,365
+BS_Other_Properties,BS_Other Properties,numeric,float64,0.5427286356821589,305
+BS_Other_Receivables,BS_Other Receivables,numeric,float64,0.512743628185907,325
+BS_Other_Short_Term_Investments,BS_Other Short Term Investments,numeric,float64,0.7991004497751124,132
+BS_Payables,BS_Payables,numeric,float64,0.38830584707646176,408
+BS_Pensionand_Other_Post_Retirement_Benefit_Plans_Current,BS_Pensionand Other Post Retirement Benefit Plans Current,numeric,float64,0.7451274362818591,167
+BS_Prepaid_Assets,BS_Prepaid Assets,numeric,float64,0.4002998500749625,399
+BS_Properties,BS_Properties,numeric,float64,0.4767616191904048,45
+BS_Raw_Materials,BS_Raw Materials,numeric,float64,0.6446776611694153,235
+BS_Retained_Earnings,BS_Retained Earnings,numeric,float64,0.38830584707646176,408
+BS_Share_Issued,BS_Share Issued,numeric,float64,0.38980509745127434,401
+BS_Tangible_Book_Value,BS_Tangible Book Value,numeric,float64,0.38830584707646176,408
+BS_Total_Assets,BS_Total Assets,numeric,float64,0.38830584707646176,408
+BS_Total_Equity_Gross_Minority_Interest,BS_Total Equity Gross Minority Interest,numeric,float64,0.38830584707646176,408
+BS_Total_Non_Current_Assets,BS_Total Non Current Assets,numeric,float64,0.4617691154422789,359
+BS_Total_Non_Current_Liabilities_Net_Minority_Interest,BS_Total Non Current Liabilities Net Minority Interest,numeric,float64,0.4617691154422789,359
+BS_Total_Tax_Payable,BS_Total Tax Payable,numeric,float64,0.38830584707646176,408
+BS_Working_Capital,BS_Working Capital,numeric,float64,0.4617691154422789,359
+CF_Capital_Expenditure,CF_Capital Expenditure,numeric,float64,0.0,436
+CF_Capital_Expenditure_Reported,CF_Capital Expenditure Reported,numeric,int64,0.0,9
+CF_Cash_Flowsfromusedin_Operating_Activities_Direct,CF_Cash Flowsfromusedin Operating Activities Direct,numeric,float64,0.0,446
+CF_Changes_In_Cash,CF_Changes In Cash,numeric,float64,0.0,444
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,numeric,float64,0.0,445
+CF_Common_Stock_Dividend_Paid,CF_Common Stock Dividend Paid,numeric,float64,0.0,154
+CF_Dividends_Received_Cfi,CF_Dividends Received Cfi,numeric,float64,0.0,100
+CF_Dividends_Received_Direct,CF_Dividends Received Direct,numeric,float64,0.0,6
+CF_Effect_Of_Exchange_Rate_Changes,CF_Effect Of Exchange Rate Changes,numeric,float64,0.0,257
+CF_Financing_Cash_Flow,CF_Financing Cash Flow,numeric,float64,0.0,432
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,numeric,float64,0.0,102
+CF_Interest_Paid_Direct,CF_Interest Paid Direct,numeric,float64,0.0,302
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,numeric,float64,0.0,93
+CF_Interest_Received_Direct,CF_Interest Received Direct,numeric,float64,0.0,285
+CF_Investing_Cash_Flow,CF_Investing Cash Flow,numeric,float64,0.0,447
+CF_Issuance_Of_Capital_Stock,CF_Issuance Of Capital Stock,numeric,float64,0.0,85
+CF_Issuance_Of_Debt,CF_Issuance Of Debt,numeric,float64,0.0,292
+CF_Long_Term_Debt_Issuance,CF_Long Term Debt Issuance,numeric,float64,0.0,225
+CF_Net_Business_Purchase_And_Sale,CF_Net Business Purchase And Sale,numeric,float64,0.0,133
+CF_Net_Common_Stock_Issuance,CF_Net Common Stock Issuance,numeric,float64,0.0,101
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,numeric,float64,0.0,73
+CF_Net_Investment_Purchase_And_Sale,CF_Net Investment Purchase And Sale,numeric,float64,0.0,208
+CF_Net_Issuance_Payments_Of_Debt,CF_Net Issuance Payments Of Debt,numeric,float64,0.0,354
+CF_Net_Other_Financing_Charges,CF_Net Other Financing Charges,numeric,float64,0.0,240
+CF_Net_Other_Investing_Changes,CF_Net Other Investing Changes,numeric,float64,0.0,208
+CF_Net_Short_Term_Debt_Issuance,CF_Net Short Term Debt Issuance,numeric,float64,0.0,197
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,numeric,int64,0.0,41
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,numeric,float64,0.0,31
+CF_Other_Cash_Paymentsfrom_Operating_Activities,CF_Other Cash Paymentsfrom Operating Activities,numeric,float64,0.0,288
+CF_Other_Cash_Receiptsfrom_Operating_Activities,CF_Other Cash Receiptsfrom Operating Activities,numeric,float64,0.0,187
+CF_Paymentson_Behalfof_Employees,CF_Paymentson Behalfof Employees,numeric,float64,0.0,351
+CF_Purchase_Of_Business,CF_Purchase Of Business,numeric,float64,0.0,102
+CF_Purchase_Of_Intangibles,CF_Purchase Of Intangibles,numeric,float64,0.0,156
+CF_Purchase_Of_Investment,CF_Purchase Of Investment,numeric,float64,0.0,160
+CF_Purchase_Of_PPE,CF_Purchase Of PPE,numeric,float64,0.0,438
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,numeric,float64,0.0,394
+CF_Repayment_Of_Debt,CF_Repayment Of Debt,numeric,float64,0.0,346
+CF_Repurchase_Of_Capital_Stock,CF_Repurchase Of Capital Stock,numeric,float64,0.0,30
+CF_Sale_Of_Business,CF_Sale Of Business,numeric,float64,0.0,62
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,numeric,int64,0.0,4
+CF_Sale_Of_Investment_Properties,CF_Sale Of Investment Properties,numeric,float64,0.0,19
+CF_Sale_Of_PPE,CF_Sale Of PPE,numeric,float64,0.0,349
+CF_Short_Term_Debt_Issuance,CF_Short Term Debt Issuance,numeric,float64,0.0,167
+CF_Short_Term_Debt_Payments,CF_Short Term Debt Payments,numeric,float64,0.0,173
+CF_Taxes_Refund_Paid_Direct,CF_Taxes Refund Paid Direct,numeric,float64,0.0,371
+CR_2023,CR 2023,numeric,float64,0.06146926536731634,137
+CR_2024,CR 2024,numeric,float64,0.06146926536731634,104
+CYC_2023,CYC 2023,numeric,float64,0.06146926536731634,131
+CYC_2024,CYC 2024,numeric,float64,0.06146926536731634,97
+Customer_Acquisition_Age_in_Year,Customer Acquisition Age (in Year),numeric,float64,0.06146926536731634,15
+IS_Basic_EPS,IS_Basic EPS,numeric,float64,0.6596701649175413,220
+IS_EBIT,IS_EBIT,numeric,float64,0.4542728635682159,364
+IS_General_And_Administrative_Expense,IS_General And Administrative Expense,numeric,float64,0.38980509745127434,407
+IS_Gross_Profit,IS_Gross Profit,numeric,float64,0.4617691154422789,359
+IS_Interest_Expense,IS_Interest Expense,numeric,float64,0.41529235382308843,387
+IS_Interest_Expense_Non_Operating,IS_Interest Expense Non Operating,numeric,float64,0.46776611694152925,352
+IS_Interest_Income_Non_Operating,IS_Interest Income Non Operating,numeric,float64,0.49025487256371814,340
+IS_Minority_Interests,IS_Minority Interests,numeric,float64,0.5172413793103449,304
+IS_Net_Income,IS_Net Income,numeric,float64,0.38830584707646176,408
+IS_Net_Interest_Income,IS_Net Interest Income,numeric,float64,0.39280359820089955,405
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,numeric,float64,0.44677661169415295,369
+IS_Other_Non_Operating_Income_Expenses,IS_Other Non Operating Income Expenses,numeric,float64,0.4827586206896552,345
+IS_Other_Operating_Expenses,IS_Other Operating Expenses,numeric,float64,0.42128935532233885,384
+IS_Other_Special_Charges,IS_Other Special Charges,numeric,float64,0.6221889055472264,251
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,numeric,float64,0.4617691154422789,2
+IS_Reconciled_Depreciation,IS_Reconciled Depreciation,numeric,float64,0.42278860569715143,384
+IS_Rent_And_Landing_Fees,IS_Rent And Landing Fees,numeric,float64,0.6026986506746627,260
+IS_Rent_Expense_Supplemental,IS_Rent Expense Supplemental,numeric,float64,0.6086956521739131,256
+IS_Selling_And_Marketing_Expense,IS_Selling And Marketing Expense,numeric,float64,0.46476761619190404,357
+IS_Selling_General_And_Administration,IS_Selling General And Administration,numeric,float64,0.38980509745127434,407
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,numeric,float64,0.38830584707646176,312
+IS_Tax_Rate_For_Calcs,IS_Tax Rate For Calcs,numeric,float64,0.38830584707646176,318
+IS_Total_Operating_Income_As_Reported,IS_Total Operating Income As Reported,numeric,float64,0.6521739130434783,232
+IS_Total_Other_Finance_Cost,IS_Total Other Finance Cost,numeric,float64,0.656671664167916,229
+IS_Total_Unusual_Items_Excluding_Goodwill,IS_Total Unusual Items Excluding Goodwill,numeric,float64,0.5037481259370314,319
+IS_Write_Off,IS_Write Off,numeric,float64,0.7556221889055472,143
+Revenue_2023,Revenue 2023,numeric,float64,0.06146926536731634,176
+Revenue_2024,Revenue 2024,numeric,float64,0.0704647676161919,177
+SandP52WeekChange,SandP52WeekChange,numeric,float64,0.06446776611694154,1
+currentRatio,currentRatio,numeric,float64,0.12143928035982009,560
+debtToEquity,debtToEquity,numeric,float64,0.2158920539730135,520
+earningsGrowth,earningsGrowth,numeric,float64,0.41829085457271364,348
+ebitda,ebitda,numeric,float64,0.15892053973013492,561
+ebitdaMargins,ebitdaMargins,numeric,float64,0.06446776611694154,551
+enterpriseToEbitda,enterpriseToEbitda,numeric,float64,0.15892053973013492,558
+enterpriseToRevenue,enterpriseToRevenue,numeric,float64,0.06596701649175413,591
+enterpriseValue,enterpriseValue,numeric,float64,0.06446776611694154,624
+freeCashflow,freeCashflow,numeric,float64,0.18590704647676162,543
+fullTimeEmployees,fullTimeEmployees,numeric,float64,0.07496251874062969,463
+grossMargins,grossMargins,numeric,float64,0.06446776611694154,579
+grossProfits,grossProfits,numeric,float64,0.06446776611694154,624
+hasRiskOfficer,hasRiskOfficer,numeric,int64,0.0,2
+industryKey,industryKey,categorical,str,0.06446776611694154,100
+lastDividendDate,lastDividendDate,numeric,float64,0.3598200899550225,209
+lastFiscalYearEnd,lastFiscalYearEnd,numeric,float64,0.06446776611694154,8
+marketCap,marketCap,numeric,float64,0.008995502248875561,659
+maxAge,maxAge,numeric,float64,0.06296851574212893,1
+mostRecentQuarter,mostRecentQuarter,numeric,float64,0.06446776611694154,8
+operatingCashflow,operatingCashflow,numeric,float64,0.06896551724137931,621
+operatingMargins,operatingMargins,numeric,float64,0.06446776611694154,622
+priceHint,priceHint,numeric,float64,0.0,2
+profitMargins,profitMargins,numeric,float64,0.06446776611694154,608
+quickRatio,quickRatio,numeric,float64,0.12143928035982009,545
+regularMarketChangePercent,regularMarketChangePercent,numeric,float64,0.0,322
+regularMarketPreviousClose,regularMarketPreviousClose,numeric,float64,0.0,401
+regularMarketTime,regularMarketTime,numeric,float64,0.0,421
+returnOnAssets,returnOnAssets,numeric,float64,0.095952023988006,592
+returnOnEquity,returnOnEquity,numeric,float64,0.11094452773613193,590
+revenueGrowth,revenueGrowth,numeric,float64,0.08545727136431784,459
+revenuePerShare,revenuePerShare,numeric,float64,0.06596701649175413,611
+sectorKey,sectorKey,categorical,str,0.06446776611694154,11
+totalCash,totalCash,numeric,float64,0.06446776611694154,624
+totalCashPerShare,totalCashPerShare,numeric,float64,0.06446776611694154,583
+totalDebt,totalDebt,numeric,float64,0.06446776611694154,584
+totalRevenue,totalRevenue,numeric,float64,0.06596701649175413,623

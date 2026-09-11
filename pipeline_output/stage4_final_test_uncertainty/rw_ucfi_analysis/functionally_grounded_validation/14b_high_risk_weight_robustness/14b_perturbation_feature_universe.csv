@@ -1,0 +1,42 @@
+feature,original_column,is_any_weight_topk,is_random_control
+BS_Common_Stock,BS_Common Stock,True,False
+BS_Current_Debt_And_Capital_Lease_Obligation,BS_Current Debt And Capital Lease Obligation,False,True
+BS_Current_Liabilities,BS_Current Liabilities,False,True
+BS_Long_Term_Equity_Investment,BS_Long Term Equity Investment,False,True
+BS_Net_Debt,BS_Net Debt,True,False
+BS_Other_Intangible_Assets,BS_Other Intangible Assets,False,True
+BS_Total_Tax_Payable,BS_Total Tax Payable,True,False
+CF_Classesof_Cash_Payments,CF_Classesof Cash Payments,True,False
+CF_Interest_Paid_Cff,CF_Interest Paid Cff,False,True
+CF_Interest_Received_Cfi,CF_Interest Received Cfi,True,False
+CF_Net_Investment_Properties_Purchase_And_Sale,CF_Net Investment Properties Purchase And Sale,False,True
+CF_Operating_Cash_Flow,CF_Operating Cash Flow,False,True
+CF_Other_Cash_Adjustment_Outside_Changein_Cash,CF_Other Cash Adjustment Outside Changein Cash,False,True
+CF_Receiptsfrom_Customers,CF_Receiptsfrom Customers,True,False
+CF_Sale_Of_Intangibles,CF_Sale Of Intangibles,False,True
+CYC_2024,CYC 2024,False,True
+IS_EBIT,IS_EBIT,True,False
+IS_Interest_Expense,IS_Interest Expense,False,True
+IS_Minority_Interests,IS_Minority Interests,False,True
+IS_Net_Income,IS_Net Income,True,False
+IS_Net_Interest_Income,IS_Net Interest Income,True,False
+IS_Net_Non_Operating_Interest_Income_Expense,IS_Net Non Operating Interest Income Expense,False,True
+IS_Otherunder_Preferred_Stock_Dividend,IS_Otherunder Preferred Stock Dividend,False,True
+IS_Selling_General_And_Administration,IS_Selling General And Administration,False,True
+IS_Tax_Effect_Of_Unusual_Items,IS_Tax Effect Of Unusual Items,False,True
+currentRatio,currentRatio,True,False
+debtToEquity,debtToEquity,False,True
+ebitdaMargins,ebitdaMargins,True,False
+enterpriseToEbitda,enterpriseToEbitda,True,False
+enterpriseToRevenue,enterpriseToRevenue,True,False
+fullTimeEmployees,fullTimeEmployees,True,False
+grossProfits,grossProfits,True,False
+lastDividendDate,lastDividendDate,False,True
+marketCap,marketCap,False,True
+mostRecentQuarter,mostRecentQuarter,False,True
+profitMargins,profitMargins,True,False
+returnOnEquity,returnOnEquity,True,False
+revenuePerShare,revenuePerShare,True,False
+sectorKey,sectorKey,True,False
+totalCashPerShare,totalCashPerShare,True,False
+totalRevenue,totalRevenue,True,False
