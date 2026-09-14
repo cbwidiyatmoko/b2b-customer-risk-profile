@@ -807,7 +807,6 @@ def render_observation_portfolio(final_df, prod, metrics, paths, data_root=None)
             top_n=10,
             signed=False,
             rank_col="rw_ucfi_global_rank",
-            bar_color="#163A5F",
         )
 
 
@@ -876,7 +875,7 @@ def render_gauge(probability: float):
     )
 
 
-def render_driver_rows(df, value_col, label_col="original_column", topn=5, bar_color=None):
+def render_driver_rows(df, value_col, label_col="original_column", topn=5):
     if df is None or df.empty or value_col not in df.columns:
         st.markdown('<div class="notice">Penjelasan lokal tidak tersedia untuk customer ini.</div>', unsafe_allow_html=True)
         return
@@ -895,11 +894,7 @@ def render_driver_rows(df, value_col, label_col="original_column", topn=5, bar_c
         v=to_float(r[value_col],0.0)
         width=min(100,abs(v)/mx*100)
         label=r.get(label_col,r.get("feature","feature"))
-        if v >= 0:
-            color_style = f"background:{bar_color};" if bar_color else ""
-            bar = f'<div class="driver-pos" style="width:{width:.1f}%;{color_style}"></div>'
-        else:
-            bar = f'<div class="driver-neg" style="width:{width:.1f}%"></div>'
+        bar=f'<div class="driver-pos" style="width:{width:.1f}%"></div>' if v>=0 else f'<div class="driver-neg" style="width:{width:.1f}%"></div>'
         rows.append(f'<div class="driver-row"><div class="driver-label">{esc(label)}</div><div class="driver-track">{bar}</div><div class="driver-value">{v:+.3f}</div></div>')
     st.markdown('<div class="explain-body">'+''.join(rows)+'</div>', unsafe_allow_html=True)
 
@@ -1094,7 +1089,7 @@ def render_existing_detail(selected, source_df, shap_df, rw_df, gov_df):
         if rd is not None and "entity_rank" in rd.columns and "rw_ucfi_rank" not in rd.columns:
             rd = rd.copy()
             rd["rw_ucfi_rank"] = rd["entity_rank"]
-        render_driver_rows(rd, value_col, topn=10, bar_color="#163A5F")
+        render_driver_rows(rd, value_col, topn=10)
     else:
         st.markdown('<div class="notice">RW-UCFI entity-level tidak tersedia untuk customer ini.</div>', unsafe_allow_html=True)
 
@@ -1262,7 +1257,6 @@ def render_filtered_global_xai(filtered_df, tensor_path):
             top_n=10,
             signed=False,
             rank_col="rw_ucfi_global_rank",
-            bar_color="#163A5F",
         )
 
 
@@ -1509,7 +1503,7 @@ def get_sector_options(data_root, production_predictions_path=None, output_root=
     return [], None, checked
 
 
-def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=None, bar_color=None):
+def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=None):
     if df is None or df.empty or value_col not in df.columns:
         st.info("Data chart tidak tersedia.")
         return
@@ -1529,7 +1523,7 @@ def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=
     d["score"]=d[value_col].astype(float)
     color = (
         {"condition":{"test":"datum.score >= 0","value":"#aa4935"},"value":"#477b5f"}
-        if signed else {"value": bar_color or "#3f6272"}
+        if signed else {"value":"#3f6272"}
     )
     spec={
         "height": max(220, 29*len(d)),
@@ -1561,12 +1555,13 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
     summary=xai_results.get("sample_summary",pd.DataFrame())
     st.markdown('<div class="top-rule"></div>',unsafe_allow_html=True)
     st.markdown('<div class="page-title" style="font-size:1.485rem">Live Explainability — SHAP & RW-UCFI</div>',unsafe_allow_html=True)
-    _det = bool(meta.get("deterministic_shap", False))
-    _seed = meta.get("random_state")
-    _det_text = f"deterministik (seed {_seed})" if _det else "non-deterministik"
+    mode_label=meta.get("xai_mode","Deterministic")
+    shap_seed=meta.get("shap_random_state","—")
+    bg_seed=meta.get("background_random_state",42)
     st.caption(
-        f"Kernel SHAP · {_det_text} · {meta.get('n_explained_rows',0)} baris dijelaskan · "
-        f"background {meta.get('background_rows',0)} · nsamples {meta.get('nsamples',0)}. "
+        f"Kernel SHAP · mode {mode_label} · seed SHAP {shap_seed} · "
+        f"background {meta.get('background_rows',0)} (fixed seed {bg_seed}) · "
+        f"nsamples {meta.get('nsamples',0)} · {meta.get('n_explained_rows',0)} baris dijelaskan. "
         "RW-UCFI adalah post-hoc governance prioritization dan tidak mengubah prediksi/probabilitas."
     )
 
@@ -1595,7 +1590,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
                 with c1:
                     render_xai_bar_chart(ls,"shap_value","Top Local SHAP — predicted class",top_n,True,"local_shap_rank")
                 with c2:
-                    render_xai_bar_chart(lr,"rw_ucfi_score_entity","Top Local RW-UCFI",top_n,False,"local_rw_ucfi_rank",bar_color="#163A5F")
+                    render_xai_bar_chart(lr,"rw_ucfi_score_entity","Top Local RW-UCFI",top_n,False,"local_rw_ucfi_rank")
                 sr=summary[summary["sample_position"]==pos].iloc[0]
                 st.caption(
                     f"Uncertainty score {float(sr['uncertainty_score']):.3f} · multiplier {float(sr['uncertainty_multiplier']):.3f} · "
@@ -1608,7 +1603,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
         with c1:
             render_xai_bar_chart(xai_results["global_shap"],"mean_abs_shap_global","Top Global SHAP — live run",top_n,False,"shap_global_rank")
         with c2:
-            render_xai_bar_chart(xai_results["global_rw_ucfi"],"rw_ucfi_score_global","Top Global RW-UCFI — live run",top_n,False,"rw_ucfi_global_rank",bar_color="#163A5F")
+            render_xai_bar_chart(xai_results["global_rw_ucfi"],"rw_ucfi_score_global","Top Global RW-UCFI — live run",top_n,False,"rw_ucfi_global_rank")
 
     with tabs[2]:
         baseline_shap=load_optional(paths.get("shap_global"))
@@ -1621,7 +1616,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
             with c1:
                 render_xai_bar_chart(baseline_shap,"mean_abs_shap_global","Top Global SHAP — final test",top_n,False,"shap_global_rank")
             with c2:
-                render_xai_bar_chart(baseline_rw,"rw_ucfi_score_global","Top Global RW-UCFI — final test",top_n,False,"rw_ucfi_global_rank",bar_color="#163A5F")
+                render_xai_bar_chart(baseline_rw,"rw_ucfi_score_global","Top Global RW-UCFI — final test",top_n,False,"rw_ucfi_global_rank")
 
     st.download_button(
         "Download hasil SHAP & RW-UCFI",
@@ -1647,6 +1642,16 @@ def execute_new_prediction(raw, bundle, xai_cfg, paths, data_root, background_up
                 if ref_path is not None:
                     background_raw=load_table(str(ref_path))
 
+            # Deterministic mode always uses SHAP seed 42. Variable / Research
+            # generates a fresh SHAP sampling seed for each actual prediction run.
+            # live_xai.py keeps the background/reference subset fixed at seed 42
+            # in both modes, so only Kernel SHAP approximation varies.
+            xai_mode=str(xai_cfg.get("mode","Deterministic"))
+            if xai_mode.startswith("Variable"):
+                shap_random_state=int(np.random.default_rng().integers(1,2_147_483_647))
+            else:
+                shap_random_state=int(xai_cfg.get("random_state",42) or 42)
+
             xai=compute_live_xai(
                 explain_raw=raw,
                 prediction_output=out,
@@ -1660,8 +1665,8 @@ def execute_new_prediction(raw, bundle, xai_cfg, paths, data_root, background_up
                 risk_weights=xai_cfg["risk_weights"],
                 uncertainty_alpha=xai_cfg["alpha"],
                 uncertain_flag_bonus=xai_cfg["flag_bonus"],
-                deterministic=bool(xai_cfg.get("deterministic_shap", True)),
-                random_state=xai_cfg.get("random_state", 42),
+                random_state=shap_random_state,
+                xai_mode=xai_mode,
             )
         except Exception as e:
             xai_error=str(e)
@@ -1701,7 +1706,7 @@ def render_prediction_result(row, report, live_xai=None, sample_position=0):
         r=r[r["sample_position"]==int(sample_position)].copy()
         if not r.empty:
             r["rw_ucfi_rank"]=r["local_rw_ucfi_rank"]
-            render_driver_rows(r,"rw_ucfi_score_entity",topn=10,bar_color="#163A5F")
+            render_driver_rows(r,"rw_ucfi_score_entity",topn=10)
         else:
             st.markdown('<div class="notice">RW-UCFI local belum tersedia untuk customer ini karena baris tersebut belum termasuk baris yang dijelaskan.</div>',unsafe_allow_html=True)
     else:
@@ -1743,11 +1748,30 @@ def render_new_customer(paths, data_root, output_root):
         xai_enabled=st.checkbox("Aktifkan SHAP/RW-UCFI live inference",value=False,help="Menghitung Kernel SHAP dan RW-UCFI post-hoc pada production model. Prediksi kelas tidak berubah.")
         xai_cfg={"enabled":False}; background_upload=None
         if xai_enabled:
+            xai_mode=st.radio(
+                "Mode SHAP",
+                ["Deterministic","Variable / Research"],
+                index=0,
+                horizontal=True,
+                help=(
+                    "Deterministic memakai seed SHAP tetap 42 sehingga input yang sama menghasilkan explanation yang reproducible. "
+                    "Variable / Research memakai seed SHAP baru pada setiap prediction run untuk sensitivity testing. "
+                    "Reference/background tetap fixed pada kedua mode."
+                ),
+            )
+            if xai_mode == "Deterministic":
+                st.caption("Deterministic: SHAP seed = 42; reference/background tetap fixed. Cocok untuk production, demo, dan hasil disertasi.")
+            else:
+                st.caption("Variable / Research: seed Kernel SHAP berubah pada setiap prediction run; reference/background tetap fixed. Prediksi model tidak berubah.")
+
             x1,x2,x3=st.columns(3)
             with x1:
                 explain_rows=st.slider("Jumlah baris dijelaskan",1,10,3,1)
             with x2:
-                background_size=st.slider("Background SHAP",10,100,30,5)
+                background_size=st.slider(
+                    "Background SHAP",10,100,30,5,
+                    help="Jumlah row reference. Pemilihan row background selalu menggunakan seed tetap 42 pada kedua mode."
+                )
             with x3:
                 top_n=st.slider("Top fitur XAI",5,20,10,1)
             st.markdown('<div style="padding:.55rem 0 .25rem;font-family:Libre Caslon Text,Georgia,serif;font-size:1.100rem">Konfigurasi Bobot RW-UCFI Live</div>',unsafe_allow_html=True)
@@ -1757,16 +1781,8 @@ def render_new_customer(paths, data_root, output_root):
             with w3: low_w=st.number_input("Bobot Low Risk",min_value=0.0,max_value=5.0,value=0.50,step=0.25)
             with w4: alpha=st.number_input("Alpha Uncertainty",min_value=0.0,max_value=5.0,value=1.00,step=0.25)
             st.caption("Default mengikuti Cell 10 pipeline. Bobot hanya mengubah ranking RW-UCFI/prioritas review; tidak mengubah kelas, probability, atau uncertainty flag.")
-            deterministic_shap=st.toggle(
-                "Mode deterministik SHAP",
-                value=True,
-                help=(
-                    "Jika aktif, background sampling dan Kernel SHAP menggunakan seed tetap "
-                    "agar hasil lebih reproducible untuk input, model, background, dan versi library yang sama."
-                ),
-            )
             with st.expander("Pengaturan SHAP lanjutan / reference background",expanded=False):
-                nsamples=st.number_input("Kernel SHAP nsamples",min_value=50,max_value=1000,value=200,step=50)
+                nsamples=st.number_input("Kernel SHAP nsamples",min_value=50,max_value=1000,value=200,step=50,help="Jumlah coalition samples Kernel SHAP. Nilai ini tetap mengikuti pilihan Anda; mode hanya mengatur seed sampling.")
                 flag_bonus=st.number_input("Uncertain flag bonus",min_value=0.0,max_value=2.0,value=0.25,step=0.05)
                 background_upload=st.file_uploader("Upload reference/background dataset (opsional)",type=["csv","xlsx","xls"],key="xai_background_upload")
                 if paths.get("xai_background") and paths["xai_background"].exists():
@@ -1779,6 +1795,8 @@ def render_new_customer(paths, data_root, output_root):
                         st.warning("Reference background belum ditemukan. Upload dataset referensi atau buat production_shap_background.joblib.")
             xai_cfg={
                 "enabled":True,
+                "mode":xai_mode,
+                "random_state":42 if xai_mode == "Deterministic" else None,
                 "explain_rows":int(explain_rows),
                 "background_size":int(background_size),
                 "top_n":int(top_n),
@@ -1786,8 +1804,6 @@ def render_new_customer(paths, data_root, output_root):
                 "risk_weights":{"High Risk":high_w,"Medium Risk":med_w,"Low Risk":low_w},
                 "alpha":float(alpha),
                 "flag_bonus":float(flag_bonus),
-                "deterministic_shap":bool(deterministic_shap),
-                "random_state":42 if deterministic_shap else None,
             }
 
         if raw_uploaded is not None:
