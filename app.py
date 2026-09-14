@@ -1757,24 +1757,15 @@ def render_new_customer(paths, data_root, output_root):
             with w3: low_w=st.number_input("Bobot Low Risk",min_value=0.0,max_value=5.0,value=0.50,step=0.25)
             with w4: alpha=st.number_input("Alpha Uncertainty",min_value=0.0,max_value=5.0,value=1.00,step=0.25)
             st.caption("Default mengikuti Cell 10 pipeline. Bobot hanya mengubah ranking RW-UCFI/prioritas review; tidak mengubah kelas, probability, atau uncertainty flag.")
+            deterministic_shap=st.toggle(
+                "Mode deterministik SHAP",
+                value=True,
+                help=(
+                    "Jika aktif, background sampling dan Kernel SHAP menggunakan seed tetap "
+                    "agar hasil lebih reproducible untuk input, model, background, dan versi library yang sama."
+                ),
+            )
             with st.expander("Pengaturan SHAP lanjutan / reference background",expanded=False):
-                deterministic_shap=st.toggle(
-                    "Mode deterministik SHAP",
-                    value=True,
-                    help=(
-                        "Jika aktif, sampling background dan Kernel SHAP memakai random seed tetap "
-                        "sehingga hasil lebih reproducible untuk input, model, data background, dan versi library yang sama."
-                    ),
-                )
-                shap_seed=st.number_input(
-                    "Random seed SHAP",
-                    min_value=0,
-                    max_value=2_147_483_647,
-                    value=42,
-                    step=1,
-                    disabled=not deterministic_shap,
-                    help="Dipakai hanya ketika Mode deterministik SHAP aktif.",
-                )
                 nsamples=st.number_input("Kernel SHAP nsamples",min_value=50,max_value=1000,value=200,step=50)
                 flag_bonus=st.number_input("Uncertain flag bonus",min_value=0.0,max_value=2.0,value=0.25,step=0.05)
                 background_upload=st.file_uploader("Upload reference/background dataset (opsional)",type=["csv","xlsx","xls"],key="xai_background_upload")
@@ -1796,7 +1787,7 @@ def render_new_customer(paths, data_root, output_root):
                 "alpha":float(alpha),
                 "flag_bonus":float(flag_bonus),
                 "deterministic_shap":bool(deterministic_shap),
-                "random_state":int(shap_seed) if deterministic_shap else None,
+                "random_state":42 if deterministic_shap else None,
             }
 
         if raw_uploaded is not None:
