@@ -1555,9 +1555,13 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
     summary=xai_results.get("sample_summary",pd.DataFrame())
     st.markdown('<div class="top-rule"></div>',unsafe_allow_html=True)
     st.markdown('<div class="page-title" style="font-size:1.485rem">Live Explainability — SHAP & RW-UCFI</div>',unsafe_allow_html=True)
+    mode_label=meta.get("xai_mode","Deterministic")
+    shap_seed=meta.get("shap_random_state","—")
+    bg_seed=meta.get("background_random_state",42)
     st.caption(
-        f"Kernel SHAP · {meta.get('n_explained_rows',0)} baris dijelaskan · "
-        f"background {meta.get('background_rows',0)} · nsamples {meta.get('nsamples',0)}. "
+        f"Kernel SHAP · mode {mode_label} · seed SHAP {shap_seed} · "
+        f"background {meta.get('background_rows',0)} (fixed seed {bg_seed}) · "
+        f"nsamples {meta.get('nsamples',0)} · {meta.get('n_explained_rows',0)} baris dijelaskan. "
         "RW-UCFI adalah post-hoc governance prioritization dan tidak mengubah prediksi/probabilitas."
     )
 
@@ -1638,6 +1642,16 @@ def execute_new_prediction(raw, bundle, xai_cfg, paths, data_root, background_up
                 if ref_path is not None:
                     background_raw=load_table(str(ref_path))
 
+            # Deterministic mode always uses SHAP seed 42. Variable / Research
+            # generates a fresh SHAP sampling seed for each actual prediction run.
+            # live_xai.py keeps the background/reference subset fixed at seed 42
+            # in both modes, so only Kernel SHAP approximation varies.
+            xai_mode=str(xai_cfg.get("mode","Deterministic"))
+            if xai_mode.startswith("Variable"):
+                shap_random_state=int(np.random.default_rng().integers(1,2_147_483_647))
+            else:
+                shap_random_state=int(xai_cfg.get("random_state",42) or 42)
+
             xai=compute_live_xai(
                 explain_raw=raw,
                 prediction_output=out,
@@ -1650,7 +1664,9 @@ def execute_new_prediction(raw, bundle, xai_cfg, paths, data_root, background_up
                 nsamples=xai_cfg["nsamples"],
                 risk_weights=xai_cfg["risk_weights"],
                 uncertainty_alpha=xai_cfg["alpha"],
-                uncertain_flag_bonus=xai_cfg["flag_bonus"]
+                uncertain_flag_bonus=xai_cfg["flag_bonus"],
+                random_state=shap_random_state,
+                xai_mode=xai_mode,
             )
         except Exception as e:
             xai_error=str(e)
@@ -1732,11 +1748,30 @@ def render_new_customer(paths, data_root, output_root):
         xai_enabled=st.checkbox("Aktifkan SHAP/RW-UCFI live inference",value=False,help="Menghitung Kernel SHAP dan RW-UCFI post-hoc pada production model. Prediksi kelas tidak berubah.")
         xai_cfg={"enabled":False}; background_upload=None
         if xai_enabled:
+            xai_mode=st.radio(
+                "Mode SHAP",
+                ["Deterministic","Variable / Research"],
+                index=0,
+                horizontal=True,
+                help=(
+                    "Deterministic memakai seed SHAP tetap 42 sehingga input yang sama menghasilkan explanation yang reproducible. "
+                    "Variable / Research memakai seed SHAP baru pada setiap prediction run untuk sensitivity testing. "
+                    "Reference/background tetap fixed pada kedua mode."
+                ),
+            )
+            if xai_mode == "Deterministic":
+                st.caption("Deterministic: SHAP seed = 42; reference/background tetap fixed. Cocok untuk production, demo, dan hasil disertasi.")
+            else:
+                st.caption("Variable / Research: seed Kernel SHAP berubah pada setiap prediction run; reference/background tetap fixed. Prediksi model tidak berubah.")
+
             x1,x2,x3=st.columns(3)
             with x1:
                 explain_rows=st.slider("Jumlah baris dijelaskan",1,10,3,1)
             with x2:
-                background_size=st.slider("Background SHAP",10,100,30,5)
+                background_size=st.slider(
+                    "Background SHAP",10,100,30,5,
+                    help="Jumlah row reference. Pemilihan row background selalu menggunakan seed tetap 42 pada kedua mode."
+                )
             with x3:
                 top_n=st.slider("Top fitur XAI",5,20,10,1)
             st.markdown('<div style="padding:.55rem 0 .25rem;font-family:Libre Caslon Text,Georgia,serif;font-size:1.100rem">Konfigurasi Bobot RW-UCFI Live</div>',unsafe_allow_html=True)
@@ -1747,7 +1782,7 @@ def render_new_customer(paths, data_root, output_root):
             with w4: alpha=st.number_input("Alpha Uncertainty",min_value=0.0,max_value=5.0,value=1.00,step=0.25)
             st.caption("Default mengikuti Cell 10 pipeline. Bobot hanya mengubah ranking RW-UCFI/prioritas review; tidak mengubah kelas, probability, atau uncertainty flag.")
             with st.expander("Pengaturan SHAP lanjutan / reference background",expanded=False):
-                nsamples=st.number_input("Kernel SHAP nsamples",min_value=50,max_value=1000,value=200,step=50)
+                nsamples=st.number_input("Kernel SHAP nsamples",min_value=50,max_value=1000,value=200,step=50,help="Jumlah coalition samples Kernel SHAP. Nilai ini tetap mengikuti pilihan Anda; mode hanya mengatur seed sampling.")
                 flag_bonus=st.number_input("Uncertain flag bonus",min_value=0.0,max_value=2.0,value=0.25,step=0.05)
                 background_upload=st.file_uploader("Upload reference/background dataset (opsional)",type=["csv","xlsx","xls"],key="xai_background_upload")
                 if paths.get("xai_background") and paths["xai_background"].exists():
@@ -1759,9 +1794,16 @@ def render_new_customer(paths, data_root, output_root):
                     else:
                         st.warning("Reference background belum ditemukan. Upload dataset referensi atau buat production_shap_background.joblib.")
             xai_cfg={
-                "enabled":True,"explain_rows":int(explain_rows),"background_size":int(background_size),"top_n":int(top_n),
-                "nsamples":int(nsamples),"risk_weights":{"High Risk":high_w,"Medium Risk":med_w,"Low Risk":low_w},
-                "alpha":float(alpha),"flag_bonus":float(flag_bonus)
+                "enabled":True,
+                "mode":xai_mode,
+                "random_state":42 if xai_mode == "Deterministic" else None,
+                "explain_rows":int(explain_rows),
+                "background_size":int(background_size),
+                "top_n":int(top_n),
+                "nsamples":int(nsamples),
+                "risk_weights":{"High Risk":high_w,"Medium Risk":med_w,"Low Risk":low_w},
+                "alpha":float(alpha),
+                "flag_bonus":float(flag_bonus),
             }
 
         if raw_uploaded is not None:

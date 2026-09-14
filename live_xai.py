@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import io
 import os
+import random
 from pathlib import Path
 from typing import Any
 
@@ -21,6 +22,8 @@ from inference_engine import prepare_new_data
 DEFAULT_RISK_WEIGHTS = {"Low Risk": 0.50, "Medium Risk": 1.00, "High Risk": 1.50}
 DEFAULT_ALPHA = 1.00
 DEFAULT_UNCERTAIN_FLAG_BONUS = 0.25
+DEFAULT_BACKGROUND_RANDOM_STATE = 42
+DEFAULT_SHAP_RANDOM_STATE = 42
 
 
 def _normalize_shap_values(raw_values, n_samples: int, n_features: int, n_classes: int) -> np.ndarray:
@@ -93,7 +96,8 @@ def compute_live_xai(
     risk_weights: dict[str, float] | None = None,
     uncertainty_alpha: float = DEFAULT_ALPHA,
     uncertain_flag_bonus: float = DEFAULT_UNCERTAIN_FLAG_BONUS,
-    random_state: int = 42,
+    random_state: int = DEFAULT_SHAP_RANDOM_STATE,
+    xai_mode: str = "Deterministic",
 ) -> dict[str, Any]:
     """Run Kernel SHAP and RW-UCFI on selected new-customer rows.
 
@@ -120,13 +124,22 @@ def compute_live_xai(
     X_explain, _ = prepare_new_data(explain_raw_sel, bundle)
     X_explain = X_explain[feature_names].reset_index(drop=True)
 
+    # Background/reference selection is ALWAYS fixed.
+    # Variable mode changes only Kernel SHAP coalition sampling, so any difference
+    # between repeated runs can be attributed to the SHAP approximation itself.
+    background_random_state = DEFAULT_BACKGROUND_RANDOM_STATE
     if background_X is None:
         if background_raw is None:
             raise ValueError(
                 "Live SHAP requires a reference/background dataset. Provide production_shap_background.joblib "
                 "or point the app to the pipeline raw dataset."
             )
-        background_X = build_background_from_raw(background_raw, bundle, background_size, random_state)
+        background_X = build_background_from_raw(
+            background_raw,
+            bundle,
+            background_size,
+            background_random_state,
+        )
     else:
         background_X = background_X.copy()
         missing = [c for c in feature_names if c not in background_X.columns]
@@ -134,7 +147,10 @@ def compute_live_xai(
             raise ValueError(f"Background artifact is missing {len(missing)} selected features; sample: {missing[:5]}")
         background_X = background_X[feature_names]
         if len(background_X) > int(background_size):
-            background_X = background_X.sample(n=int(background_size), random_state=int(random_state))
+            background_X = background_X.sample(
+                n=int(background_size),
+                random_state=background_random_state,
+            )
         background_X = background_X.reset_index(drop=True)
 
     if len(background_X) < 2:
@@ -147,8 +163,22 @@ def compute_live_xai(
             X_input = pd.DataFrame(input_data, columns=feature_names)
         return model.predict_proba(X_input[feature_names])
 
-    explainer = shap.KernelExplainer(predict_proba_wrapper, background_X)
-    raw_values = explainer.shap_values(X_explain, nsamples=int(nsamples))
+    # Kernel SHAP uses stochastic coalition sampling when nsamples is finite.
+    # In Deterministic mode the seed is fixed (normally 42). In Variable / Research
+    # mode the app supplies a new seed for each prediction run. Preserve the caller's
+    # global RNG state so live XAI does not alter randomness elsewhere in Streamlit.
+    shap_random_state = int(random_state)
+    np_state = np.random.get_state()
+    py_state = random.getstate()
+    try:
+        np.random.seed(shap_random_state)
+        random.seed(shap_random_state)
+        explainer = shap.KernelExplainer(predict_proba_wrapper, background_X)
+        raw_values = explainer.shap_values(X_explain, nsamples=int(nsamples))
+    finally:
+        np.random.set_state(np_state)
+        random.setstate(py_state)
+
     shap_values = _normalize_shap_values(
         raw_values,
         n_samples=len(X_explain),
@@ -262,6 +292,10 @@ def compute_live_xai(
         "sample_summary": sample_summary,
         "metadata": {
             "explainer_type": "KernelExplainer_model_agnostic",
+            "xai_mode": str(xai_mode),
+            "shap_random_state": int(shap_random_state),
+            "background_random_state": int(background_random_state),
+            "background_policy": "fixed_reference_subset",
             "n_explained_rows": int(len(X_explain)),
             "background_rows": int(len(background_X)),
             "n_features": int(len(feature_names)),
