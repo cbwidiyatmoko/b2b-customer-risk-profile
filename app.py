@@ -71,6 +71,7 @@ BORDER = "#d8d4ca"
 CANVAS = "#f3f1ec"
 PANEL = "#fbfaf7"
 SIDEBAR = "#17211d"
+RW_UCFI_BLUE = "#1F4E79"  # dark blue reserved for RW-UCFI visuals
 
 CSS = f"""
 <style>
@@ -807,6 +808,7 @@ def render_observation_portfolio(final_df, prod, metrics, paths, data_root=None)
             top_n=10,
             signed=False,
             rank_col="rw_ucfi_global_rank",
+            bar_color=RW_UCFI_BLUE,
         )
 
 
@@ -875,7 +877,7 @@ def render_gauge(probability: float):
     )
 
 
-def render_driver_rows(df, value_col, label_col="original_column", topn=5):
+def render_driver_rows(df, value_col, label_col="original_column", topn=5, bar_color=None):
     if df is None or df.empty or value_col not in df.columns:
         st.markdown('<div class="notice">Penjelasan lokal tidak tersedia untuk customer ini.</div>', unsafe_allow_html=True)
         return
@@ -894,7 +896,10 @@ def render_driver_rows(df, value_col, label_col="original_column", topn=5):
         v=to_float(r[value_col],0.0)
         width=min(100,abs(v)/mx*100)
         label=r.get(label_col,r.get("feature","feature"))
-        bar=f'<div class="driver-pos" style="width:{width:.1f}%"></div>' if v>=0 else f'<div class="driver-neg" style="width:{width:.1f}%"></div>'
+        if bar_color:
+            bar=f'<div style="height:12px;background:{bar_color};min-width:2px;width:{width:.1f}%"></div>'
+        else:
+            bar=f'<div class="driver-pos" style="width:{width:.1f}%"></div>' if v>=0 else f'<div class="driver-neg" style="width:{width:.1f}%"></div>'
         rows.append(f'<div class="driver-row"><div class="driver-label">{esc(label)}</div><div class="driver-track">{bar}</div><div class="driver-value">{v:+.3f}</div></div>')
     st.markdown('<div class="explain-body">'+''.join(rows)+'</div>', unsafe_allow_html=True)
 
@@ -1089,7 +1094,7 @@ def render_existing_detail(selected, source_df, shap_df, rw_df, gov_df):
         if rd is not None and "entity_rank" in rd.columns and "rw_ucfi_rank" not in rd.columns:
             rd = rd.copy()
             rd["rw_ucfi_rank"] = rd["entity_rank"]
-        render_driver_rows(rd, value_col, topn=10)
+        render_driver_rows(rd, value_col, topn=10, bar_color=RW_UCFI_BLUE)
     else:
         st.markdown('<div class="notice">RW-UCFI entity-level tidak tersedia untuk customer ini.</div>', unsafe_allow_html=True)
 
@@ -1257,6 +1262,7 @@ def render_filtered_global_xai(filtered_df, tensor_path):
             top_n=10,
             signed=False,
             rank_col="rw_ucfi_global_rank",
+            bar_color=RW_UCFI_BLUE,
         )
 
 
@@ -1503,7 +1509,7 @@ def get_sector_options(data_root, production_predictions_path=None, output_root=
     return [], None, checked
 
 
-def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=None):
+def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=None, bar_color=None):
     if df is None or df.empty or value_col not in df.columns:
         st.info("Data chart tidak tersedia.")
         return
@@ -1523,7 +1529,7 @@ def render_xai_bar_chart(df, value_col, title, top_n=10, signed=False, rank_col=
     d["score"]=d[value_col].astype(float)
     color = (
         {"condition":{"test":"datum.score >= 0","value":"#aa4935"},"value":"#477b5f"}
-        if signed else {"value":"#3f6272"}
+        if signed else {"value": (bar_color or "#3f6272")}
     )
     spec={
         "height": max(220, 29*len(d)),
@@ -1590,7 +1596,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
                 with c1:
                     render_xai_bar_chart(ls,"shap_value","Top Local SHAP — predicted class",top_n,True,"local_shap_rank")
                 with c2:
-                    render_xai_bar_chart(lr,"rw_ucfi_score_entity","Top Local RW-UCFI",top_n,False,"local_rw_ucfi_rank")
+                    render_xai_bar_chart(lr,"rw_ucfi_score_entity","Top Local RW-UCFI",top_n,False,"local_rw_ucfi_rank",bar_color=RW_UCFI_BLUE)
                 sr=summary[summary["sample_position"]==pos].iloc[0]
                 st.caption(
                     f"Uncertainty score {float(sr['uncertainty_score']):.3f} · multiplier {float(sr['uncertainty_multiplier']):.3f} · "
@@ -1603,7 +1609,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
         with c1:
             render_xai_bar_chart(xai_results["global_shap"],"mean_abs_shap_global","Top Global SHAP — live run",top_n,False,"shap_global_rank")
         with c2:
-            render_xai_bar_chart(xai_results["global_rw_ucfi"],"rw_ucfi_score_global","Top Global RW-UCFI — live run",top_n,False,"rw_ucfi_global_rank")
+            render_xai_bar_chart(xai_results["global_rw_ucfi"],"rw_ucfi_score_global","Top Global RW-UCFI — live run",top_n,False,"rw_ucfi_global_rank",bar_color=RW_UCFI_BLUE)
 
     with tabs[2]:
         baseline_shap=load_optional(paths.get("shap_global"))
@@ -1616,7 +1622,7 @@ def render_live_xai_results(xai_results, prediction_df, paths, top_n=10, selecte
             with c1:
                 render_xai_bar_chart(baseline_shap,"mean_abs_shap_global","Top Global SHAP — final test",top_n,False,"shap_global_rank")
             with c2:
-                render_xai_bar_chart(baseline_rw,"rw_ucfi_score_global","Top Global RW-UCFI — final test",top_n,False,"rw_ucfi_global_rank")
+                render_xai_bar_chart(baseline_rw,"rw_ucfi_score_global","Top Global RW-UCFI — final test",top_n,False,"rw_ucfi_global_rank",bar_color=RW_UCFI_BLUE)
 
     st.download_button(
         "Download hasil SHAP & RW-UCFI",
@@ -1706,7 +1712,7 @@ def render_prediction_result(row, report, live_xai=None, sample_position=0):
         r=r[r["sample_position"]==int(sample_position)].copy()
         if not r.empty:
             r["rw_ucfi_rank"]=r["local_rw_ucfi_rank"]
-            render_driver_rows(r,"rw_ucfi_score_entity",topn=10)
+            render_driver_rows(r,"rw_ucfi_score_entity",topn=10,bar_color=RW_UCFI_BLUE)
         else:
             st.markdown('<div class="notice">RW-UCFI local belum tersedia untuk customer ini karena baris tersebut belum termasuk baris yang dijelaskan.</div>',unsafe_allow_html=True)
     else:
